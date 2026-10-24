@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MA1 Quiz Practice</title>
+<meta name="description" content="Practice quiz for NYIM MA1 Quiz #1, weighted toward the facts flagged on the slides.">
+<meta name="theme-color" content="#2b5c8a">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="MA1 Quiz">
+<style>html,body{margin:0}
+:root{padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)}
+
+/* Layout: one narrow column, one card per screen, built for a phone between classes. */
+:root{
+  --bg:#f4f6f8; --card:#ffffff; --ink:#1b2430; --muted:#5d6b7a; --line:#dce3ea;
+  --accent:#2b5c8a; --accent-ink:#ffffff; --accent-soft:#e3edf6;
+  --star:#9a5b00; --star-soft:#fbefd9;
+  --ok:#15803d; --ok-soft:#e5f5ea; --bad:#b91c1c; --bad-soft:#fbe9e9;
+  --radius:14px;
+  --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#10151b; --card:#18202a; --ink:#e6edf4; --muted:#97a6b6; --line:#2a3542;
+    --accent:#7fb3e6; --accent-ink:#0b1a29; --accent-soft:#1a2c3f;
+    --star:#f2b75b; --star-soft:#3a2a12;
+    --ok:#4ade80; --ok-soft:#14301f; --bad:#f87171; --bad-soft:#3a1b1b;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#10151b; --card:#18202a; --ink:#e6edf4; --muted:#97a6b6; --line:#2a3542;
+  --accent:#7fb3e6; --accent-ink:#0b1a29; --accent-soft:#1a2c3f;
+  --star:#f2b75b; --star-soft:#3a2a12;
+  --ok:#4ade80; --ok-soft:#14301f; --bad:#f87171; --bad-soft:#3a1b1b;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:16px/1.45 var(--font);-webkit-tap-highlight-color:transparent}
+main{max-width:640px;margin:0 auto;padding-block:16px 40px;padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px))}
+h1{font-size:1.5rem;margin:8px 0 4px;letter-spacing:-.01em;text-wrap:balance}
+h2{font-size:1.1rem;margin:0 0 8px}
+p{margin:0 0 12px}
+.muted{color:var(--muted)}
+.small{font-size:.85rem}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;margin:12px 0}
+button{font:inherit;color:inherit;cursor:pointer}
+button:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.btn{display:block;width:100%;min-height:52px;padding:12px 16px;margin:10px 0 0;border-radius:12px;border:1px solid var(--line);background:var(--card);text-align:left}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:600;text-align:center}
+.btn.ghost{background:transparent;text-align:center}
+.btn:disabled{opacity:.5;cursor:default}
+.opt:disabled{opacity:1}
+.opt:disabled:not(.correct):not(.wrong){opacity:.6}
+.btn .sub{display:block;font-size:.85rem;color:var(--muted);font-weight:400}
+.btn.primary .sub{color:inherit;opacity:.85}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:8px}
+.linkbtn{background:none;border:0;padding:8px 0;color:var(--accent);font-weight:600}
+.progress{height:6px;background:var(--line);border-radius:99px;overflow:hidden;margin:4px 0 14px}
+.progress > div{height:100%;background:var(--accent);width:0;transition:width .25s}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.tag{display:inline-block;font-size:.8rem;font-weight:600;color:var(--accent);background:var(--accent-soft);padding:3px 9px;border-radius:99px}
+.tag.star{color:var(--star);background:var(--star-soft)}
+.prompt{font-size:1.15rem;font-weight:600;margin:0 0 6px}
+.opt{position:relative;padding-left:48px}
+.opt .key{position:absolute;left:12px;top:50%;transform:translateY(-50%);width:26px;height:26px;border-radius:50%;border:1px solid var(--line);display:flex;align-items:center;justify-content:center;font-size:.8rem;font-weight:700;color:var(--muted)}
+.opt.correct{border-color:var(--ok);background:var(--ok-soft)}
+.opt.correct .key{background:var(--ok);border-color:var(--ok);color:var(--card)}
+.opt.wrong{border-color:var(--bad);background:var(--bad-soft)}
+.opt.wrong .key{background:var(--bad);border-color:var(--bad);color:var(--card)}
+.feedback{margin-top:14px;padding:14px;border-radius:12px;border:1px solid var(--line)}
+.feedback.ok{border-color:var(--ok);background:var(--ok-soft)}
+.feedback.bad{border-color:var(--bad);background:var(--bad-soft)}
+.feedback b{display:block;margin-bottom:4px}
+.src{font-size:.85rem;color:var(--muted);margin-top:6px}
+.score{font-size:3rem;font-weight:800;line-height:1;margin:8px 0;font-variant-numeric:tabular-nums}
+.list{list-style:none;padding:0;margin:0}
+.list li{padding:10px 0;border-top:1px solid var(--line)}
+.list li:first-child{border-top:0}
+.topicgrid .btn{margin-top:8px;min-height:48px;padding:10px 14px}
+.num{display:inline-block;min-width:28px;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums}
+.st{color:var(--star);font-weight:700}
+.legend{display:flex;gap:8px;align-items:flex-start}
+.section-label{font-size:.75rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:18px 0 0}
+footer{margin-top:28px;font-size:.8rem;color:var(--muted);text-align:center}
+@media (prefers-reduced-motion: reduce){.progress > div{transition:none}}
+</style>
+</head>
+<body>
+
+<main id="app"><p class="muted">Loading…</p></main>
+
+<script>
+"use strict";
+let BANK = null;
+const STORE_KEY = "ma1q1-state-v1";
+const QUIZ_LEN = 25;
+let state = loadState();
+let run = null;
+
+function loadState(){
+  try{ const s = JSON.parse(localStorage.getItem(STORE_KEY)); if(s && typeof s==="object") return Object.assign({missed:{},best:null,runs:0}, s); }catch(e){}
+  return {missed:{},best:null,runs:0};
+}
+function saveState(){ try{ localStorage.setItem(STORE_KEY, JSON.stringify(state)); }catch(e){} }
+
+const rand = n => Math.floor(Math.random()*n);
+const pick = arr => arr[rand(arr.length)];
+function shuffle(a){ a=a.slice(); for(let i=a.length-1;i>0;i--){const j=rand(i+1);[a[i],a[j]]=[a[j],a[i]];} return a; }
+const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
+/* ---------- Weighting ----------
+   Study-guide topic with flagged slide content: 10
+   Study-guide topic:                           3
+   Extra slide topic with flagged content:      3
+   Extra slide topic:                           1
+   Inside a topic, a flagged question is drawn 75% of the time when the topic has one. */
+let SG = new Set(), TOPIC_IDS = [];
+const byTopic = t => BANK.questions.filter(q=>q.topic===t);
+const topicFlagged = t => byTopic(t).some(q=>q.f);
+function topicWeight(t){ const f=topicFlagged(t); return SG.has(t) ? (f?10:3) : (f?3:1); }
+
+function weightedSample(items, weightOf, k){
+  // Efraimidis-Spirakis: key = u^(1/w), keep the k largest
+  return items.map(it=>({it, key: Math.pow(Math.random(), 1/weightOf(it))}))
+              .sort((a,b)=>b.key-a.key).slice(0,k).map(x=>x.it);
+}
+function drawOne(t){
+  const pool = byTopic(t), flagged = pool.filter(q=>q.f), plain = pool.filter(q=>!q.f);
+  if(flagged.length && (!plain.length || Math.random()<0.75)) return pick(flagged);
+  return pick(plain);
+}
+function prepare(q){
+  const opts = shuffle([q.a, ...q.w]);
+  return Object.assign({}, q, {opts, correct: opts.indexOf(q.a)});
+}
+function buildPractice(){
+  const topics = weightedSample(TOPIC_IDS, topicWeight, QUIZ_LEN).sort((a,b)=>a-b);
+  return topics.map(t=>prepare(drawOne(t)));
+}
+function buildDrill(t){ return shuffle(byTopic(t)).map(prepare); }
+function buildFlagged(){ return shuffle(BANK.questions.filter(q=>q.f)).map(prepare); }
+function buildMissed(){ return Object.values(state.missed).sort((a,b)=>a.topic-b.topic).map(prepare); }
+
+/* ---------- Screens ---------- */
+const app = document.getElementById("app");
+function render(html){ app.innerHTML = html; window.scrollTo(0,0); }
+let flaggedCount = 0;
+
+function home(){
+  const missedCount = Object.keys(state.missed).length;
+  render(`
+    <h1>MA1 Quiz #1 Practice</h1>
+    <p class="muted">Intro to Massage, classes 1 and 2: history, Universal Precautions, communication, SOAP, SUDS and blood pressure. A new random set every time, in study-guide order.</p>
+    <button class="btn primary" id="go">Start practice quiz<span class="sub">25 questions · weighted toward flagged slides</span></button>
+    <button class="btn" id="flag"><span class="st">★</span> Flagged facts only<span class="sub">All ${flaggedCount} questions on starred, red or highlighted slide points</span></button>
+    <button class="btn" id="drill">Drill one topic<span class="sub">Every question for a single study-guide item</span></button>
+    <button class="btn" id="missed" ${missedCount?"":"disabled"}>Review missed questions<span class="sub">${missedCount?missedCount+" saved to retry":"Nothing missed yet"}</span></button>
+    <div class="card small">
+      <div class="legend"><span class="st">★</span><span class="muted">Flagged = the point is starred, in red, highlighted, or set apart on the lecture slide. Those topics come up about twice as often as the rest of the study guide.</span></div>
+    </div>
+    <div class="card small muted">
+      ${state.best!==null?`Best score: <b>${state.best}/${QUIZ_LEN}</b> · `:""}Quizzes taken: <b>${state.runs}</b><br>
+      Question bank: ${BANK.questions.length} questions across ${TOPIC_IDS.length} topics.
+    </div>
+    <footer>Unofficial study aid based on the MA1-1 and MA1-2a slides, the Universal Precautions handout and the Quiz 1 study guide. Progress is saved only on this device.<br>
+      <button class="linkbtn small" id="reset">Reset my progress</button></footer>
+  `);
+  document.getElementById("go").onclick = ()=>start("practice", buildPractice());
+  document.getElementById("flag").onclick = ()=>start("flagged", buildFlagged());
+  document.getElementById("drill").onclick = topicPicker;
+  document.getElementById("missed").onclick = ()=>start("missed", buildMissed());
+  document.getElementById("reset").onclick = ()=>{ if(confirmReset()){ state={missed:{},best:null,runs:0}; saveState(); home(); } };
+}
+let resetArmed=false;
+function confirmReset(){
+  const b=document.getElementById("reset");
+  if(!resetArmed){ resetArmed=true; b.textContent="Tap again to confirm reset"; setTimeout(()=>{resetArmed=false; if(b.isConnected) b.textContent="Reset my progress";},3000); return false; }
+  resetArmed=false; return true;
+}
+
+function topicButton(t){
+  return `<button class="btn" data-t="${t}"><span class="num">${t}.</span> ${esc(BANK.topics[t])}${topicFlagged(t)?' <span class="st" aria-label="flagged">★</span>':''}</button>`;
+}
+function topicPicker(){
+  const sg = TOPIC_IDS.filter(t=>SG.has(t)).map(topicButton).join("");
+  const extra = TOPIC_IDS.filter(t=>!SG.has(t)).map(topicButton).join("");
+  render(`
+    <div class="topbar"><button class="linkbtn" id="back">‹ Home</button></div>
+    <h1>Drill one topic</h1>
+    <p class="muted">1–32 follow the study guide in order; 33 is its review line. <span class="st">★</span> = has flagged slide content.</p>
+    <p class="section-label">Study guide</p>
+    <div class="topicgrid">${sg}</div>
+    <p class="section-label">Also on the slides</p>
+    <div class="topicgrid">${extra}</div>
+  `);
+  document.getElementById("back").onclick = home;
+  app.querySelectorAll("[data-t]").forEach(b=> b.onclick = ()=> start("drill", buildDrill(+b.dataset.t)));
+}
+
+function start(mode, list){
+  if(!list.length){ home(); return; }
+  run = {mode, list, i:0, score:0, answered:false, wrong:[]};
+  question();
+}
+
+function question(){
+  const q = run.list[run.i];
+  const pct = Math.round(run.i/run.list.length*100);
+  const keys = "ABCD";
+  render(`
+    <div class="topbar">
+      <button class="linkbtn" id="quit">‹ Quit</button>
+      <span class="small muted">Question ${run.i+1} of ${run.list.length} · Score ${run.score}</span>
+    </div>
+    <div class="progress"><div style="width:${pct}%"></div></div>
+    <div class="tags"><span class="tag">${SG.has(q.topic)?"Study guide "+q.topic:"Slides"} · ${esc(BANK.topics[q.topic])}</span>${q.f?'<span class="tag star">★ Flagged on slide</span>':''}</div>
+    <p class="prompt">${esc(q.q)}</p>
+    <div id="opts">${q.opts.map((o,i)=>`<button class="btn opt" data-i="${i}"><span class="key">${keys[i]}</span>${esc(o)}</button>`).join("")}</div>
+    <div id="fb"></div>
+  `);
+  document.getElementById("quit").onclick = ()=>{ run=null; home(); };
+  run.answered=false;
+  app.querySelectorAll(".opt").forEach(b=> b.onclick = ()=> answer(+b.dataset.i));
+}
+
+function answer(i){
+  if(run.answered) return; run.answered=true;
+  const q = run.list[run.i];
+  const ok = i===q.correct;
+  app.querySelectorAll(".opt").forEach((b,j)=>{ b.disabled=true; if(j===q.correct) b.classList.add("correct"); else if(j===i) b.classList.add("wrong"); });
+  const base = {topic:q.topic,q:q.q,a:q.a,w:q.w,e:q.e,s:q.s,f:q.f,id:q.id};
+  if(ok){ run.score++; delete state.missed[q.id]; }
+  else { run.wrong.push(q); state.missed[q.id]=base; }
+  saveState();
+  const last = run.i===run.list.length-1;
+  document.getElementById("fb").innerHTML = `
+    <div class="feedback ${ok?"ok":"bad"}">
+      <b>${ok?"Correct!":"Not quite. Answer: "+esc(q.a)}</b>
+      ${esc(q.e)}
+      <div class="src">Source: ${esc(q.s)}</div>
+    </div>
+    <button class="btn primary" id="next">${last?"See results":"Next question"}</button>`;
+  const next = document.getElementById("next");
+  next.onclick = ()=>{ if(last) results(); else { run.i++; question(); } };
+  next.scrollIntoView({behavior:"smooth",block:"nearest"});
+}
+
+function results(){
+  const total = run.list.length, s = run.score;
+  if(run.mode==="practice"){ state.runs++; if(state.best===null || s>state.best) state.best=s; saveState(); }
+  const pct = Math.round(s/total*100);
+  const fl = run.list.filter(q=>q.f), flOk = fl.filter(q=>!run.wrong.includes(q)).length;
+  const msg = pct>=90?"Excellent, you're ready.":pct>=75?"Solid. Review the misses below.":pct>=60?"Getting there. Drill the topics you missed.":"Keep going. Drill topic by topic.";
+  const missedList = run.wrong.map(q=>`<li><span class="num">${q.topic}.</span> ${q.f?'<span class="st">★</span> ':''}${esc(q.q)}<br><span class="small">Answer: <b>${esc(q.a)}</b> · <span class="muted">${esc(q.s)}</span></span></li>`).join("");
+  render(`
+    <h1>Results</h1>
+    <div class="card" style="text-align:center">
+      <div class="score">${s}/${total}</div>
+      <div class="muted">${pct}% · ${msg}</div>
+      ${fl.length && run.mode!=="flagged"?`<div class="small muted" style="margin-top:8px"><span class="st">★</span> Flagged questions: ${flOk}/${fl.length}</div>`:""}
+    </div>
+    <button class="btn primary" id="again">${run.mode==="practice"?"New random quiz":"Go again"}</button>
+    ${run.wrong.length?`<button class="btn" id="retry">Retry the ${run.wrong.length} I missed</button>`:""}
+    <button class="btn ghost" id="home">Home</button>
+    ${run.wrong.length?`<div class="card"><h2>Missed questions</h2><ul class="list">${missedList}</ul></div>`:""}
+  `);
+  const mode = run.mode, wrong = run.wrong.slice(), topic = run.list[0] && run.list[0].topic;
+  document.getElementById("again").onclick = ()=>{
+    if(mode==="practice") start("practice", buildPractice());
+    else if(mode==="flagged") start("flagged", buildFlagged());
+    else if(mode==="drill") start("drill", buildDrill(topic));
+    else start("missed", buildMissed());
+  };
+  if(wrong.length) document.getElementById("retry").onclick = ()=> start("missed", shuffle(wrong).map(prepare));
+  document.getElementById("home").onclick = home;
+}
+
+/* ---------- Boot ---------- */
+fetch("questions.json", {cache:"no-cache"})
+  .then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); })
+  .then(data=>{
+    data.questions.forEach((q,i)=>{ q.id = "q"+i+":"+q.q.slice(0,40); });
+    BANK = data;
+    SG = new Set(BANK.studyGuideTopics);
+    TOPIC_IDS = Object.keys(BANK.topics).map(Number);
+    flaggedCount = BANK.questions.filter(q=>q.f).length;
+    home();
+  })
+  .catch(()=>{ app.innerHTML = '<div class="card">Could not load the questions. Check your connection and refresh.</div>'; });
+
+if("serviceWorker" in navigator && location.protocol==="https:"){
+  navigator.serviceWorker.register("sw.js").catch(()=>{});
+}
+</script>
+</body>
+</html>

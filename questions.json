@@ -1,0 +1,2823 @@
+{
+ "title": "MA1 Quiz #1 Practice",
+ "topics": {
+  "1": "Define pathogen",
+  "2": "Agent of disease most likely encountered",
+  "3": "What Universal Precautions are / who they protect",
+  "4": "When to wear gloves",
+  "5": "Disinfection vs. sterilization",
+  "6": "Primary source of cross-contamination",
+  "7": "Handwashing: key element and time",
+  "8": "Define hygiene",
+  "9": "Define massage",
+  "10": "Benefits of massage",
+  "11": "First culture to document massage",
+  "12": "Amma",
+  "13": "Shiatsu",
+  "14": "Symbol of medicine (Aesculapius)",
+  "15": "Father of Western medicine",
+  "16": "William Harvey",
+  "17": "Father of Swedish massage",
+  "18": "Describe Swedish massage",
+  "19": "Swedish stroke terminology (Mezger)",
+  "20": "Swedish massage comes to the U.S.",
+  "21": "3 types of professional communication",
+  "22": "Informed consent",
+  "23": "SOAP: the 4 record categories",
+  "24": "What is a symptom",
+  "25": "Short-term vs. long-term goals",
+  "26": "SUDS",
+  "27": "Where/when to review medical history",
+  "28": "Correcting a SOAP note mistake",
+  "29": "Systolic blood pressure",
+  "30": "Diastolic blood pressure",
+  "31": "Most honest form of communication",
+  "32": "Clinic BP cutoff and procedure",
+  "33": "Review: nails, soiled linens, lubricant",
+  "34": "Glove types and glove use",
+  "35": "Bacteria, viruses, protozoa, parasites",
+  "36": "Sanitation and safety guidelines",
+  "37": "More massage history",
+  "38": "OH PAIN, intake, and aftercare"
+ },
+ "studyGuideTopics": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33
+ ],
+ "questions": [
+  {
+   "topic": 1,
+   "q": "A pathogen is defined as:",
+   "a": "A biological agent capable of causing disease",
+   "w": [
+    "An inanimate object that carries disease",
+    "The reproductive unit of a fungus",
+    "A chemical used to disinfect surfaces"
+   ],
+   "e": "Pathogen = biological agent capable of causing disease.",
+   "s": "MA1-1, slide 25",
+   "f": false
+  },
+  {
+   "topic": 1,
+   "q": "Which of these is NOT a type of pathogen listed in the lecture?",
+   "a": "Fomites",
+   "w": [
+    "Bacteria",
+    "Fungi",
+    "Viruses"
+   ],
+   "e": "Pathogens: bacteria, fungi, viruses, protozoa, animal parasites. A fomite is an object that carries them.",
+   "s": "MA1-1, slides 25, 26",
+   "f": false
+  },
+  {
+   "topic": 1,
+   "q": "Bacteria, fungi, viruses and animal parasites are all examples of:",
+   "a": "Pathogens",
+   "w": [
+    "Fomites",
+    "Spores",
+    "Endangerment sites"
+   ],
+   "e": "These are the agents that cause disease (pathogens).",
+   "s": "MA1-1, slide 25",
+   "f": false
+  },
+  {
+   "topic": 1,
+   "q": "A massage table, a shared towel, or a door handle that carries disease is called a:",
+   "a": "Fomite",
+   "w": [
+    "Pathogen",
+    "Vector",
+    "Spore"
+   ],
+   "e": "Fomite = inanimate object that transmits disease.",
+   "s": "MA1-1, slide 26",
+   "f": false
+  },
+  {
+   "topic": 1,
+   "q": "Which term means 'a biological agent capable of causing disease'?",
+   "a": "Pathogen",
+   "w": [
+    "Antibody",
+    "Antiseptic",
+    "Fomite"
+   ],
+   "e": "Pathogen is the lecture's definition word.",
+   "s": "MA1-1, slide 25",
+   "f": false
+  },
+  {
+   "topic": 2,
+   "q": "Which agent of disease is a massage therapist MOST likely to be exposed to?",
+   "a": "Fungi (ringworm/tinea)",
+   "w": [
+    "Viruses",
+    "Bacteria",
+    "Protozoa"
+   ],
+   "e": "Slide callout: fungi are the most common pathogen massage therapists will be exposed to.",
+   "s": "MA1-1, slide 27",
+   "f": true
+  },
+  {
+   "topic": 2,
+   "q": "The most common pathogen massage therapists will be exposed to is:",
+   "a": "Ringworm (tinea), a fungus",
+   "w": [
+    "Herpes simplex, a virus",
+    "Staph, a bacterium",
+    "Scabies, a parasite"
+   ],
+   "e": "Fungi, especially tinea (ringworm).",
+   "s": "MA1-1, slide 27",
+   "f": true
+  },
+  {
+   "topic": 2,
+   "q": "Fungi thrive in which environment?",
+   "a": "Warm and moist",
+   "w": [
+    "Cold and dry",
+    "Hot and dry",
+    "Cold and moist"
+   ],
+   "e": "Fungal agents (molds and yeast) thrive in warm, moist environments.",
+   "s": "MA1-1, slide 27",
+   "f": false
+  },
+  {
+   "topic": 2,
+   "q": "Fungal infections are generally transmitted by:",
+   "a": "A fomite (inanimate object)",
+   "w": [
+    "Insect bites",
+    "Contaminated water only",
+    "Sexual contact only"
+   ],
+   "e": "Generally by a fomite; can also spread via touch.",
+   "s": "MA1-1, slide 27",
+   "f": false
+  },
+  {
+   "topic": 2,
+   "q": "Tinea pedis is commonly known as:",
+   "a": "Athlete's foot",
+   "w": [
+    "Jock itch",
+    "Ringworm of the scalp",
+    "Ringworm of the nails"
+   ],
+   "e": "Pedis = foot.",
+   "s": "MA1-1, slide 27",
+   "f": false
+  },
+  {
+   "topic": 2,
+   "q": "Tinea capitis (ringworm of the head) is most common in:",
+   "a": "Children",
+   "w": [
+    "Men and adolescent boys",
+    "The elderly",
+    "Pregnant women"
+   ],
+   "e": "Capitis is most common in children; cruris (jock itch) in men and adolescent boys.",
+   "s": "MA1-1, slide 27",
+   "f": false
+  },
+  {
+   "topic": 2,
+   "q": "Tinea unguium affects the:",
+   "a": "Nails (toenails more often than fingernails)",
+   "w": [
+    "Beard and chin",
+    "Groin",
+    "Scalp"
+   ],
+   "e": "Unguium = nails.",
+   "s": "MA1-1, slide 27",
+   "f": false
+  },
+  {
+   "topic": 2,
+   "q": "Fungal infections are described as:",
+   "a": "Superficial, tenacious and difficult to eradicate",
+   "w": [
+    "Deep, mild and easy to cure",
+    "Only spread by blood",
+    "Not contagious"
+   ],
+   "e": "Superficial, tenacious, hard to eradicate, very contagious, 2-3 week incubation.",
+   "s": "MA1-1, slide 27",
+   "f": false
+  },
+  {
+   "topic": 3,
+   "q": "Universal Precautions protect:",
+   "a": "Both the client and the therapist",
+   "w": [
+    "Only the client",
+    "Only the therapist",
+    "Only clients in medical settings"
+   ],
+   "e": "They protect client AND therapist from disease transmission.",
+   "s": "MA1-1, slides 24, 31",
+   "f": false
+  },
+  {
+   "topic": 3,
+   "q": "If standards and guidelines are NOT followed, who is at risk of disease or injury?",
+   "a": "Both the client and the therapist",
+   "w": [
+    "Only the client",
+    "Only the therapist",
+    "Neither, massage is always safe"
+   ],
+   "e": "Slide 3 highlights 'DO NOT FOLLOW': both client and therapist are at risk.",
+   "s": "MA1-1, slide 3",
+   "f": true
+  },
+  {
+   "topic": 3,
+   "q": "Universal Precautions were established by:",
+   "a": "OSHA and the CDC in the early 1990s",
+   "w": [
+    "The AMTA in 1856",
+    "The FDA in the 1970s",
+    "NYIM in 2000"
+   ],
+   "e": "OSHA & CDC, early 1990s.",
+   "s": "MA1-1, slide 31",
+   "f": false
+  },
+  {
+   "topic": 3,
+   "q": "The core assumption behind Universal Precautions is:",
+   "a": "Every individual has a potentially infectious condition",
+   "w": [
+    "Only visibly ill clients are infectious",
+    "Clients will disclose all infections on the intake form",
+    "Infection only spreads through blood"
+   ],
+   "e": "Assume EVERY individual is potentially infectious.",
+   "s": "MA1-1, slide 24 · UP handout",
+   "f": false
+  },
+  {
+   "topic": 3,
+   "q": "Which is NOT one of the main principles of Universal Precautions for massage therapists?",
+   "a": "Prescribing medication",
+   "w": [
+    "Sanitation",
+    "Glove use",
+    "Handwashing"
+   ],
+   "e": "Main principles: sanitation, hygiene, glove use, handwashing, careful handling of blood and body fluids.",
+   "s": "MA1-1, slide 32",
+   "f": false
+  },
+  {
+   "topic": 3,
+   "q": "Therapists working in which setting have a greater risk of exposure to pathogens?",
+   "a": "A medical setting",
+   "w": [
+    "A spa",
+    "A chair-massage event",
+    "A home practice"
+   ],
+   "e": "Medical settings carry greater exposure risk.",
+   "s": "MA1-1, slides 24, 31",
+   "f": false
+  },
+  {
+   "topic": 3,
+   "q": "Which body fluid is listed as a concern under Universal Precautions?",
+   "a": "Synovial fluid",
+   "w": [
+    "Tears from cutting onions",
+    "Sweat on intact skin",
+    "Massage oil"
+   ],
+   "e": "Listed: blood, saliva, mucus, semen, vaginal secretions, cerebrospinal, synovial, pleural, peritoneal, pericardial fluids.",
+   "s": "MA1-1, slide 31",
+   "f": false
+  },
+  {
+   "topic": 4,
+   "q": "A massage therapist should wear gloves when:",
+   "a": "The therapist or client has a break in the skin",
+   "w": [
+    "The client has dry skin",
+    "Using a cream instead of oil",
+    "The client is new"
+   ],
+   "e": "Broken skin on either person calls for gloves (finger cot if only one fingertip).",
+   "s": "MA1-1, slide 35",
+   "f": false
+  },
+  {
+   "topic": 4,
+   "q": "If only the tip of one finger has a cut, the therapist can use a:",
+   "a": "Finger cot",
+   "w": [
+    "Full pair of latex gloves only",
+    "Bandage with no cover",
+    "Hand sanitizer instead"
+   ],
+   "e": "Finger cot covers a single fingertip.",
+   "s": "MA1-1, slide 35",
+   "f": false
+  },
+  {
+   "topic": 4,
+   "q": "Gloves are recommended for hygiene reasons during:",
+   "a": "TMJ (intraoral) massage",
+   "w": [
+    "Foot massage",
+    "Back massage",
+    "Scalp massage"
+   ],
+   "e": "TMJ work is the slide's hygiene example; the UP handout also lists examining the mouth.",
+   "s": "MA1-1, slide 35 · UP handout",
+   "f": false
+  },
+  {
+   "topic": 4,
+   "q": "Which situation calls for gloves?",
+   "a": "Removing linens and trash that may be contaminated with body fluids",
+   "w": [
+    "Greeting the client",
+    "Taking the intake history",
+    "Adjusting the table height"
+   ],
+   "e": "Handling blood or body fluids includes possibly contaminated linens and trash.",
+   "s": "MA1-1, slide 35 · UP handout",
+   "f": false
+  },
+  {
+   "topic": 4,
+   "q": "If the client does not want you to use gloves when they are needed, you:",
+   "a": "Have the right to refuse the massage",
+   "w": [
+    "Must massage without gloves",
+    "Use extra oil instead",
+    "Use gloves on one hand only"
+   ],
+   "e": "You may refuse to do the massage.",
+   "s": "MA1-1, slide 36",
+   "f": false
+  },
+  {
+   "topic": 4,
+   "q": "Which is TRUE about glove use?",
+   "a": "Wash hands before and after using gloves",
+   "w": [
+    "Gloves replace handwashing",
+    "Gloves improve palpation",
+    "Gloves reduce friction on hairy skin"
+   ],
+   "e": "Wash before and after; gloves reduce palpation and add friction, especially over thick hair.",
+   "s": "MA1-1, slide 36 · UP handout",
+   "f": false
+  },
+  {
+   "topic": 4,
+   "q": "If a glove tears during a massage, you should:",
+   "a": "Wash your hands and put on a new glove",
+   "w": [
+    "Finish the massage quickly",
+    "Tape the tear",
+    "Switch to the other hand"
+   ],
+   "e": "Damaged glove: wash hands, new glove.",
+   "s": "MA1-1, slide 36",
+   "f": false
+  },
+  {
+   "topic": 5,
+   "q": "The difference between disinfection and sterilization is:",
+   "a": "Sterilization destroys all pathogens; disinfection may not remove spores",
+   "w": [
+    "Disinfection destroys spores; sterilization does not",
+    "They are the same process",
+    "Sterilization uses only soap and water"
+   ],
+   "e": "Disinfection removes pathogens from a surface but does not always remove spores.",
+   "s": "MA1-1, slide 33",
+   "f": true
+  },
+  {
+   "topic": 5,
+   "q": "Which process does NOT always remove spores?",
+   "a": "Disinfection",
+   "w": [
+    "Sterilization",
+    "Autoclaving",
+    "Baking at 350°F for 1 hour"
+   ],
+   "e": "Disinfection does not always remove spores (the reproductive unit).",
+   "s": "MA1-1, slide 33",
+   "f": true
+  },
+  {
+   "topic": 5,
+   "q": "Disinfection removes pathogens from a surface using:",
+   "a": "A chemical or mechanical agent",
+   "w": [
+    "Steam at 15 psi",
+    "Baking at 350°F",
+    "Radiation only"
+   ],
+   "e": "Chemical or mechanical agent; heat/steam methods are sterilization.",
+   "s": "MA1-1, slide 33",
+   "f": true
+  },
+  {
+   "topic": 5,
+   "q": "Which is a method of STERILIZATION?",
+   "a": "Autoclave (steam) at 15 psi, 250°F for 30 minutes",
+   "w": [
+    "Wiping with a disinfectant",
+    "Rinsing with water",
+    "Air drying"
+   ],
+   "e": "Sterilization: heat, water, chemicals or gases, e.g. autoclave or baking.",
+   "s": "MA1-1, slide 33",
+   "f": true
+  },
+  {
+   "topic": 5,
+   "q": "Dry-heat sterilization in the lecture is baking at:",
+   "a": "350°F for 1 hour",
+   "w": [
+    "250°F for 10 minutes",
+    "212°F for 5 minutes",
+    "450°F for 3 hours"
+   ],
+   "e": "Bake at 350°F for 1 hour.",
+   "s": "MA1-1, slide 33",
+   "f": true
+  },
+  {
+   "topic": 5,
+   "q": "A spore is:",
+   "a": "The reproductive unit of a microorganism",
+   "w": [
+    "A disinfecting chemical",
+    "A type of glove",
+    "A virus that causes colds"
+   ],
+   "e": "Spore = reproductive unit; may survive disinfection.",
+   "s": "MA1-1, slide 33",
+   "f": false
+  },
+  {
+   "topic": 5,
+   "q": "The UP handout says areas soiled with blood should be cleaned with disinfectant and rinsed with:",
+   "a": "1 part chlorine bleach to 10 parts water",
+   "w": [
+    "1 part bleach to 100 parts water",
+    "Plain hot water",
+    "Rubbing alcohol only"
+   ],
+   "e": "Rinse with a 1:10 bleach solution.",
+   "s": "UP handout",
+   "f": false
+  },
+  {
+   "topic": 5,
+   "q": "'The application of measures to promote a healthful, disease-free environment' defines:",
+   "a": "Sanitation",
+   "w": [
+    "Sterilization",
+    "Hygiene",
+    "Disinfection"
+   ],
+   "e": "Sanitation is the umbrella term.",
+   "s": "MA1-1, slide 33",
+   "f": false
+  },
+  {
+   "topic": 6,
+   "q": "The primary source of microorganism cross-contamination is:",
+   "a": "Human hands",
+   "w": [
+    "Massage tables",
+    "Air",
+    "Linens"
+   ],
+   "e": "Contact with human hands.",
+   "s": "MA1-1, slide 38",
+   "f": false
+  },
+  {
+   "topic": 6,
+   "q": "The best way to control cross-contamination is:",
+   "a": "Handwashing",
+   "w": [
+    "Wearing gloves at all times",
+    "Using bar soap",
+    "Changing linens weekly"
+   ],
+   "e": "Best control = HAND WASHING.",
+   "s": "MA1-1, slide 38",
+   "f": true
+  },
+  {
+   "topic": 6,
+   "q": "When should you wash your hands?",
+   "a": "Before AND after each massage",
+   "w": [
+    "Only after each massage",
+    "Only before the first massage of the day",
+    "Only when hands look dirty"
+   ],
+   "e": "Slide callout: WASH HANDS BEFORE & AFTER EACH MASSAGE.",
+   "s": "MA1-1, slide 38",
+   "f": true
+  },
+  {
+   "topic": 6,
+   "q": "According to the UP handout, you should wash your hands:",
+   "a": "After removing disposable gloves",
+   "w": [
+    "Only before putting gloves on",
+    "Instead of wearing gloves",
+    "Only at the end of the day"
+   ],
+   "e": "Also before/after eating, after the restroom, after any body-fluid contact.",
+   "s": "UP handout",
+   "f": false
+  },
+  {
+   "topic": 7,
+   "q": "The most important aspect of handwashing is:",
+   "a": "Friction",
+   "w": [
+    "Water temperature",
+    "Type of towel",
+    "Brand of soap"
+   ],
+   "e": "Friction emulsifies skin oil and removes microorganisms and dirt.",
+   "s": "MA1-1, slide 38",
+   "f": true
+  },
+  {
+   "topic": 7,
+   "q": "Friction during handwashing is essential because it:",
+   "a": "Emulsifies the oil on the skin and removes microorganisms and dirt",
+   "w": [
+    "Warms the hands for massage",
+    "Sterilizes the skin",
+    "Removes the need to rinse"
+   ],
+   "e": "Friction emulsifies skin oil and lifts microbes and dirt.",
+   "s": "MA1-1, slide 38",
+   "f": true
+  },
+  {
+   "topic": 7,
+   "q": "The recommended time to rub soap up the forearms is:",
+   "a": "15-30 seconds (up to 2 minutes if needed)",
+   "w": [
+    "5 seconds",
+    "5 minutes",
+    "1 hour"
+   ],
+   "e": "15-30 seconds, 2 minutes if needed.",
+   "s": "MA1-1, slide 38",
+   "f": false
+  },
+  {
+   "topic": 7,
+   "q": "When rinsing, water should run:",
+   "a": "From the fingers to the elbows",
+   "w": [
+    "From the elbows to the fingers",
+    "Only over the palms",
+    "From the shoulders down"
+   ],
+   "e": "Fingers to elbows keeps the hands the cleanest area.",
+   "s": "MA1-1, slide 38",
+   "f": false
+  },
+  {
+   "topic": 7,
+   "q": "At the start of handwashing, the hands should be:",
+   "a": "Lower than the elbows",
+   "w": [
+    "Higher than the elbows",
+    "Level with the shoulders",
+    "Behind the back"
+   ],
+   "e": "Start with hands lower than the elbows.",
+   "s": "MA1-1, slide 38",
+   "f": false
+  },
+  {
+   "topic": 7,
+   "q": "Which soap is preferred?",
+   "a": "Liquid soap",
+   "w": [
+    "Bar soap",
+    "Dish soap",
+    "No soap, water only"
+   ],
+   "e": "Liquid soap is preferred over bar soap.",
+   "s": "MA1-1, slide 38 · UP handout",
+   "f": false
+  },
+  {
+   "topic": 7,
+   "q": "After drying your hands, the paper towel should be used to:",
+   "a": "Turn off the water and open door handles, then be discarded",
+   "w": [
+    "Dry the massage table",
+    "Wipe the client's feet",
+    "Be saved for the next wash"
+   ],
+   "e": "Use the same towel for the faucet and door handles until you reach the massage area.",
+   "s": "MA1-1, slide 38",
+   "f": false
+  },
+  {
+   "topic": 8,
+   "q": "Hygiene is best defined as:",
+   "a": "The science and practice of preserving health and preventing disease through cleanliness",
+   "w": [
+    "Destroying all microorganisms with heat",
+    "The removal of pathogens from a surface",
+    "A biological agent capable of causing disease"
+   ],
+   "e": "Hygiene = practices that preserve health. (Not on slides; standard definition.)",
+   "s": "Textbook definition",
+   "f": false
+  },
+  {
+   "topic": 8,
+   "q": "Which is a personal hygiene guideline from the lecture?",
+   "a": "Keep nails short and clean",
+   "w": [
+    "Wear rings for professionalism",
+    "Wear a light perfume",
+    "Chew gum to freshen breath"
+   ],
+   "e": "Short clean nails, no jewelry, no perfume, no gum.",
+   "s": "MA1-1, slide 39",
+   "f": false
+  },
+  {
+   "topic": 8,
+   "q": "Which should a massage therapist AVOID?",
+   "a": "Wearing perfumes and scented cosmetics",
+   "w": [
+    "Tying back long hair",
+    "Using mouthwash",
+    "Showering daily"
+   ],
+   "e": "Avoid perfumes and scented cosmetics.",
+   "s": "MA1-1, slide 39",
+   "f": false
+  },
+  {
+   "topic": 8,
+   "q": "Which food does the lecture say to avoid before working with clients?",
+   "a": "Garlic and onions",
+   "w": [
+    "Rice",
+    "Bananas",
+    "Bread"
+   ],
+   "e": "Avoid offensive foods: garlic, onions, etc.",
+   "s": "MA1-1, slide 39",
+   "f": false
+  },
+  {
+   "topic": 8,
+   "q": "Personal hygiene for therapists includes:",
+   "a": "No jewelry and no gum",
+   "w": [
+    "Long nails for deeper pressure",
+    "Smoking only before the massage",
+    "Hair worn loose"
+   ],
+   "e": "No jewelry, no gum, no smoking around clients or before a massage.",
+   "s": "MA1-1, slide 39",
+   "f": false
+  },
+  {
+   "topic": 9,
+   "q": "Massage is defined as:",
+   "a": "Systematic and scientific manipulation of the soft tissues of the body for the purpose of obtaining or maintaining health",
+   "w": [
+    "Random rubbing of the skin for relaxation only",
+    "Manipulation of the bones to correct alignment",
+    "Any touch that relieves pain"
+   ],
+   "e": "The highlighted definition on slide 4.",
+   "s": "MA1-1, slide 4",
+   "f": true
+  },
+  {
+   "topic": 9,
+   "q": "According to the definition, massage manipulates the:",
+   "a": "Soft tissues of the body",
+   "w": [
+    "Bones of the body",
+    "Internal organs only",
+    "Nervous system directly"
+   ],
+   "e": "Soft tissues.",
+   "s": "MA1-1, slide 4",
+   "f": true
+  },
+  {
+   "topic": 9,
+   "q": "The purpose of massage in the definition is:",
+   "a": "Obtaining or maintaining health",
+   "w": [
+    "Diagnosing disease",
+    "Curing infection",
+    "Correcting bone alignment"
+   ],
+   "e": "For the purpose of obtaining or maintaining health.",
+   "s": "MA1-1, slide 4",
+   "f": true
+  },
+  {
+   "topic": 9,
+   "q": "About how many types of massage and bodywork are used in the world today?",
+   "a": "Over 75",
+   "w": [
+    "About 10",
+    "Exactly 25",
+    "Over 1,000"
+   ],
+   "e": "Over 75 types.",
+   "s": "MA1-1, slide 4",
+   "f": false
+  },
+  {
+   "topic": 9,
+   "q": "Which two words describe how massage manipulates tissue, per the definition?",
+   "a": "Systematic and scientific",
+   "w": [
+    "Random and intuitive",
+    "Fast and forceful",
+    "Spiritual and energetic"
+   ],
+   "e": "Systematic and scientific manipulation.",
+   "s": "MA1-1, slide 4",
+   "f": true
+  },
+  {
+   "topic": 10,
+   "q": "Which is a general benefit of massage?",
+   "a": "Increases the oxygen capacity of blood",
+   "w": [
+    "Raises blood pressure",
+    "Cures infections",
+    "Increases swelling"
+   ],
+   "e": "Benefits: reduce stress, enhance circulation, decrease pain, promote sleep, reduce swelling, enhance relaxation, increase blood oxygen capacity.",
+   "s": "MA1-1, slide 5",
+   "f": false
+  },
+  {
+   "topic": 10,
+   "q": "Which is NOT listed as a benefit of massage?",
+   "a": "Sterilizes the skin",
+   "w": [
+    "Reduces stress",
+    "Promotes sleep",
+    "Reduces swelling"
+   ],
+   "e": "Sterilizing is not a massage effect.",
+   "s": "MA1-1, slide 5",
+   "f": false
+  },
+  {
+   "topic": 10,
+   "q": "Massage affects circulation by:",
+   "a": "Enhancing blood circulation",
+   "w": [
+    "Stopping blood flow",
+    "Thickening the blood",
+    "Lowering oxygen in blood"
+   ],
+   "e": "Enhance blood circulation.",
+   "s": "MA1-1, slide 5",
+   "f": false
+  },
+  {
+   "topic": 10,
+   "q": "Which set lists only benefits of massage?",
+   "a": "Decrease pain, promote sleep, enhance relaxation",
+   "w": [
+    "Decrease pain, increase swelling, raise stress",
+    "Promote sleep, spread infection, decrease circulation",
+    "Reduce stress, cure disease, increase swelling"
+   ],
+   "e": "All three are on the benefits slide.",
+   "s": "MA1-1, slide 5",
+   "f": false
+  },
+  {
+   "topic": 10,
+   "q": "Massage therapy is described as one of the healthcare field's:",
+   "a": "Safest and least obtrusive yet effective modalities",
+   "w": [
+    "Most invasive treatments",
+    "Least effective therapies",
+    "Riskiest procedures"
+   ],
+   "e": "Safest, least obtrusive, yet effective.",
+   "s": "MA1-1, slide 3",
+   "f": false
+  },
+  {
+   "topic": 11,
+   "q": "The first culture to DOCUMENT the use of massage was:",
+   "a": "China",
+   "w": [
+    "Greece",
+    "India",
+    "Sweden"
+   ],
+   "e": "Documented use in China dates back to 3000 BC.",
+   "s": "MA1-1, slide 9",
+   "f": true
+  },
+  {
+   "topic": 11,
+   "q": "Documented use of massage in China dates back to about:",
+   "a": "3000 BC",
+   "w": [
+    "15,000 BC",
+    "460 BC",
+    "1856 AD"
+   ],
+   "e": "3000 BC, about 5,000 years ago.",
+   "s": "MA1-1, slide 9",
+   "f": true
+  },
+  {
+   "topic": 11,
+   "q": "Which culture was the first to train blind therapists?",
+   "a": "The Chinese",
+   "w": [
+    "The Greeks",
+    "The Japanese",
+    "The Swedes"
+   ],
+   "e": "Starred in red on slide 10.",
+   "s": "MA1-1, slide 10",
+   "f": true
+  },
+  {
+   "topic": 11,
+   "q": "Cave paintings from about 15,000 years ago:",
+   "a": "Imply that massage was used",
+   "w": [
+    "Are the first written record of massage",
+    "Show Swedish massage strokes",
+    "Were made in China"
+   ],
+   "e": "They imply massage; China has the first documentation.",
+   "s": "MA1-1, slide 8",
+   "f": false
+  },
+  {
+   "topic": 11,
+   "q": "Acupuncture first appeared in Chinese medical writings around:",
+   "a": "90 BC",
+   "w": [
+    "3000 BC",
+    "6th century AD",
+    "1856"
+   ],
+   "e": "90 BC; the precursor of all other manual or energetic therapies.",
+   "s": "MA1-1, slide 9",
+   "f": true
+  },
+  {
+   "topic": 11,
+   "q": "The Huang-ti nei-ching is:",
+   "a": "The classic scripture of Traditional Chinese Medicine",
+   "w": [
+    "A Japanese finger-pressure technique",
+    "The Hippocratic Oath",
+    "The first American massage textbook"
+   ],
+   "e": "Compiled under the mythical Yellow Emperor.",
+   "s": "MA1-1, slide 10",
+   "f": true
+  },
+  {
+   "topic": 11,
+   "q": "Chinese therapies are called 'the grandparents of ALL techniques' because:",
+   "a": "They are the precursor of all other manual or energetic therapies",
+   "w": [
+    "They were invented in Sweden",
+    "They use only French terms",
+    "They were written by Hippocrates"
+   ],
+   "e": "Precursor of all others.",
+   "s": "MA1-1, slide 9",
+   "f": true
+  },
+  {
+   "topic": 12,
+   "q": "Amma is:",
+   "a": "A Chinese technique of rubbing, pressing and manipulating specific points",
+   "w": [
+    "A Japanese finger-pressure technique",
+    "An Indian code of life",
+    "A Swedish movement cure"
+   ],
+   "e": "Amma (Amna, Ammo) comes from the classic scripture of TCM.",
+   "s": "MA1-1, slide 10",
+   "f": true
+  },
+  {
+   "topic": 12,
+   "q": "Amma originates from which culture?",
+   "a": "China",
+   "w": [
+    "Japan",
+    "India",
+    "Greece"
+   ],
+   "e": "Chinese, from the classic scripture of TCM.",
+   "s": "MA1-1, slide 10",
+   "f": true
+  },
+  {
+   "topic": 12,
+   "q": "Which technique involves rubbing, pressing and manipulating specific points?",
+   "a": "Amma",
+   "w": [
+    "Effleurage",
+    "Ayurveda",
+    "Gymnastics"
+   ],
+   "e": "Amma.",
+   "s": "MA1-1, slide 10",
+   "f": true
+  },
+  {
+   "topic": 12,
+   "q": "Amma comes from:",
+   "a": "The classic scripture of Traditional Chinese Medicine",
+   "w": [
+    "The Hippocratic Oath",
+    "The Ling System",
+    "De Medicina"
+   ],
+   "e": "From the classic TCM scripture.",
+   "s": "MA1-1, slide 10",
+   "f": false
+  },
+  {
+   "topic": 13,
+   "q": "Shiatsu means:",
+   "a": "Finger pressure",
+   "w": [
+    "Code of life",
+    "Energy point",
+    "Rubbing and pressing"
+   ],
+   "e": "Shiatsu = finger pressure.",
+   "s": "MA1-1, slide 11",
+   "f": false
+  },
+  {
+   "topic": 13,
+   "q": "Shiatsu comes from which country?",
+   "a": "Japan",
+   "w": [
+    "China",
+    "India",
+    "Sweden"
+   ],
+   "e": "Japan, 6th century AD.",
+   "s": "MA1-1, slide 11",
+   "f": false
+  },
+  {
+   "topic": 13,
+   "q": "In Shiatsu, a tsubo is:",
+   "a": "An energy point",
+   "w": [
+    "A type of stroke",
+    "A massage tool",
+    "A Japanese healer"
+   ],
+   "e": "Tsubo = energy point.",
+   "s": "MA1-1, slide 11",
+   "f": false
+  },
+  {
+   "topic": 13,
+   "q": "The goal of Shiatsu is to:",
+   "a": "Bring balance between mind and body",
+   "w": [
+    "Break up scar tissue",
+    "Increase muscle size",
+    "Sterilize the skin"
+   ],
+   "e": "Balance between mind and body.",
+   "s": "MA1-1, slide 11",
+   "f": false
+  },
+  {
+   "topic": 13,
+   "q": "Shiatsu developed in the:",
+   "a": "6th century AD",
+   "w": [
+    "3000 BC",
+    "7th century BC",
+    "1800s"
+   ],
+   "e": "Japan, 6th century AD.",
+   "s": "MA1-1, slide 11",
+   "f": false
+  },
+  {
+   "topic": 13,
+   "q": "In India, massage is an aspect of:",
+   "a": "Ayurveda, the 'code of life'",
+   "w": [
+    "Shiatsu",
+    "Amma",
+    "The Ling System"
+   ],
+   "e": "Ayurveda took shape in the 6th-7th centuries BC.",
+   "s": "MA1-1, slide 11",
+   "f": false
+  },
+  {
+   "topic": 14,
+   "q": "The current symbol of medicine, a snake and staff, is credited to:",
+   "a": "Aesculapius",
+   "w": [
+    "Hippocrates",
+    "Galen",
+    "Pehr Henrik Ling"
+   ],
+   "e": "His holy snake and staff remain the symbol of the medical profession.",
+   "s": "MA1-1, slide 12",
+   "f": false
+  },
+  {
+   "topic": 14,
+   "q": "Aesculapius was a:",
+   "a": "Greek priest-physician",
+   "w": [
+    "Roman emperor",
+    "Swedish gymnast",
+    "Chinese emperor"
+   ],
+   "e": "Greek priest-physician, 7th century BC.",
+   "s": "MA1-1, slide 12",
+   "f": false
+  },
+  {
+   "topic": 14,
+   "q": "Aesculapius combined exercise and massage to create:",
+   "a": "Gymnastics",
+   "w": [
+    "Shiatsu",
+    "The Hippocratic Oath",
+    "Swedish massage"
+   ],
+   "e": "Exercise + massage = gymnastics.",
+   "s": "MA1-1, slide 12",
+   "f": false
+  },
+  {
+   "topic": 14,
+   "q": "Aesculapius was later revered as the:",
+   "a": "God of medicine",
+   "w": [
+    "Father of Swedish massage",
+    "Father of Western medicine",
+    "First medical historian"
+   ],
+   "e": "Later revered as the god of medicine.",
+   "s": "MA1-1, slide 12",
+   "f": false
+  },
+  {
+   "topic": 14,
+   "q": "The symbol of the medical profession is:",
+   "a": "A snake coiled around a staff",
+   "w": [
+    "A bowl and a mortar",
+    "A red cross",
+    "A pair of hands"
+   ],
+   "e": "Aesculapius' holy snake and staff.",
+   "s": "MA1-1, slide 12",
+   "f": false
+  },
+  {
+   "topic": 15,
+   "q": "The 'Father of Western Medicine' is:",
+   "a": "Hippocrates",
+   "w": [
+    "Galen",
+    "Aesculapius",
+    "William Harvey"
+   ],
+   "e": "Hippocrates (460-375 BC).",
+   "s": "MA1-1, slide 13",
+   "f": false
+  },
+  {
+   "topic": 15,
+   "q": "Hippocrates' philosophy included:",
+   "a": "The healer should cause NO additional harm",
+   "w": [
+    "Drugs are the first choice of treatment",
+    "Treat the disease, not the patient",
+    "Massage should be avoided"
+   ],
+   "e": "Emphasize the individual patient; do no additional harm.",
+   "s": "MA1-1, slide 13",
+   "f": false
+  },
+  {
+   "topic": 15,
+   "q": "Hippocrates was a proponent of massage, particularly:",
+   "a": "Friction",
+   "w": [
+    "Tapotement",
+    "Effleurage",
+    "Vibration"
+   ],
+   "e": "Particularly friction.",
+   "s": "MA1-1, slide 13",
+   "f": false
+  },
+  {
+   "topic": 15,
+   "q": "The code of ethics associated with Hippocrates is the:",
+   "a": "Hippocratic Oath",
+   "w": [
+    "Ling System",
+    "De Medicina",
+    "Huang-ti nei-ching"
+   ],
+   "e": "Hippocratic Oath.",
+   "s": "MA1-1, slide 13",
+   "f": false
+  },
+  {
+   "topic": 15,
+   "q": "Hippocrates emphasized:",
+   "a": "The individual patient",
+   "w": [
+    "Surgery for every condition",
+    "Treating groups, not individuals",
+    "Gymnastics only"
+   ],
+   "e": "Emphasized the individual patient.",
+   "s": "MA1-1, slide 13",
+   "f": false
+  },
+  {
+   "topic": 16,
+   "q": "William Harvey's discovery that helped establish massage as therapeutic was:",
+   "a": "Blood circulates through the arteries and veins by the beat of the heart",
+   "w": [
+    "Arteries and veins contain blood",
+    "Muscles contract when stimulated",
+    "Bacteria cause disease"
+   ],
+   "e": "Circulation driven by the heartbeat enhanced acceptance of massage.",
+   "s": "MA1-1, slide 18",
+   "f": false
+  },
+  {
+   "topic": 16,
+   "q": "William Harvey was from:",
+   "a": "England",
+   "w": [
+    "Sweden",
+    "Greece",
+    "France"
+   ],
+   "e": "England, 1578-1657.",
+   "s": "MA1-1, slide 18",
+   "f": false
+  },
+  {
+   "topic": 16,
+   "q": "Who discovered that arteries and veins CONTAIN blood (not that it circulates)?",
+   "a": "Galen",
+   "w": [
+    "William Harvey",
+    "Hippocrates",
+    "Borelli"
+   ],
+   "e": "Galen: contain. Harvey: circulate via the heartbeat.",
+   "s": "MA1-1, slides 15, 18",
+   "f": false
+  },
+  {
+   "topic": 16,
+   "q": "Harvey's discovery affected massage by:",
+   "a": "Enhancing the acceptance of massage as therapeutic",
+   "w": [
+    "Banning massage in hospitals",
+    "Introducing French terms",
+    "Creating Swedish massage"
+   ],
+   "e": "It enhanced the acceptance of massage as therapeutic.",
+   "s": "MA1-1, slide 18",
+   "f": false
+  },
+  {
+   "topic": 17,
+   "q": "The 'Father of Swedish Massage' is:",
+   "a": "Pehr Henrik Ling",
+   "w": [
+    "Johann Mezger",
+    "John Harvey Kellogg",
+    "George Henry Taylor"
+   ],
+   "e": "Ling (1776-1839), also father of physical therapy.",
+   "s": "MA1-1, slide 19",
+   "f": false
+  },
+  {
+   "topic": 17,
+   "q": "Pehr Henrik Ling's system of medical gymnastics is known as the:",
+   "a": "Ling System",
+   "w": [
+    "Swedish Oath",
+    "Taylor Method",
+    "Kellogg Cure"
+   ],
+   "e": "Ling System → Swedish Movement → Swedish Movement Cure → Swedish Massage.",
+   "s": "MA1-1, slide 19",
+   "f": false
+  },
+  {
+   "topic": 17,
+   "q": "Besides Swedish massage, Ling is also considered the father of:",
+   "a": "Physical therapy",
+   "w": [
+    "Chiropractic",
+    "Acupuncture",
+    "Sports medicine"
+   ],
+   "e": "Father of Swedish massage and physical therapy.",
+   "s": "MA1-1, slide 19",
+   "f": false
+  },
+  {
+   "topic": 17,
+   "q": "Ling was a:",
+   "a": "Swedish physiologist and gymnastics instructor",
+   "w": [
+    "German physician",
+    "Greek priest",
+    "American author"
+   ],
+   "e": "Swedish physiologist and gymnastics instructor.",
+   "s": "MA1-1, slide 19",
+   "f": false
+  },
+  {
+   "topic": 17,
+   "q": "Which order shows how Ling's work evolved?",
+   "a": "Ling System → Swedish Movement → Swedish Movement Cure → Swedish Massage",
+   "w": [
+    "Swedish Massage → Ling System → Swedish Movement",
+    "Swedish Movement Cure → Ling System → Swedish Massage",
+    "Amma → Shiatsu → Swedish Massage"
+   ],
+   "e": "The slide's sequence.",
+   "s": "MA1-1, slide 19",
+   "f": false
+  },
+  {
+   "topic": 18,
+   "q": "Swedish massage is described as:",
+   "a": "Massage strokes in tandem with movement",
+   "w": [
+    "Finger pressure on energy points",
+    "Rubbing and pressing specific points",
+    "Joint manipulation only"
+   ],
+   "e": "Strokes in tandem with movement.",
+   "s": "MA1-1, slide 20",
+   "f": false
+  },
+  {
+   "topic": 18,
+   "q": "In Swedish massage, an ACTIVE movement is performed by the:",
+   "a": "Client",
+   "w": [
+    "Therapist",
+    "Client and therapist together",
+    "Machine"
+   ],
+   "e": "Active = client; passive = therapist; duplicated = both.",
+   "s": "MA1-1, slide 20",
+   "f": false
+  },
+  {
+   "topic": 18,
+   "q": "In Swedish massage, a PASSIVE movement is performed by the:",
+   "a": "Therapist",
+   "w": [
+    "Client",
+    "Client and therapist together",
+    "Neither"
+   ],
+   "e": "Passive = therapist.",
+   "s": "MA1-1, slide 20",
+   "f": false
+  },
+  {
+   "topic": 18,
+   "q": "A DUPLICATED movement is performed by:",
+   "a": "The client and therapist together",
+   "w": [
+    "The client alone",
+    "The therapist alone",
+    "An assistant"
+   ],
+   "e": "Duplicated = both.",
+   "s": "MA1-1, slide 20",
+   "f": false
+  },
+  {
+   "topic": 18,
+   "q": "How many primary movements does Swedish massage have?",
+   "a": "3",
+   "w": [
+    "2",
+    "5",
+    "7"
+   ],
+   "e": "Active, passive, duplicated.",
+   "s": "MA1-1, slide 20",
+   "f": false
+  },
+  {
+   "topic": 18,
+   "q": "Which is a stated effect of Swedish massage?",
+   "a": "Improves range of motion",
+   "w": [
+    "Raises blood pressure",
+    "Sterilizes tissue",
+    "Increases muscle tension"
+   ],
+   "e": "Improves circulation, relieves tension, improves ROM, promotes relaxation.",
+   "s": "MA1-1, slide 20",
+   "f": false
+  },
+  {
+   "topic": 19,
+   "q": "Who is credited with much of the terminology for Swedish massage strokes?",
+   "a": "Johann Mezger",
+   "w": [
+    "Pehr Henrik Ling",
+    "John Harvey Kellogg",
+    "Ambroise Paré"
+   ],
+   "e": "Mezger introduced French terminology.",
+   "s": "MA1-1, slide 21",
+   "f": true
+  },
+  {
+   "topic": 19,
+   "q": "The Swedish massage stroke terms originate from which language?",
+   "a": "French",
+   "w": [
+    "Swedish",
+    "Latin",
+    "German"
+   ],
+   "e": "Effleurage, petrissage, tapotement are French.",
+   "s": "MA1-1, slide 21",
+   "f": true
+  },
+  {
+   "topic": 19,
+   "q": "Effleurage, petrissage and tapotement are examples of:",
+   "a": "French terms introduced by Johann Mezger",
+   "w": [
+    "Swedish terms coined by Ling",
+    "Greek terms from Hippocrates",
+    "Chinese Amma techniques"
+   ],
+   "e": "Mezger's French terminology.",
+   "s": "MA1-1, slide 21",
+   "f": true
+  },
+  {
+   "topic": 19,
+   "q": "Johann Mezger made massage a fundamental component of:",
+   "a": "Physical rehabilitation",
+   "w": [
+    "Spa relaxation",
+    "Sports medicine",
+    "Ayurveda"
+   ],
+   "e": "Physical rehabilitation; also promoted massage to the medical profession.",
+   "s": "MA1-1, slide 21",
+   "f": false
+  },
+  {
+   "topic": 20,
+   "q": "Who introduced Swedish massage (the Swedish Movement) to the United States?",
+   "a": "George Henry Taylor and Charles Fayette Taylor",
+   "w": [
+    "John Harvey Kellogg",
+    "Pehr Henrik Ling",
+    "Johann Mezger"
+   ],
+   "e": "The Taylors; starred on the slide.",
+   "s": "MA1-1, slide 22",
+   "f": true
+  },
+  {
+   "topic": 20,
+   "q": "Swedish massage was introduced to the United States in:",
+   "a": "1856",
+   "w": [
+    "1776",
+    "1860",
+    "1909"
+   ],
+   "e": "1856. The first American textbook followed in 1860.",
+   "s": "MA1-1, slide 22",
+   "f": true
+  },
+  {
+   "topic": 20,
+   "q": "The first American textbook on Swedish massage was published in:",
+   "a": "1860",
+   "w": [
+    "1856",
+    "1839",
+    "1943"
+   ],
+   "e": "1860, by the Taylors.",
+   "s": "MA1-1, slide 22",
+   "f": true
+  },
+  {
+   "topic": 20,
+   "q": "John Harvey Kellogg is known for:",
+   "a": "Popularizing massage with the general public",
+   "w": [
+    "Introducing Swedish massage to the U.S. in 1856",
+    "Coining French stroke terms",
+    "Founding the Ling System"
+   ],
+   "e": "Kellogg popularized it (Good Health magazine); the Taylors introduced it.",
+   "s": "MA1-1, slide 22",
+   "f": false
+  },
+  {
+   "topic": 21,
+   "q": "The 3 types of professional communication are:",
+   "a": "Verbal, non-verbal, written",
+   "w": [
+    "Verbal, electronic, legal",
+    "Spoken, sung, signed",
+    "Intake, SOAP, referral"
+   ],
+   "e": "Verbal, non-verbal, written.",
+   "s": "MA1-2a, slides 4-6",
+   "f": false
+  },
+  {
+   "topic": 21,
+   "q": "Professional communication with a client starts:",
+   "a": "When they call for an appointment",
+   "w": [
+    "When they lie on the table",
+    "After the first massage",
+    "When they pay"
+   ],
+   "e": "Starts when they call for an appointment.",
+   "s": "MA1-2a, slide 2",
+   "f": false
+  },
+  {
+   "topic": 21,
+   "q": "Written communication should be:",
+   "a": "Checked with the client at each visit and updated",
+   "w": [
+    "Filled out once and never changed",
+    "Kept only by the front desk",
+    "Optional for returning clients"
+   ],
+   "e": "Starred in red on the slide: always check with the client at each visit and update.",
+   "s": "MA1-2a, slide 6",
+   "f": true
+  },
+  {
+   "topic": 21,
+   "q": "Which is an example of WRITTEN communication?",
+   "a": "SOAP notes",
+   "w": [
+    "Tracking",
+    "Facial expressions",
+    "Paraphrasing"
+   ],
+   "e": "Intake form, consent form, prescriptions, SOAP notes, correspondence, referral forms.",
+   "s": "MA1-2a, slide 6",
+   "f": false
+  },
+  {
+   "topic": 21,
+   "q": "'Speak it back to them in your own words and have them confirm' describes:",
+   "a": "Paraphrase, clarify, summarize",
+   "w": [
+    "Tracking",
+    "Power differential",
+    "Informed consent"
+   ],
+   "e": "A verbal communication skill.",
+   "s": "MA1-2a, slide 4",
+   "f": false
+  },
+  {
+   "topic": 21,
+   "q": "'Sit if they sit, stand if they stand' describes:",
+   "a": "Power differential",
+   "w": [
+    "Tracking",
+    "Informed consent",
+    "Open-ended questions"
+   ],
+   "e": "A non-verbal communication consideration.",
+   "s": "MA1-2a, slide 5",
+   "f": false
+  },
+  {
+   "topic": 21,
+   "q": "Good verbal communication with clients uses:",
+   "a": "Open-ended questions",
+   "w": [
+    "Only yes/no questions",
+    "Medical jargon",
+    "Judgment of the client's habits"
+   ],
+   "e": "Open, safe, non-judgmental; open-ended questions; empathy.",
+   "s": "MA1-2a, slide 4",
+   "f": false
+  },
+  {
+   "topic": 22,
+   "q": "Informed consent is:",
+   "a": "The client's authorization for professional services",
+   "w": [
+    "A doctor's prescription for massage",
+    "The therapist's treatment plan",
+    "A referral from insurance"
+   ],
+   "e": "Starred on the slide.",
+   "s": "MA1-2a, slide 9",
+   "f": true
+  },
+  {
+   "topic": 22,
+   "q": "Informed consent can be:",
+   "a": "Written or verbal, but written is recommended",
+   "w": [
+    "Verbal only",
+    "Written only, by a doctor",
+    "Assumed if the client shows up"
+   ],
+   "e": "Written or verbal; get it in writing.",
+   "s": "MA1-2a, slide 9",
+   "f": true
+  },
+  {
+   "topic": 22,
+   "q": "Massage therapists have 'direct access' to the public. This means:",
+   "a": "No prescription or referral is needed to receive massage",
+   "w": [
+    "Insurance always pays",
+    "A doctor must approve each session",
+    "Clients may skip the intake form"
+   ],
+   "e": "Direct access = no prescription/referral needed.",
+   "s": "MA1-2a, slide 9",
+   "f": false
+  },
+  {
+   "topic": 22,
+   "q": "Most insurance companies require what before paying for massage?",
+   "a": "A prescription or referral",
+   "w": [
+    "Informed consent only",
+    "A SUDS rating",
+    "Nothing"
+   ],
+   "e": "Insurance usually wants a prescription or referral.",
+   "s": "MA1-2a, slide 9",
+   "f": false
+  },
+  {
+   "topic": 22,
+   "q": "Informed consent is gained during the:",
+   "a": "Pre-massage interview",
+   "w": [
+    "Post-massage recommendations",
+    "Final SOAP note",
+    "Billing process"
+   ],
+   "e": "Part of the pre-massage interview, after explaining services and benefits/side effects.",
+   "s": "MA1-2a, slide 3",
+   "f": true
+  },
+  {
+   "topic": 23,
+   "q": "The 4 categories of client treatment records are:",
+   "a": "Subjective, Objective, Action, Plan",
+   "w": [
+    "Symptoms, Observations, Allergies, Prescriptions",
+    "Subjective, Opinion, Assessment, Payment",
+    "Systolic, Objective, Action, Pulse"
+   ],
+   "e": "SOAP. In medical settings A = Assessment.",
+   "s": "MA1-2a, slide 10",
+   "f": false
+  },
+  {
+   "topic": 23,
+   "q": "In SOAP notes, 'S' records:",
+   "a": "What the client tells you, in their words",
+   "w": [
+    "What you see and feel",
+    "The techniques you used",
+    "Your recommendations"
+   ],
+   "e": "Subjective = client's words.",
+   "s": "MA1-2a, slide 10",
+   "f": false
+  },
+  {
+   "topic": 23,
+   "q": "In SOAP notes, 'O' records:",
+   "a": "Your findings: what you see, feel, hear, smell, sense",
+   "w": [
+    "What the client tells you",
+    "Home care recommendations",
+    "The client's insurance"
+   ],
+   "e": "Objective = your findings.",
+   "s": "MA1-2a, slide 10",
+   "f": false
+  },
+  {
+   "topic": 23,
+   "q": "In SOAP notes, 'A' (Action) records:",
+   "a": "What you did during the session: strokes, techniques, ROM, stretching",
+   "w": [
+    "The client's complaint",
+    "Rescheduling",
+    "Your visual observations"
+   ],
+   "e": "Action = what you did. (Medical: Assessment.)",
+   "s": "MA1-2a, slide 10",
+   "f": false
+  },
+  {
+   "topic": 23,
+   "q": "In SOAP notes, 'P' records:",
+   "a": "What you intend and recommend: rescheduling, home care",
+   "w": [
+    "The client's pain description",
+    "Blood pressure readings",
+    "Strokes used"
+   ],
+   "e": "Plan.",
+   "s": "MA1-2a, slide 10",
+   "f": false
+  },
+  {
+   "topic": 23,
+   "q": "A client says, 'My neck hurts when I turn left.' This goes under:",
+   "a": "S (Subjective)",
+   "w": [
+    "O (Objective)",
+    "A (Action)",
+    "P (Plan)"
+   ],
+   "e": "Client's own words = Subjective.",
+   "s": "MA1-2a, slide 10",
+   "f": false
+  },
+  {
+   "topic": 23,
+   "q": "You notice the client's right shoulder is elevated. This goes under:",
+   "a": "O (Objective)",
+   "w": [
+    "S (Subjective)",
+    "A (Action)",
+    "P (Plan)"
+   ],
+   "e": "Your observation = Objective.",
+   "s": "MA1-2a, slide 10",
+   "f": false
+  },
+  {
+   "topic": 23,
+   "q": "You recommend neck stretches and a follow-up in one week. This goes under:",
+   "a": "P (Plan)",
+   "w": [
+    "S (Subjective)",
+    "O (Objective)",
+    "A (Action)"
+   ],
+   "e": "Recommendations and rescheduling = Plan.",
+   "s": "MA1-2a, slide 10",
+   "f": false
+  },
+  {
+   "topic": 24,
+   "q": "A symptom is:",
+   "a": "A subjective change the client feels and reports",
+   "w": [
+    "An objective finding the therapist measures",
+    "A doctor's diagnosis",
+    "A treatment goal"
+   ],
+   "e": "Symptom = subjective. Sign = objective. (Not on slides; standard definition.)",
+   "s": "Textbook definition",
+   "f": false
+  },
+  {
+   "topic": 24,
+   "q": "Symptoms are recorded in which part of the SOAP note?",
+   "a": "S (Subjective)",
+   "w": [
+    "O (Objective)",
+    "A (Action)",
+    "P (Plan)"
+   ],
+   "e": "Client-reported, so Subjective.",
+   "s": "MA1-2a, slide 10",
+   "f": false
+  },
+  {
+   "topic": 24,
+   "q": "Which is a SYMPTOM rather than a sign?",
+   "a": "Numbness the client describes",
+   "w": [
+    "Visible swelling",
+    "A blood pressure reading",
+    "Redness you observe"
+   ],
+   "e": "Symptoms are felt and reported by the client.",
+   "s": "Textbook definition",
+   "f": false
+  },
+  {
+   "topic": 24,
+   "q": "Something the therapist can observe or measure, like swelling, is called a:",
+   "a": "Sign",
+   "w": [
+    "Symptom",
+    "Goal",
+    "Contraindication"
+   ],
+   "e": "Sign = objective.",
+   "s": "Textbook definition",
+   "f": false
+  },
+  {
+   "topic": 25,
+   "q": "A short-term goal focuses on:",
+   "a": "The immediate problem, such as decreasing pain in the current session",
+   "w": [
+    "Restoring normal function over months",
+    "Changing the client's lifestyle",
+    "Eliminating all symptoms permanently"
+   ],
+   "e": "Short-term = immediate problem, this session.",
+   "s": "MA1-2a, slide 11",
+   "f": false
+  },
+  {
+   "topic": 25,
+   "q": "A long-term goal focuses on:",
+   "a": "Restoring normal or enhanced function",
+   "w": [
+    "Decreasing pain in the current session only",
+    "Booking the next appointment",
+    "Taking blood pressure"
+   ],
+   "e": "Long-term = restore function; decrease frequency and intensity of symptoms.",
+   "s": "MA1-2a, slide 11",
+   "f": false
+  },
+  {
+   "topic": 25,
+   "q": "'Decrease the frequency and intensity of symptoms' is a:",
+   "a": "Long-term goal",
+   "w": [
+    "Short-term goal",
+    "SOAP Subjective entry",
+    "Contraindication"
+   ],
+   "e": "Long-term.",
+   "s": "MA1-2a, slide 11",
+   "f": false
+  },
+  {
+   "topic": 25,
+   "q": "'Decrease pain/discomfort in the current session' is a:",
+   "a": "Short-term goal",
+   "w": [
+    "Long-term goal",
+    "Plan entry for next month",
+    "Informed consent"
+   ],
+   "e": "Short-term.",
+   "s": "MA1-2a, slide 11",
+   "f": false
+  },
+  {
+   "topic": 26,
+   "q": "SUDS stands for:",
+   "a": "Subjective Units of Discomfort Scale",
+   "w": [
+    "Standard Units of Daily Stress",
+    "Systolic Under Diastolic Score",
+    "Subjective Under-Documented Symptoms"
+   ],
+   "e": "Subjective Units of Discomfort Scale.",
+   "s": "MA1-2a, slide 13",
+   "f": false
+  },
+  {
+   "topic": 26,
+   "q": "On the SUDS scale, 1 means:",
+   "a": "Best",
+   "w": [
+    "Worst",
+    "Moderate pain",
+    "Not applicable"
+   ],
+   "e": "1 = best, 10 = worst.",
+   "s": "MA1-2a, slide 13",
+   "f": false
+  },
+  {
+   "topic": 26,
+   "q": "On the SUDS scale, 10 means:",
+   "a": "Worst",
+   "w": [
+    "Best",
+    "No pain",
+    "Average"
+   ],
+   "e": "10 = worst.",
+   "s": "MA1-2a, slide 13",
+   "f": false
+  },
+  {
+   "topic": 26,
+   "q": "When should you ask the client for a SUDS rating?",
+   "a": "Before AND after EACH session",
+   "w": [
+    "Only at the first visit",
+    "Only after the massage",
+    "Once a month"
+   ],
+   "e": "In red on the slide: before and after each therapy.",
+   "s": "MA1-2a, slide 13",
+   "f": true
+  },
+  {
+   "topic": 26,
+   "q": "The SUDS scale runs from:",
+   "a": "1 to 10",
+   "w": [
+    "0 to 5",
+    "1 to 100",
+    "A to F"
+   ],
+   "e": "Scale 1 through 10.",
+   "s": "MA1-2a, slide 13",
+   "f": false
+  },
+  {
+   "topic": 27,
+   "q": "Where should you review a client's medical history?",
+   "a": "In a private, quiet area where others can't overhear",
+   "w": [
+    "In the waiting room",
+    "On the table during the massage",
+    "At the front desk with other clients present"
+   ],
+   "e": "Confidentiality: private area, before the client undresses. (Location is not on slides.)",
+   "s": "Textbook practice · MA1-2a, slide 3",
+   "f": false
+  },
+  {
+   "topic": 27,
+   "q": "Reviewing the client's health history is part of the:",
+   "a": "Pre-massage interview",
+   "w": [
+    "Post-massage recommendations",
+    "Plan section of SOAP",
+    "Clinic checkout"
+   ],
+   "e": "Bolded on the pre-massage interview slide.",
+   "s": "MA1-2a, slide 3",
+   "f": true
+  },
+  {
+   "topic": 27,
+   "q": "The medical history review should happen:",
+   "a": "Before the massage, while the client is still dressed",
+   "w": [
+    "During the massage",
+    "After the client leaves",
+    "Only if the client asks"
+   ],
+   "e": "Pre-massage, clothed and seated.",
+   "s": "MA1-2a, slide 3",
+   "f": true
+  },
+  {
+   "topic": 27,
+   "q": "Which is part of the pre-massage interview?",
+   "a": "Orienting the client to the room",
+   "w": [
+    "Applying cryotherapy",
+    "Writing the Plan section",
+    "Sending the client home"
+   ],
+   "e": "Includes greeting, explaining services, reviewing history, consent, orienting to the room.",
+   "s": "MA1-2a, slide 3",
+   "f": false
+  },
+  {
+   "topic": 28,
+   "q": "If you make a mistake in SOAP notes, you should:",
+   "a": "Draw a single line through it, write the correction, and initial and date it",
+   "w": [
+    "Use white-out and rewrite",
+    "Scribble it out completely",
+    "Tear out the page and start over"
+   ],
+   "e": "SOAP notes are legal records; the original must stay readable. (Not on slides; standard practice.)",
+   "s": "Textbook practice",
+   "f": false
+  },
+  {
+   "topic": 28,
+   "q": "Why should errors in SOAP notes NOT be erased?",
+   "a": "SOAP notes are legal documents and the original must stay readable",
+   "w": [
+    "Erasers damage paper",
+    "Clients prefer messy notes",
+    "Insurance requires pencil"
+   ],
+   "e": "Legal record.",
+   "s": "Textbook practice",
+   "f": false
+  },
+  {
+   "topic": 28,
+   "q": "Which correction method is acceptable?",
+   "a": "Single line through the error, initialed and dated",
+   "w": [
+    "Writing over the error in pencil",
+    "Covering it with tape",
+    "Blacking it out with marker"
+   ],
+   "e": "Single line, initial, date.",
+   "s": "Textbook practice",
+   "f": false
+  },
+  {
+   "topic": 29,
+   "q": "The systolic number is:",
+   "a": "The top number; where you HEAR the first beat",
+   "w": [
+    "The bottom number; where the pulse disappears",
+    "The pulse rate per minute",
+    "Always the lower number"
+   ],
+   "e": "Systolic = top, first beat heard.",
+   "s": "MA1-2a, slide 15",
+   "f": true
+  },
+  {
+   "topic": 29,
+   "q": "The normal range for systolic blood pressure given in class is:",
+   "a": "80-140",
+   "w": [
+    "50-88",
+    "120-180",
+    "60-100"
+   ],
+   "e": "Systolic 80-140; diastolic 50-88.",
+   "s": "MA1-2a, slide 15",
+   "f": true
+  },
+  {
+   "topic": 29,
+   "q": "Based on the class range, a systolic reading is considered HIGH above:",
+   "a": "140",
+   "w": [
+    "88",
+    "100",
+    "200"
+   ],
+   "e": "Normal systolic tops out at 140.",
+   "s": "MA1-2a, slide 15",
+   "f": true
+  },
+  {
+   "topic": 29,
+   "q": "Normal blood pressure is considered:",
+   "a": "120/80",
+   "w": [
+    "170/100",
+    "140/50",
+    "88/50"
+   ],
+   "e": "120/80.",
+   "s": "MA1-2a, slide 16",
+   "f": true
+  },
+  {
+   "topic": 29,
+   "q": "Blood pressure is a good indicator of:",
+   "a": "Overall health",
+   "w": [
+    "Muscle strength",
+    "Flexibility",
+    "Infection"
+   ],
+   "e": "Highlighted: a good indicator of overall health.",
+   "s": "MA1-2a, slide 15",
+   "f": true
+  },
+  {
+   "topic": 30,
+   "q": "The diastolic number is:",
+   "a": "The bottom number; where the pulse disappears",
+   "w": [
+    "The top number; where you hear the first beat",
+    "The heart rate",
+    "The average of two readings"
+   ],
+   "e": "Diastolic = bottom ('D = Down'), pulse disappears.",
+   "s": "MA1-2a, slide 15",
+   "f": true
+  },
+  {
+   "topic": 30,
+   "q": "The normal range for diastolic blood pressure given in class is:",
+   "a": "50-88",
+   "w": [
+    "80-140",
+    "90-120",
+    "100-170"
+   ],
+   "e": "Diastolic 50-88.",
+   "s": "MA1-2a, slide 15",
+   "f": true
+  },
+  {
+   "topic": 30,
+   "q": "Which BP number is believed to be the more important of the two?",
+   "a": "Diastolic",
+   "w": [
+    "Systolic",
+    "Both equally",
+    "Neither"
+   ],
+   "e": "Diastolic is believed to be the more important number.",
+   "s": "MA1-2a, slide 15",
+   "f": true
+  },
+  {
+   "topic": 30,
+   "q": "Based on the class range, a diastolic reading is considered HIGH above:",
+   "a": "88",
+   "w": [
+    "140",
+    "50",
+    "120"
+   ],
+   "e": "Normal diastolic tops out at 88.",
+   "s": "MA1-2a, slide 15",
+   "f": true
+  },
+  {
+   "topic": 30,
+   "q": "A memory aid for diastolic is:",
+   "a": "D = Down (bottom number)",
+   "w": [
+    "D = Doctor",
+    "D = Double the systolic",
+    "D = Daily"
+   ],
+   "e": "D = Down.",
+   "s": "MA1-2a, slide 15",
+   "f": true
+  },
+  {
+   "topic": 31,
+   "q": "The MOST honest form of communication is:",
+   "a": "Tracking (watching the client's non-verbal cues)",
+   "w": [
+    "The intake form",
+    "Verbal answers to questions",
+    "The SUDS rating"
+   ],
+   "e": "Tracking: keep an eye on your client.",
+   "s": "MA1-2a, slide 5",
+   "f": true
+  },
+  {
+   "topic": 31,
+   "q": "Tracking is considered the most honest form of communication because:",
+   "a": "The body reacts involuntarily and shows what the client may not say",
+   "w": [
+    "Clients always tell the truth verbally",
+    "It is written down",
+    "It is required by law"
+   ],
+   "e": "Wincing, tensing and breath-holding happen without the client deciding to show them.",
+   "s": "MA1-2a, slide 5",
+   "f": true
+  },
+  {
+   "topic": 31,
+   "q": "Tracking falls under which type of communication?",
+   "a": "Non-verbal",
+   "w": [
+    "Verbal",
+    "Written",
+    "Electronic"
+   ],
+   "e": "Non-verbal.",
+   "s": "MA1-2a, slide 5",
+   "f": true
+  },
+  {
+   "topic": 31,
+   "q": "Which is an example of tracking?",
+   "a": "Noticing the client tense up and hold their breath",
+   "w": [
+    "Reading the intake form",
+    "Asking an open-ended question",
+    "Writing SOAP notes"
+   ],
+   "e": "Watching the client's body during the session.",
+   "s": "MA1-2a, slide 5",
+   "f": true
+  },
+  {
+   "topic": 32,
+   "q": "The blood pressure cutoff for massage in the student clinic is:",
+   "a": "170/100",
+   "w": [
+    "120/80",
+    "140/90",
+    "200/120"
+   ],
+   "e": "In red and highlighted: 170/100.",
+   "s": "MA1-2a, slide 16",
+   "f": true
+  },
+  {
+   "topic": 32,
+   "q": "If either BP number reaches the clinic cutoff, you must:",
+   "a": "Have the CA check, and not do the therapy unless the CA approves",
+   "w": [
+    "Do a shorter massage",
+    "Take it again yourself and proceed",
+    "Send the client home without telling anyone"
+   ],
+   "e": "DO NOT DO THE THERAPY UNLESS APPROVED BY THE CA.",
+   "s": "MA1-2a, slide 16",
+   "f": true
+  },
+  {
+   "topic": 32,
+   "q": "A client's BP is 150/100. In the student clinic you should:",
+   "a": "Get the CA to check before any massage",
+   "w": [
+    "Proceed, since systolic is under 170",
+    "Proceed with light pressure",
+    "Ignore the diastolic number"
+   ],
+   "e": "Either number at the cutoff triggers a CA check.",
+   "s": "MA1-2a, slide 16",
+   "f": true
+  },
+  {
+   "topic": 32,
+   "q": "When taking BP, the stethoscope is placed over the artery in the:",
+   "a": "Antecubital area (inside of the elbow)",
+   "w": [
+    "Wrist",
+    "Neck",
+    "Back of the knee"
+   ],
+   "e": "Antecubital area.",
+   "s": "MA1-2a, slide 16",
+   "f": true
+  },
+  {
+   "topic": 32,
+   "q": "When taking BP, the cuff is inflated to:",
+   "a": "180-200",
+   "w": [
+    "100-120",
+    "120-140",
+    "250-300"
+   ],
+   "e": "180-200; you should not hear or feel a pulse.",
+   "s": "MA1-2a, slide 16",
+   "f": true
+  },
+  {
+   "topic": 32,
+   "q": "With a manual cuff, BP should be recorded as:",
+   "a": "An even number",
+   "w": [
+    "An odd number",
+    "A decimal",
+    "A single number"
+   ],
+   "e": "Even number with a manual cuff.",
+   "s": "MA1-2a, slide 16",
+   "f": true
+  },
+  {
+   "topic": 32,
+   "q": "When placing the BP cuff, the bladder goes:",
+   "a": "Over the artery",
+   "w": [
+    "Over the elbow bone",
+    "Over the wrist",
+    "Anywhere on the arm"
+   ],
+   "e": "Bladder over the artery.",
+   "s": "MA1-2a, slide 16",
+   "f": true
+  },
+  {
+   "topic": 33,
+   "q": "Proper fingernail hygiene for a massage therapist is:",
+   "a": "Short, clean nails scrubbed with a nail brush; no polish or artificial nails",
+   "w": [
+    "Long nails for deeper work",
+    "Polished nails for a professional look",
+    "Nails cleaned once a week"
+   ],
+   "e": "Study guide review answer.",
+   "s": "Study guide p.2 · MA1-1, slide 38",
+   "f": false
+  },
+  {
+   "topic": 33,
+   "q": "Soiled linens should be carried:",
+   "a": "Away from your body",
+   "w": [
+    "Against your chest",
+    "Over your shoulder",
+    "Under your arm"
+   ],
+   "e": "UP handout: carry soiled linens away from your body; use a plastic-lined linen basket.",
+   "s": "UP handout",
+   "f": false
+  },
+  {
+   "topic": 33,
+   "q": "To prevent cross-contamination of a lubricant, you should:",
+   "a": "Keep it in a closed container (pump/squeeze) and never dip a used hand in",
+   "w": [
+    "Use an open bowl of oil",
+    "Share one jar among all clients",
+    "Dip fingers in the jar between strokes"
+   ],
+   "e": "Closed containers for lubricants.",
+   "s": "MA1-1, slide 34",
+   "f": false
+  },
+  {
+   "topic": 33,
+   "q": "A lubricant that has been contaminated should be:",
+   "a": "Thrown out",
+   "w": [
+    "Strained and reused",
+    "Heated to sterilize it",
+    "Saved for the next client"
+   ],
+   "e": "Study guide review answer: throw it out.",
+   "s": "Study guide p.2",
+   "f": false
+  },
+  {
+   "topic": 33,
+   "q": "Linens used by a client with a parasitic infestation should be:",
+   "a": "Kept separate, washed in HOT water with bleach, and HOT air dried",
+   "w": [
+    "Shaken out and reused",
+    "Washed in cold water",
+    "Air dried outside"
+   ],
+   "e": "Treat parasites as 'HOT'.",
+   "s": "MA1-1, slide 30",
+   "f": true
+  },
+  {
+   "topic": 33,
+   "q": "How often should linens be changed?",
+   "a": "Clean linens for EACH client",
+   "w": [
+    "Once a day",
+    "Once a week",
+    "Only when visibly soiled"
+   ],
+   "e": "Use clean linens for each therapy.",
+   "s": "MA1-1, slide 34",
+   "f": false
+  },
+  {
+   "topic": 34,
+   "q": "Which glove breaks down when used with oil-based lubricants?",
+   "a": "Latex",
+   "w": [
+    "Nitrile",
+    "Vinyl",
+    "None of them"
+   ],
+   "e": "Latex breaks down with oil; many people are allergic.",
+   "s": "MA1-1, slide 37",
+   "f": false
+  },
+  {
+   "topic": 34,
+   "q": "Which glove is about 3x more puncture resistant than latex?",
+   "a": "Nitrile",
+   "w": [
+    "Vinyl",
+    "Cotton",
+    "Latex"
+   ],
+   "e": "Nitrile: allergy-safe, high tactile sensitivity, durable, low friction.",
+   "s": "MA1-1, slide 37",
+   "f": false
+  },
+  {
+   "topic": 34,
+   "q": "Vinyl gloves are thicker, which:",
+   "a": "Reduces tactile sensitivity",
+   "w": [
+    "Increases tactile sensitivity",
+    "Makes them break down with oil",
+    "Causes latex allergy"
+   ],
+   "e": "Thicker = less feel.",
+   "s": "MA1-1, slide 37",
+   "f": false
+  },
+  {
+   "topic": 34,
+   "q": "A client has a latex allergy. Which gloves are appropriate?",
+   "a": "Nitrile or vinyl",
+   "w": [
+    "Latex only",
+    "No gloves are allowed",
+    "Latex with oil"
+   ],
+   "e": "Both vinyl and nitrile are allergy-safe.",
+   "s": "MA1-1, slide 37",
+   "f": false
+  },
+  {
+   "topic": 34,
+   "q": "Which glove offers high tactile sensitivity and resists oils and chemicals?",
+   "a": "Nitrile",
+   "w": [
+    "Vinyl",
+    "Latex",
+    "Cotton"
+   ],
+   "e": "Nitrile.",
+   "s": "MA1-1, slide 37",
+   "f": false
+  },
+  {
+   "topic": 35,
+   "q": "The best prevention against viruses is:",
+   "a": "Good handwashing and avoidance",
+   "w": [
+    "Antibiotics",
+    "Massage with extra pressure",
+    "Wearing perfume"
+   ],
+   "e": "In red and bold on the viruses slide.",
+   "s": "MA1-1, slide 29",
+   "f": true
+  },
+  {
+   "topic": 35,
+   "q": "Any parasitic infestation should be treated as:",
+   "a": "\"HOT\": separate sheets, hot water with bleach, hot air dry",
+   "w": [
+    "Not contagious",
+    "A virus",
+    "Cold: wash in cold water"
+   ],
+   "e": "Bold callout on the parasites slide.",
+   "s": "MA1-1, slide 30",
+   "f": true
+  },
+  {
+   "topic": 35,
+   "q": "Herpes simplex is highly contagious during which stage?",
+   "a": "The acute (blistering) stage",
+   "w": [
+    "After it heals",
+    "Only in winter",
+    "Never"
+   ],
+   "e": "At least locally contraindicated.",
+   "s": "MA1-1, slide 29",
+   "f": false
+  },
+  {
+   "topic": 35,
+   "q": "Scabies is caused by:",
+   "a": "Microscopic mites that burrow under the skin",
+   "w": [
+    "A fungus",
+    "A virus",
+    "Bacteria"
+   ],
+   "e": "Mites; itchy especially at night, in warm creases.",
+   "s": "MA1-1, slide 30",
+   "f": false
+  },
+  {
+   "topic": 35,
+   "q": "Staph (boils), tuberculosis, strep throat and tetanus are caused by:",
+   "a": "Bacteria",
+   "w": [
+    "Viruses",
+    "Fungi",
+    "Protozoa"
+   ],
+   "e": "Bacterial diseases.",
+   "s": "MA1-1, slide 26",
+   "f": false
+  },
+  {
+   "topic": 35,
+   "q": "Protozoa can only survive:",
+   "a": "In a living subject (host)",
+   "w": [
+    "On dry surfaces",
+    "In cold water only",
+    "On massage tables"
+   ],
+   "e": "Single-celled; cause trichomoniasis, malaria, dysentery.",
+   "s": "MA1-1, slide 28",
+   "f": false
+  },
+  {
+   "topic": 35,
+   "q": "Nits are:",
+   "a": "White lice eggs that do not fall out easily",
+   "w": [
+    "Scabies mites",
+    "Fungal spores",
+    "A type of bacteria"
+   ],
+   "e": "Head lice eggs.",
+   "s": "MA1-1, slide 30",
+   "f": false
+  },
+  {
+   "topic": 35,
+   "q": "Viruses are hard to treat because they:",
+   "a": "Mutate easily",
+   "w": [
+    "Are too large",
+    "Only live in water",
+    "Are beneficial"
+   ],
+   "e": "Easily mutate; difficult to treat.",
+   "s": "MA1-1, slide 29",
+   "f": false
+  },
+  {
+   "topic": 36,
+   "q": "Which is a safety guideline from the lecture?",
+   "a": "Wipe lubricant from the client's feet",
+   "w": [
+    "Leave oil on the feet for moisture",
+    "Skip CPR certification",
+    "Massage after one drink"
+   ],
+   "e": "Starred safety guidelines: CPR & first aid, first aid kit, wipe feet, know contraindications, never under the influence.",
+   "s": "MA1-1, slide 41",
+   "f": true
+  },
+  {
+   "topic": 36,
+   "q": "Massage therapists should maintain current certification in:",
+   "a": "CPR and First Aid",
+   "w": [
+    "Phlebotomy",
+    "Radiology",
+    "Pharmacy"
+   ],
+   "e": "Starred on the safety slide.",
+   "s": "MA1-1, slide 41",
+   "f": true
+  },
+  {
+   "topic": 36,
+   "q": "Therapists must be able to identify:",
+   "a": "Endangerment sites and contraindications",
+   "w": [
+    "Clients' insurance providers",
+    "Every muscle's Latin name",
+    "Blood types"
+   ],
+   "e": "Starred on the safety slide.",
+   "s": "MA1-1, slide 41",
+   "f": true
+  },
+  {
+   "topic": 36,
+   "q": "Which is a sanitation guideline?",
+   "a": "Use closed containers for lubricants",
+   "w": [
+    "Reuse linens between clients",
+    "Massage while ill if wearing gloves",
+    "Clean the table once a week"
+   ],
+   "e": "Closed containers, clean linens each client, clean table each use.",
+   "s": "MA1-1, slide 34",
+   "f": false
+  },
+  {
+   "topic": 36,
+   "q": "If you are ill, the sanitation guidelines say:",
+   "a": "Do NOT massage",
+   "w": [
+    "Massage with gloves",
+    "Massage only regular clients",
+    "Massage for half the time"
+   ],
+   "e": "Don't massage when ill; avoid massaging ill clients.",
+   "s": "MA1-1, slide 34",
+   "f": false
+  },
+  {
+   "topic": 37,
+   "q": "Who wrote the first book of sports medicine?",
+   "a": "Mercuriale",
+   "w": [
+    "Borelli",
+    "Ambroise Paré",
+    "Galen"
+   ],
+   "e": "Highlighted on the Renaissance slide.",
+   "s": "MA1-1, slide 17",
+   "f": true
+  },
+  {
+   "topic": 37,
+   "q": "Galen was the personal physician to:",
+   "a": "Marcus Aurelius",
+   "w": [
+    "Julius Caesar",
+    "The Yellow Emperor",
+    "King Gustav"
+   ],
+   "e": "Galen (130-200 AD); his text was used for over 1,000 years.",
+   "s": "MA1-1, slide 15",
+   "f": false
+  },
+  {
+   "topic": 37,
+   "q": "Aulus Celsus, author of De Medicina, is known as the:",
+   "a": "First important medical historian",
+   "w": [
+    "Father of Western medicine",
+    "God of medicine",
+    "Father of physical therapy"
+   ],
+   "e": "Bridged the gap between Hippocrates and later times.",
+   "s": "MA1-1, slide 14",
+   "f": false
+  },
+  {
+   "topic": 37,
+   "q": "Ambroise Paré discussed the therapeutic effects of massage especially in:",
+   "a": "Orthopedic surgery cases",
+   "w": [
+    "Childbirth",
+    "Sports injuries",
+    "Spa treatments"
+   ],
+   "e": "Also classified massage movements.",
+   "s": "MA1-1, slide 17",
+   "f": false
+  },
+  {
+   "topic": 37,
+   "q": "Cherokees and Navajos used massage for:",
+   "a": "Labor pains and colic",
+   "w": [
+    "Broken bones",
+    "Infections",
+    "Headaches only"
+   ],
+   "e": "Americas slide.",
+   "s": "MA1-1, slide 16",
+   "f": false
+  },
+  {
+   "topic": 37,
+   "q": "Borelli (Renaissance) is associated with:",
+   "a": "Anatomical dissections and muscular contraction",
+   "w": [
+    "The first sports medicine book",
+    "Swedish massage",
+    "Blood circulation"
+   ],
+   "e": "Borelli 1608-1679.",
+   "s": "MA1-1, slide 17",
+   "f": false
+  },
+  {
+   "topic": 38,
+   "q": "In OH PAIN, the 'N' stands for:",
+   "a": "Neutralizers: what makes it less",
+   "w": [
+    "Numbness",
+    "Nerves involved",
+    "Next appointment"
+   ],
+   "e": "Onset, How, Amount, Place, Interaction, Neutralizers.",
+   "s": "MA1-2a, slide 12",
+   "f": false
+  },
+  {
+   "topic": 38,
+   "q": "In OH PAIN, 'I' (Interaction) asks:",
+   "a": "What makes it worse",
+   "w": [
+    "What makes it better",
+    "Where it is",
+    "How long you've had it"
+   ],
+   "e": "Interaction = worse; Neutralizers = better.",
+   "s": "MA1-2a, slide 12",
+   "f": false
+  },
+  {
+   "topic": 38,
+   "q": "Cryotherapy (cold) is used for:",
+   "a": "Acute conditions and inflammation",
+   "w": [
+    "Chronic conditions and hypertonicity",
+    "Relaxation only",
+    "Stretching after surgery"
+   ],
+   "e": "Cold = acute; heat = chronic.",
+   "s": "MA1-2a, slide 20",
+   "f": false
+  },
+  {
+   "topic": 38,
+   "q": "Thermotherapy (moist heat) is used for:",
+   "a": "Chronic conditions and hypertonicity",
+   "w": [
+    "Acute inflammation",
+    "Fresh sprains",
+    "Swelling right after injury"
+   ],
+   "e": "Heat = chronic, hypertonicity.",
+   "s": "MA1-2a, slide 20",
+   "f": false
+  },
+  {
+   "topic": 38,
+   "q": "Stretching is defined as:",
+   "a": "Passively positioning muscle attachments as far apart as possible to elongate the muscle",
+   "w": [
+    "Contracting a muscle against resistance",
+    "Rapid tapping of the muscle",
+    "Applying ice to a muscle"
+   ],
+   "e": "Highlighted definition; increases ROM.",
+   "s": "MA1-2a, slide 22",
+   "f": true
+  },
+  {
+   "topic": 38,
+   "q": "Stretching is contraindicated:",
+   "a": "After surgery or a fracture",
+   "w": [
+    "After a relaxing massage",
+    "For chronic tension",
+    "To increase ROM"
+   ],
+   "e": "Highlighted contraindications: disrupts healing, after surgery/fracture, joint inflammation, herniated disc, bone or muscle injury.",
+   "s": "MA1-2a, slide 22",
+   "f": true
+  },
+  {
+   "topic": 38,
+   "q": "Which is listed as a relaxation technique to recommend?",
+   "a": "Deep breathing",
+   "w": [
+    "Heavy lifting",
+    "Caffeine",
+    "Skipping sleep"
+   ],
+   "e": "Highlighted list: deep breathing, meditation, yoga, tai chi, aromatherapy, music/art therapy, biofeedback, hydrotherapy.",
+   "s": "MA1-2a, slide 21",
+   "f": true
+  },
+  {
+   "topic": 38,
+   "q": "Which item is part of the intake form?",
+   "a": "Major complaint",
+   "w": [
+    "SUDS after the massage",
+    "Strokes used",
+    "The CA's signature"
+   ],
+   "e": "Contact info, health/medical history, major complaint, daily activities.",
+   "s": "MA1-2a, slide 8",
+   "f": false
+  },
+  {
+   "topic": 38,
+   "q": "When applying cold packs or ice, you should:",
+   "a": "Place a barrier between the skin and the cold",
+   "w": [
+    "Apply ice directly for 1 hour",
+    "Use dry heat instead",
+    "Rub ice firmly into the skin"
+   ],
+   "e": "Barrier between skin and cold.",
+   "s": "MA1-2a, slide 20",
+   "f": false
+  }
+ ]
+}
