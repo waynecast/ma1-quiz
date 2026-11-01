@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>MA1 Quiz Practice</title>
-<meta name="description" content="Practice quiz for NYIM MA1 Quiz #1, weighted toward the facts flagged on the slides.">
+<meta name="description" content="Practice quizzes for NYIM MA1 (Intro to Massage), weighted toward the facts flagged on the slides, with a cumulative mode.">
 <meta name="theme-color" content="#2b5c8a">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
@@ -96,15 +96,28 @@ footer{margin-top:28px;font-size:.8rem;color:var(--muted);text-align:center}
 
 <script>
 "use strict";
-let BANK = null;
-const STORE_KEY = "ma1q1-state-v1";
-const QUIZ_LEN = 25;
-let state = loadState();
+const STORE_KEY = "ma1q-state-v2";
+const OLD_KEY = "ma1q1-state-v1";
+const QUIZ_LEN = 25, CUM_LEN = 40;
+let DATA = null;          // {title, quizzes:[{id,title,lectures,blurb,sgNote,studyGuideTopics,topics,questions}]}
+let QZ = {};              // id -> quiz (plus SG set and topic ids)
+let state = loadState();  // {missed:{id:q}, best:{key:n}, runs:{key:n}}
 let run = null;
+let ctx = null;           // quiz id, "cum", or null
 
 function loadState(){
-  try{ const s = JSON.parse(localStorage.getItem(STORE_KEY)); if(s && typeof s==="object") return Object.assign({missed:{},best:null,runs:0}, s); }catch(e){}
-  return {missed:{},best:null,runs:0};
+  const blank = {missed:{}, best:{}, runs:{}};
+  try{
+    const s = JSON.parse(localStorage.getItem(STORE_KEY));
+    if(s && typeof s==="object") return Object.assign(blank, s);
+    const o = JSON.parse(localStorage.getItem(OLD_KEY));   // carry over Quiz #1 progress
+    if(o && typeof o==="object"){
+      for(const [k,q] of Object.entries(o.missed||{})){ const id="q1:"+k; blank.missed[id]=Object.assign({},q,{quiz:"q1",id}); }
+      if(o.best!==null && o.best!==undefined) blank.best["q1:practice"]=o.best;
+      if(o.runs) blank.runs["q1:practice"]=o.runs;
+    }
+  }catch(e){}
+  return blank;
 }
 function saveState(){ try{ localStorage.setItem(STORE_KEY, JSON.stringify(state)); }catch(e){} }
 
@@ -112,6 +125,9 @@ const rand = n => Math.floor(Math.random()*n);
 const pick = arr => arr[rand(arr.length)];
 function shuffle(a){ a=a.slice(); for(let i=a.length-1;i>0;i--){const j=rand(i+1);[a[i],a[j]]=[a[j],a[i]];} return a; }
 const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const $ = id => document.getElementById(id);
+const order = () => DATA.quizzes.map(z=>z.id);
+const short = qz => QZ[qz].title.replace("MA1 ","");
 
 /* ---------- Weighting ----------
    Study-guide topic with flagged slide content: 10
@@ -119,18 +135,17 @@ const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">"
    Extra slide topic with flagged content:      3
    Extra slide topic:                           1
    Inside a topic, a flagged question is drawn 75% of the time when the topic has one. */
-let SG = new Set(), TOPIC_IDS = [];
-const byTopic = t => BANK.questions.filter(q=>q.topic===t);
-const topicFlagged = t => byTopic(t).some(q=>q.f);
-function topicWeight(t){ const f=topicFlagged(t); return SG.has(t) ? (f?10:3) : (f?3:1); }
+const byTopic = (qz,t) => QZ[qz].questions.filter(q=>q.topic===t);
+const topicFlagged = (qz,t) => byTopic(qz,t).some(q=>q.f);
+function topicWeight(qz,t){ const f=topicFlagged(qz,t); return QZ[qz].SG.has(t) ? (f?10:3) : (f?3:1); }
 
 function weightedSample(items, weightOf, k){
   // Efraimidis-Spirakis: key = u^(1/w), keep the k largest
   return items.map(it=>({it, key: Math.pow(Math.random(), 1/weightOf(it))}))
               .sort((a,b)=>b.key-a.key).slice(0,k).map(x=>x.it);
 }
-function drawOne(t){
-  const pool = byTopic(t), flagged = pool.filter(q=>q.f), plain = pool.filter(q=>!q.f);
+function drawOne(qz,t){
+  const pool = byTopic(qz,t), flagged = pool.filter(q=>q.f), plain = pool.filter(q=>!q.f);
   if(flagged.length && (!plain.length || Math.random()<0.75)) return pick(flagged);
   return pick(plain);
 }
@@ -138,92 +153,147 @@ function prepare(q){
   const opts = shuffle([q.a, ...q.w]);
   return Object.assign({}, q, {opts, correct: opts.indexOf(q.a)});
 }
-function buildPractice(){
-  const topics = weightedSample(TOPIC_IDS, topicWeight, QUIZ_LEN).sort((a,b)=>a-b);
-  return topics.map(t=>prepare(drawOne(t)));
+const slotSort = (a,b)=> order().indexOf(a[0])-order().indexOf(b[0]) || a[1]-b[1];
+function buildPractice(qz){
+  const topics = weightedSample(QZ[qz].ids, t=>topicWeight(qz,t), QUIZ_LEN).sort((a,b)=>a-b);
+  return topics.map(t=>prepare(drawOne(qz,t)));
 }
-function buildDrill(t){ return shuffle(byTopic(t)).map(prepare); }
-function buildFlagged(){ return shuffle(BANK.questions.filter(q=>q.f)).map(prepare); }
-function buildMissed(){ return Object.values(state.missed).sort((a,b)=>a.topic-b.topic).map(prepare); }
+function buildDrill(qz,t){ return shuffle(byTopic(qz,t)).map(prepare); }
+function buildFlagged(scope){
+  const zs = scope==="cum" ? order() : [scope];
+  return shuffle(zs.flatMap(z=>QZ[z].questions.filter(q=>q.f))).map(prepare);
+}
+function buildCumMix(n){
+  const slots = DATA.quizzes.flatMap(z=>z.ids.map(t=>[z.id,t]));
+  return weightedSample(slots, ([z,t])=>topicWeight(z,t), n).sort(slotSort).map(([z,t])=>prepare(drawOne(z,t)));
+}
+function buildCumFull(){
+  return DATA.quizzes.flatMap(z=>z.studyGuideTopics.map(t=>prepare(drawOne(z.id,t))));
+}
+const missedFor = scope => Object.values(state.missed).filter(q=> scope==="cum" || q.quiz===scope);
+function buildMissed(scope){
+  return missedFor(scope).sort((a,b)=> order().indexOf(a.quiz)-order().indexOf(b.quiz) || a.topic-b.topic).map(prepare);
+}
 
 /* ---------- Screens ---------- */
-const app = document.getElementById("app");
+const app = $("app");
 function render(html){ app.innerHTML = html; window.scrollTo(0,0); }
-let flaggedCount = 0;
+function setHash(h){ if(location.hash!=="#"+h) history.replaceState(null,"","#"+h); }
+const stat = (key,of) => (state.best[key]!==undefined ? `Best: <b>${state.best[key]}/${of}</b> · ` : "") + `Taken: <b>${state.runs[key]||0}</b>`;
 
-function home(){
-  const missedCount = Object.keys(state.missed).length;
+function chooser(){
+  ctx=null;
+  history.replaceState(null,"",location.pathname);
+  const totalQ = DATA.quizzes.reduce((n,z)=>n+z.questions.length,0);
+  const cards = DATA.quizzes.slice().reverse().map((z,i)=>`
+    <button class="btn ${i===0?"primary":""}" data-q="${z.id}">${esc(z.title)}<span class="sub">${esc(z.lectures)} · ${esc(z.blurb)}</span></button>`).join("");
   render(`
-    <h1>MA1 Quiz #1 Practice</h1>
-    <p class="muted">Intro to Massage, classes 1 and 2: history, Universal Precautions, communication, SOAP, SUDS and blood pressure. A new random set every time, in study-guide order.</p>
-    <button class="btn primary" id="go">Start practice quiz<span class="sub">25 questions · weighted toward flagged slides</span></button>
-    <button class="btn" id="flag"><span class="st">★</span> Flagged facts only<span class="sub">All ${flaggedCount} questions on starred, red or highlighted slide points</span></button>
-    <button class="btn" id="drill">Drill one topic<span class="sub">Every question for a single study-guide item</span></button>
-    <button class="btn" id="missed" ${missedCount?"":"disabled"}>Review missed questions<span class="sub">${missedCount?missedCount+" saved to retry":"Nothing missed yet"}</span></button>
+    <h1>MA1 Quiz Practice</h1>
+    <p class="muted">Intro to Massage. Pick a quiz, or practice everything so far. Quizzes are cumulative, so mix in the older material too.</p>
+    ${cards}
+    <button class="btn" data-q="cum">Cumulative practice<span class="sub">${DATA.quizzes.map(z=>esc(short(z.id))).join(" + ")} · ${totalQ} questions</span></button>
     <div class="card small">
-      <div class="legend"><span class="st">★</span><span class="muted">Flagged = the point is starred, in red, highlighted, or set apart on the lecture slide. Those topics come up about twice as often as the rest of the study guide.</span></div>
+      <div class="legend"><span class="st">★</span><span class="muted">Flagged = the point is starred, in red, highlighted, underlined or set apart on the lecture slide (or the handout says "Quiz material"). Those topics come up about twice as often.</span></div>
     </div>
-    <div class="card small muted">
-      ${state.best!==null?`Best score: <b>${state.best}/${QUIZ_LEN}</b> · `:""}Quizzes taken: <b>${state.runs}</b><br>
-      Question bank: ${BANK.questions.length} questions across ${TOPIC_IDS.length} topics.
-    </div>
-    <footer>Unofficial study aid based on the MA1-1 and MA1-2a slides, the Universal Precautions handout and the Quiz 1 study guide. Progress is saved only on this device.<br>
+    <footer>Unofficial study aid based on the NYIM MA1 slides, handouts, study guides and the Salvo textbook. Progress is saved only on this device.<br>
       <button class="linkbtn small" id="reset">Reset my progress</button></footer>
   `);
-  document.getElementById("go").onclick = ()=>start("practice", buildPractice());
-  document.getElementById("flag").onclick = ()=>start("flagged", buildFlagged());
-  document.getElementById("drill").onclick = topicPicker;
-  document.getElementById("missed").onclick = ()=>start("missed", buildMissed());
-  document.getElementById("reset").onclick = ()=>{ if(confirmReset()){ state={missed:{},best:null,runs:0}; saveState(); home(); } };
+  app.querySelectorAll("[data-q]").forEach(b=> b.onclick = ()=> b.dataset.q==="cum" ? cumHome() : quizHome(b.dataset.q));
+  $("reset").onclick = ()=>{ if(confirmReset()){ state={missed:{},best:{},runs:{}}; saveState(); chooser(); } };
 }
 let resetArmed=false;
 function confirmReset(){
-  const b=document.getElementById("reset");
+  const b=$("reset");
   if(!resetArmed){ resetArmed=true; b.textContent="Tap again to confirm reset"; setTimeout(()=>{resetArmed=false; if(b.isConnected) b.textContent="Reset my progress";},3000); return false; }
   resetArmed=false; return true;
 }
 
-function topicButton(t){
-  return `<button class="btn" data-t="${t}"><span class="num">${t}.</span> ${esc(BANK.topics[t])}${topicFlagged(t)?' <span class="st" aria-label="flagged">★</span>':''}</button>`;
-}
-function topicPicker(){
-  const sg = TOPIC_IDS.filter(t=>SG.has(t)).map(topicButton).join("");
-  const extra = TOPIC_IDS.filter(t=>!SG.has(t)).map(topicButton).join("");
+function quizHome(qz){
+  ctx=qz; setHash(qz);
+  const z=QZ[qz], m=missedFor(qz).length, fl=z.questions.filter(q=>q.f).length;
   render(`
-    <div class="topbar"><button class="linkbtn" id="back">‹ Home</button></div>
-    <h1>Drill one topic</h1>
-    <p class="muted">1–32 follow the study guide in order; 33 is its review line. <span class="st">★</span> = has flagged slide content.</p>
-    <p class="section-label">Study guide</p>
-    <div class="topicgrid">${sg}</div>
-    <p class="section-label">Also on the slides</p>
-    <div class="topicgrid">${extra}</div>
+    <div class="topbar"><button class="linkbtn" id="back">‹ All quizzes</button></div>
+    <h1>${esc(z.title)} Practice</h1>
+    <p class="muted">${esc(z.lectures)}: ${esc(z.blurb)} A new random set every time, in study-guide order.</p>
+    <button class="btn primary" id="go">Start practice quiz<span class="sub">${QUIZ_LEN} questions · weighted toward flagged slides</span></button>
+    <button class="btn" id="flag"><span class="st">★</span> Flagged facts only<span class="sub">All ${fl} questions on starred, red or highlighted points</span></button>
+    <button class="btn" id="drill">Drill one topic<span class="sub">Every question for a single study-guide item</span></button>
+    <button class="btn" id="missed" ${m?"":"disabled"}>Review missed questions<span class="sub">${m?m+" saved to retry":"Nothing missed yet"}</span></button>
+    <div class="card small muted">${stat(qz+":practice",QUIZ_LEN)}<br>
+      Question bank: ${z.questions.length} questions across ${z.ids.length} topics.</div>
   `);
-  document.getElementById("back").onclick = home;
-  app.querySelectorAll("[data-t]").forEach(b=> b.onclick = ()=> start("drill", buildDrill(+b.dataset.t)));
+  $("back").onclick = chooser;
+  $("go").onclick = ()=>start({mode:"practice", scope:qz}, buildPractice(qz));
+  $("flag").onclick = ()=>start({mode:"flagged", scope:qz}, buildFlagged(qz));
+  $("drill").onclick = ()=>topicPicker(qz);
+  $("missed").onclick = ()=>start({mode:"missed", scope:qz}, buildMissed(qz));
 }
 
-function start(mode, list){
-  if(!list.length){ home(); return; }
-  run = {mode, list, i:0, score:0, answered:false, wrong:[]};
+function cumHome(){
+  ctx="cum"; setHash("cumulative");
+  const m=missedFor("cum").length, sgTotal=DATA.quizzes.reduce((n,z)=>n+z.studyGuideTopics.length,0);
+  const fl=DATA.quizzes.reduce((n,z)=>n+z.questions.filter(q=>q.f).length,0);
+  render(`
+    <div class="topbar"><button class="linkbtn" id="back">‹ All quizzes</button></div>
+    <h1>Cumulative practice</h1>
+    <p class="muted">Everything so far: ${DATA.quizzes.map(z=>esc(z.title)+" ("+esc(z.lectures)+")").join(", ")}. Quizzes are cumulative, and this covers the final too.</p>
+    <button class="btn primary" id="mix">Cumulative quiz<span class="sub">${CUM_LEN} questions from all quizzes · weighted toward flagged slides</span></button>
+    <button class="btn" id="full">Full cumulative<span class="sub">${sgTotal} questions · one per study-guide item from every quiz</span></button>
+    <button class="btn" id="flag"><span class="st">★</span> Flagged facts, all quizzes<span class="sub">All ${fl} flagged questions, shuffled</span></button>
+    <button class="btn" id="missed" ${m?"":"disabled"}>Review all missed<span class="sub">${m?m+" saved across all quizzes":"Nothing missed yet"}</span></button>
+    <div class="card small muted">Cumulative quiz: ${stat("cum:mix",CUM_LEN)}<br>Full cumulative: ${stat("cum:full",sgTotal)}</div>
+  `);
+  $("back").onclick = chooser;
+  $("mix").onclick = ()=>start({mode:"mix", scope:"cum"}, buildCumMix(CUM_LEN));
+  $("full").onclick = ()=>start({mode:"full", scope:"cum"}, buildCumFull());
+  $("flag").onclick = ()=>start({mode:"flagged", scope:"cum"}, buildFlagged("cum"));
+  $("missed").onclick = ()=>start({mode:"missed", scope:"cum"}, buildMissed("cum"));
+}
+
+function topicButton(qz,t){
+  return `<button class="btn" data-t="${t}"><span class="num">${t}.</span> ${esc(QZ[qz].topics[t])}${topicFlagged(qz,t)?' <span class="st" aria-label="flagged">★</span>':''}</button>`;
+}
+function topicPicker(qz){
+  const z=QZ[qz];
+  const sg = z.ids.filter(t=>z.SG.has(t)).map(t=>topicButton(qz,t)).join("");
+  const extra = z.ids.filter(t=>!z.SG.has(t)).map(t=>topicButton(qz,t)).join("");
+  render(`
+    <div class="topbar"><button class="linkbtn" id="back">‹ ${esc(z.title)}</button></div>
+    <h1>Drill one topic</h1>
+    <p class="muted">${esc(z.sgNote)} <span class="st">★</span> = has flagged slide content.</p>
+    <p class="section-label">Study guide</p>
+    <div class="topicgrid">${sg}</div>
+    ${extra?`<p class="section-label">Also on the slides and handouts</p><div class="topicgrid">${extra}</div>`:""}
+  `);
+  $("back").onclick = ()=>quizHome(qz);
+  app.querySelectorAll("[data-t]").forEach(b=> b.onclick = ()=> start({mode:"drill", scope:qz, topic:+b.dataset.t}, buildDrill(qz,+b.dataset.t)));
+}
+
+function goBack(){ if(ctx==="cum") cumHome(); else if(ctx) quizHome(ctx); else chooser(); }
+
+function start(opts, list){
+  if(!list.length){ goBack(); return; }
+  run = Object.assign({list, i:0, score:0, answered:false, wrong:[]}, opts);
   question();
 }
 
 function question(){
-  const q = run.list[run.i];
+  const q = run.list[run.i], z = QZ[q.quiz];
   const pct = Math.round(run.i/run.list.length*100);
   const keys = "ABCD";
+  const qtag = run.scope==="cum" || run.mode==="missed" ? `${esc(short(q.quiz))} · ` : "";
   render(`
     <div class="topbar">
       <button class="linkbtn" id="quit">‹ Quit</button>
       <span class="small muted">Question ${run.i+1} of ${run.list.length} · Score ${run.score}</span>
     </div>
     <div class="progress"><div style="width:${pct}%"></div></div>
-    <div class="tags"><span class="tag">${SG.has(q.topic)?"Study guide "+q.topic:"Slides"} · ${esc(BANK.topics[q.topic])}</span>${q.f?'<span class="tag star">★ Flagged on slide</span>':''}</div>
+    <div class="tags"><span class="tag">${qtag}${z.SG.has(q.topic)?"Study guide "+q.topic:"Slides"} · ${esc(z.topics[q.topic])}</span>${q.f?'<span class="tag star">★ Flagged</span>':''}</div>
     <p class="prompt">${esc(q.q)}</p>
     <div id="opts">${q.opts.map((o,i)=>`<button class="btn opt" data-i="${i}"><span class="key">${keys[i]}</span>${esc(o)}</button>`).join("")}</div>
     <div id="fb"></div>
   `);
-  document.getElementById("quit").onclick = ()=>{ run=null; home(); };
+  $("quit").onclick = ()=>{ run=null; goBack(); };
   run.answered=false;
   app.querySelectorAll(".opt").forEach(b=> b.onclick = ()=> answer(+b.dataset.i));
 }
@@ -233,63 +303,79 @@ function answer(i){
   const q = run.list[run.i];
   const ok = i===q.correct;
   app.querySelectorAll(".opt").forEach((b,j)=>{ b.disabled=true; if(j===q.correct) b.classList.add("correct"); else if(j===i) b.classList.add("wrong"); });
-  const base = {topic:q.topic,q:q.q,a:q.a,w:q.w,e:q.e,s:q.s,f:q.f,id:q.id};
+  const saved = {quiz:q.quiz,topic:q.topic,q:q.q,a:q.a,w:q.w,e:q.e,s:q.s,f:q.f,id:q.id};
   if(ok){ run.score++; delete state.missed[q.id]; }
-  else { run.wrong.push(q); state.missed[q.id]=base; }
+  else { run.wrong.push(q); state.missed[q.id]=saved; }
   saveState();
   const last = run.i===run.list.length-1;
-  document.getElementById("fb").innerHTML = `
+  $("fb").innerHTML = `
     <div class="feedback ${ok?"ok":"bad"}">
       <b>${ok?"Correct!":"Not quite. Answer: "+esc(q.a)}</b>
       ${esc(q.e)}
       <div class="src">Source: ${esc(q.s)}</div>
     </div>
     <button class="btn primary" id="next">${last?"See results":"Next question"}</button>`;
-  const next = document.getElementById("next");
-  next.onclick = ()=>{ if(last) results(); else { run.i++; question(); } };
-  next.scrollIntoView({behavior:"smooth",block:"nearest"});
+  $("next").onclick = ()=>{ if(last) results(); else { run.i++; question(); } };
+  $("next").scrollIntoView({behavior:"smooth",block:"nearest"});
+}
+
+function rebuild(r){
+  if(r.mode==="practice") return buildPractice(r.scope);
+  if(r.mode==="flagged") return buildFlagged(r.scope);
+  if(r.mode==="drill") return buildDrill(r.scope, r.topic);
+  if(r.mode==="mix") return buildCumMix(CUM_LEN);
+  if(r.mode==="full") return buildCumFull();
+  return buildMissed(r.scope);
 }
 
 function results(){
   const total = run.list.length, s = run.score;
-  if(run.mode==="practice"){ state.runs++; if(state.best===null || s>state.best) state.best=s; saveState(); }
+  const key = run.scope==="cum" ? ((run.mode==="mix"||run.mode==="full") ? "cum:"+run.mode : null) : (run.mode==="practice" ? run.scope+":practice" : null);
+  if(key){ state.runs[key]=(state.runs[key]||0)+1; if(state.best[key]===undefined || s>state.best[key]) state.best[key]=s; saveState(); }
   const pct = Math.round(s/total*100);
   const fl = run.list.filter(q=>q.f), flOk = fl.filter(q=>!run.wrong.includes(q)).length;
   const msg = pct>=90?"Excellent, you're ready.":pct>=75?"Solid. Review the misses below.":pct>=60?"Getting there. Drill the topics you missed.":"Keep going. Drill topic by topic.";
-  const missedList = run.wrong.map(q=>`<li><span class="num">${q.topic}.</span> ${q.f?'<span class="st">★</span> ':''}${esc(q.q)}<br><span class="small">Answer: <b>${esc(q.a)}</b> · <span class="muted">${esc(q.s)}</span></span></li>`).join("");
+  let byQuiz = "";
+  if(run.scope==="cum" && run.mode!=="flagged"){
+    byQuiz = order().map(z=>{ const l=run.list.filter(q=>q.quiz===z); if(!l.length) return ""; const ok=l.filter(q=>!run.wrong.includes(q)).length; return `${esc(short(z))}: ${ok}/${l.length}`; }).filter(Boolean).join(" · ");
+  }
+  const missedList = run.wrong.map(q=>`<li><span class="num">${q.topic}.</span> ${q.f?'<span class="st">★</span> ':''}${esc(q.q)}<br><span class="small">Answer: <b>${esc(q.a)}</b> · <span class="muted">${run.scope==="cum"||run.mode==="missed"?esc(short(q.quiz))+", ":""}${esc(q.s)}</span></span></li>`).join("");
+  const again = {practice:"New random quiz", flagged:"Go again", drill:"Drill again", mix:"New cumulative quiz", full:"New full cumulative", missed:"Go again"}[run.mode];
   render(`
     <h1>Results</h1>
     <div class="card" style="text-align:center">
       <div class="score">${s}/${total}</div>
       <div class="muted">${pct}% · ${msg}</div>
+      ${byQuiz?`<div class="small muted" style="margin-top:8px">${byQuiz}</div>`:""}
       ${fl.length && run.mode!=="flagged"?`<div class="small muted" style="margin-top:8px"><span class="st">★</span> Flagged questions: ${flOk}/${fl.length}</div>`:""}
     </div>
-    <button class="btn primary" id="again">${run.mode==="practice"?"New random quiz":"Go again"}</button>
+    <button class="btn primary" id="again">${again}</button>
     ${run.wrong.length?`<button class="btn" id="retry">Retry the ${run.wrong.length} I missed</button>`:""}
-    <button class="btn ghost" id="home">Home</button>
+    <button class="btn ghost" id="home">Back</button>
     ${run.wrong.length?`<div class="card"><h2>Missed questions</h2><ul class="list">${missedList}</ul></div>`:""}
   `);
-  const mode = run.mode, wrong = run.wrong.slice(), topic = run.list[0] && run.list[0].topic;
-  document.getElementById("again").onclick = ()=>{
-    if(mode==="practice") start("practice", buildPractice());
-    else if(mode==="flagged") start("flagged", buildFlagged());
-    else if(mode==="drill") start("drill", buildDrill(topic));
-    else start("missed", buildMissed());
-  };
-  if(wrong.length) document.getElementById("retry").onclick = ()=> start("missed", shuffle(wrong).map(prepare));
-  document.getElementById("home").onclick = home;
+  const r = Object.assign({}, run), wrong = run.wrong.slice();
+  $("again").onclick = ()=> start({mode:r.mode, scope:r.scope, topic:r.topic}, rebuild(r));
+  if(wrong.length) $("retry").onclick = ()=> start({mode:"missed", scope:r.scope}, shuffle(wrong).map(prepare));
+  $("home").onclick = goBack;
 }
 
 /* ---------- Boot ---------- */
+function route(){
+  const h = location.hash.replace("#","");
+  if(h==="cumulative") cumHome(); else if(QZ[h]) quizHome(h); else chooser();
+}
 fetch("questions.json", {cache:"no-cache"})
   .then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); })
   .then(data=>{
-    data.questions.forEach((q,i)=>{ q.id = "q"+i+":"+q.q.slice(0,40); });
-    BANK = data;
-    SG = new Set(BANK.studyGuideTopics);
-    TOPIC_IDS = Object.keys(BANK.topics).map(Number);
-    flaggedCount = BANK.questions.filter(q=>q.f).length;
-    home();
+    data.quizzes.forEach(z=>{
+      z.questions.forEach((q,i)=>{ q.quiz = z.id; q.id = z.id+":q"+i+":"+q.q.slice(0,40); });
+      z.SG = new Set(z.studyGuideTopics);
+      z.ids = Object.keys(z.topics).map(Number).sort((a,b)=>a-b);
+      QZ[z.id] = z;
+    });
+    DATA = data; route();
+    window.addEventListener("hashchange", ()=>{ run=null; route(); });
   })
   .catch(()=>{ app.innerHTML = '<div class="card">Could not load the questions. Check your connection and refresh.</div>'; });
 

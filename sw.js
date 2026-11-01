@@ -1,5 +1,5 @@
 // Offline support: network-first for the app files so updates show up, cache fallback when offline.
-const CACHE = "ma1q1-v1";
+const CACHE = "ma1q-v2";
 const FILES = ["./", "index.html", "questions.json", "manifest.webmanifest", "icon.svg", "icon-180.png", "icon-512.png"];
 
 self.addEventListener("install", e => {

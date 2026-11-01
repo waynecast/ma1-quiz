@@ -1,7 +1,6 @@
-# Builds questions.json for the MA1 Quiz #1 practice app.
+# MA1 Quiz #1 question bank (MA1-1 Intro, History & Universal Precautions; MA1-2a Communication, SOAP, SUDS, BP). Built by build.py.
 # Per question: topic, q (prompt), a (correct answer), w (3 wrong answers), e (explanation), s (source), f (flagged on slides)
 # f=True when the fact is starred, red, highlighted, or set apart on the slide. Flagged facts are drawn more often.
-import json
 
 TOPICS = {
     1: "Define pathogen",
@@ -45,12 +44,10 @@ TOPICS = {
 }
 STUDY_GUIDE_TOPICS = list(range(1, 34))  # 1-32 = study guide questions in order, 33 = its review line
 
-Q = []
-def add(t, q, a, w, e, s, f=False):
-    assert len(w) == 3, q
-    assert a not in w, q
-    assert len(set(w)) == 3, q
-    Q.append({"topic": t, "q": q, "a": a, "w": w, "e": e, "s": s, "f": f})
+from banks.common import Bank
+B = Bank()
+add = B.add
+Q = B.Q
 
 # ---------- 1. Pathogen ----------
 add(1, "A pathogen is defined as:", "A biological agent capable of causing disease",
@@ -761,11 +758,7 @@ add(38, "When applying cold packs or ice, you should:", "Place a barrier between
     ["Apply ice directly for 1 hour", "Use dry heat instead", "Rub ice firmly into the skin"],
     "Barrier between skin and cold.", "MA1-2a, slide 20")
 
-from collections import Counter
-c = Counter(q["topic"] for q in Q)
-for t in TOPICS:
-    assert c[t] >= 3, (t, c[t])
-flagged_topics = sorted({q["topic"] for q in Q if q["f"]})
-out = {"title": "MA1 Quiz #1 Practice", "topics": TOPICS, "studyGuideTopics": STUDY_GUIDE_TOPICS, "questions": Q}
-json.dump(out, open("questions.json", "w"), ensure_ascii=False, indent=1)
-print(len(Q), "questions;", sum(q["f"] for q in Q), "flagged; flagged topics:", flagged_topics)
+QUIZ = {"id": "q1", "title": "MA1 Quiz #1", "lectures": "Classes 1–2",
+        "blurb": "History, Universal Precautions, communication, SOAP, SUDS and blood pressure.",
+        "sgNote": "1–32 follow the study guide in order; 33 is its review line.",
+        "studyGuideTopics": STUDY_GUIDE_TOPICS, "topics": TOPICS, "questions": Q}
