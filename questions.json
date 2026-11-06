@@ -5379,6 +5379,2355 @@
      "f": false
     }
    ]
+  },
+  {
+   "id": "q3",
+   "title": "MA1 Quiz #3",
+   "lectures": "Class 5–6 (week 3)",
+   "blurb": "Body mechanics, foot stances, table mechanics, tools of the trade, draping and the draping policy, stroke elements, Swedish guidelines and session timing, effleurage.",
+   "sgNote": "1–10 are the \"MA1-5\" study guide (Body Mechanics, Tools, Draping), 11–20 are the \"MA1-6\" study guide (Stroke Elements, Draping Review). Slides cited are decks MA1-4 and MA1-5.",
+   "studyGuideTopics": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "topics": {
+    "1": "Define body mechanics and why it matters",
+    "2": "Components of body mechanics",
+    "3": "The two foot stances",
+    "4": "Table mechanics",
+    "5": "Principles of body mechanics",
+    "6": "5 things you need to do your job",
+    "7": "Define draping",
+    "8": "What draping does",
+    "9": "What warmth provides",
+    "10": "Rules of draping",
+    "11": "What the stroke elements are",
+    "12": "#1 reason people leave the industry, and why",
+    "13": "What must always stay covered",
+    "14": "Intention",
+    "15": "Direction",
+    "16": "Excursion",
+    "17": "Continuity",
+    "18": "Sequence",
+    "19": "Where your pressure comes from",
+    "20": "Routine: all the elements together",
+    "21": "Touch, pressure and depth",
+    "22": "Speed and rhythm",
+    "23": "Duration and session timing",
+    "24": "General guidelines for Swedish massage",
+    "25": "NYIM draping policy",
+    "26": "Sheet draping, turning and assisting on/off the table",
+    "27": "Repetitive strain injuries: causes and prevention",
+    "28": "Effleurage"
+   },
+   "questions": [
+    {
+     "topic": 1,
+     "q": "Body mechanics is defined as:",
+     "a": "The proper use of postural techniques to deliver massage with the utmost efficiency and least trauma to the therapist",
+     "w": [
+      "The study of how a client walks",
+      "The arrangement of strokes in a routine",
+      "Adjusting the table for the client's comfort only"
+     ],
+     "e": "Definition on the first Body Mechanics slide.",
+     "s": "MA1-4, slide 2",
+     "f": false
+    },
+    {
+     "topic": 1,
+     "q": "Why are good body mechanics important?",
+     "a": "They let you work efficiently and reduce the risk of injury to the therapist",
+     "w": [
+      "They make the client fall asleep faster",
+      "They replace the need for draping",
+      "They let you skip the intake"
+     ],
+     "e": "Efficiency plus least trauma to the therapist; the notes add that they reduce repetitive strain injuries.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 1,
+     "q": "Good body mechanics reduce which type of injury?",
+     "a": "Repetitive strain injuries (RSIs)",
+     "w": [
+      "Contagious skin conditions",
+      "Sprains in the client",
+      "Allergic reactions to oil"
+     ],
+     "e": "Notes: 2. Reduces repetitive strain injuries (RSIs).",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 1,
+     "q": "Body mechanics is also called:",
+     "a": "Biomechanics",
+     "w": [
+      "Table mechanics",
+      "Kinesiology taping",
+      "Ergonomic draping"
+     ],
+     "e": "Notes heading: Body Mechanics (Biomechanics).",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 1,
+     "q": "Per the notes, Western culture's approach to body mechanics focuses on:",
+     "a": "Strength and stamina",
+     "w": [
+      "Being grounded and balanced",
+      "Breath only",
+      "Flexibility only"
+     ],
+     "e": "Western = strength and stamina; Eastern = balance and being grounded, which translates into strength and stamina.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 1,
+     "q": "Per the notes, Eastern culture's approach to body mechanics focuses on:",
+     "a": "Balance and being grounded",
+     "w": [
+      "Speed and force",
+      "Heavy resistance training",
+      "Table height"
+     ],
+     "e": "Eastern focus on balance and being grounded translates into strength and stamina.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 1,
+     "q": "Which TWO things does the notes handout say are needed for proper body mechanics?",
+     "a": "Proper foot placement and weight distribution",
+     "w": [
+      "Long nails and strong wrists",
+      "A heated table and music",
+      "Fast strokes and deep pressure"
+     ],
+     "e": "Notes point 5: proper foot placement and weight distribution needed.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 2,
+     "q": "Which is one of the factors involved in maintaining proper body mechanics?",
+     "a": "Leverage",
+     "w": [
+      "Lubricant choice",
+      "Client intake",
+      "Music volume"
+     ],
+     "e": "Factors: table mechanics, foot stance, leverage, body posture, strength, stamina, breathing, stability, groundedness/centering, balance & flexibility.",
+     "s": "MA1-4, slide 2",
+     "f": false
+    },
+    {
+     "topic": 2,
+     "q": "Which is NOT one of the listed components of body mechanics?",
+     "a": "Draping policy",
+     "w": [
+      "Foot stance",
+      "Breathing",
+      "Groundedness/centering"
+     ],
+     "e": "Draping is part of table mechanics, but 'draping policy' is not on the body mechanics factor list.",
+     "s": "MA1-4, slide 2",
+     "f": false
+    },
+    {
+     "topic": 2,
+     "q": "Table mechanics, foot stance, leverage and body posture are all:",
+     "a": "Factors involved in proper body mechanics",
+     "w": [
+      "Elements of a stroke",
+      "Rules of draping",
+      "Endangerment sites"
+     ],
+     "e": "The body mechanics slide lists these as factors.",
+     "s": "MA1-4, slide 2",
+     "f": false
+    },
+    {
+     "topic": 2,
+     "q": "Which list contains ONLY components of body mechanics?",
+     "a": "Strength, stamina, breathing, stability",
+     "w": [
+      "Intention, touch, excursion, routine",
+      "Genitals, gluteal cleft, breasts",
+      "Effleurage, petrissage, friction, tapotement"
+     ],
+     "e": "Intention/touch/excursion are stroke elements; the last list is the stroke sequence.",
+     "s": "MA1-4, slide 2",
+     "f": false
+    },
+    {
+     "topic": 2,
+     "q": "Balance & flexibility and groundedness/centering are both:",
+     "a": "Components of body mechanics",
+     "w": [
+      "Types of draping",
+      "Stroke speeds",
+      "Contraindications"
+     ],
+     "e": "Both are on the body mechanics factor list.",
+     "s": "MA1-4, slide 2",
+     "f": false
+    },
+    {
+     "topic": 2,
+     "q": "How many factors does the MA1-4 Body Mechanics slide list?",
+     "a": "10",
+     "w": [
+      "4",
+      "6",
+      "13"
+     ],
+     "e": "Table mechanics, foot stance, leverage, body posture, strength, stamina, breathing, stability, groundedness/centering, balance & flexibility.",
+     "s": "MA1-4, slide 2",
+     "f": false
+    },
+    {
+     "topic": 3,
+     "q": "The Bow / Archer / Lunge stance is used for:",
+     "a": "Long strokes, down and away from the therapist",
+     "w": [
+      "Short, multidirectional strokes",
+      "Turning the client",
+      "Sitting at the head of the table"
+     ],
+     "e": "Bow-Archer-Lunge = long strokes, down and away.",
+     "s": "MA1-4, slide 5",
+     "f": false
+    },
+    {
+     "topic": 3,
+     "q": "The Horse / Warrior stance is used for:",
+     "a": "Short, multidirectional strokes",
+     "w": [
+      "Long strokes down the length of the leg",
+      "Lifting the client",
+      "Draping the abdomen"
+     ],
+     "e": "Horse-Warrior = short, multidirectional strokes.",
+     "s": "MA1-4, slide 5",
+     "f": false
+    },
+    {
+     "topic": 3,
+     "q": "In the bow (lunge) stance, the lead foot:",
+     "a": "Points in the direction of the stroke",
+     "w": [
+      "Points toward the therapist",
+      "Is parallel to the trail foot",
+      "Is lifted off the floor"
+     ],
+     "e": "Lead foot points in the direction of the stroke; trail foot points off to the side.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 3,
+     "q": "In the bow stance, weight moves:",
+     "a": "From the trail foot to the lead foot on the stroke, and back on the return",
+     "w": [
+      "Only onto the trail foot",
+      "Evenly on both feet with no shift",
+      "Onto the toes of both feet"
+     ],
+     "e": "Weight transfers from trail foot to lead foot when performing the stroke, back to trail foot on the return.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 3,
+     "q": "In the warrior (horse) stance:",
+     "a": "Feet are wider than the hips and the toes point forward",
+     "w": [
+      "One foot is far behind the other",
+      "Feet are together",
+      "The trail foot points off to the side"
+     ],
+     "e": "Warrior: feet wider than hips, toes forward; used for short-distance strokes like petrissage and friction.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 3,
+     "q": "Which stance is best for petrissage and friction?",
+     "a": "Warrior (horse) stance",
+     "w": [
+      "Bow (archer) stance",
+      "Seated stance only",
+      "Single-leg stance"
+     ],
+     "e": "Short-distance strokes such as petrissage and friction use warrior stance.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 3,
+     "q": "Which stance is used for covering larger areas or when using effleurage?",
+     "a": "Bow (archer, lunge) stance",
+     "w": [
+      "Horse (warrior) stance",
+      "Feet-together stance",
+      "Kneeling stance"
+     ],
+     "e": "Bow stance: covering larger areas or effleurage.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 4,
+     "q": "Table mechanics is:",
+     "a": "Anything that has to do with equipment and client",
+     "w": [
+      "The therapist's foot stance",
+      "The order of massage strokes",
+      "Cleaning the table between clients"
+     ],
+     "e": "Bold on the slide: anything that has to do with equipment & client.",
+     "s": "MA1-4, slide 3",
+     "f": true
+    },
+    {
+     "topic": 4,
+     "q": "Which list is table mechanics?",
+     "a": "Table height, client positioning, bolstering, draping",
+     "w": [
+      "Strength, stamina, breathing, stability",
+      "Intention, touch, pressure, depth",
+      "Look away, re-drape, stay composed"
+     ],
+     "e": "Table mechanics involves table height, client positioning, bolstering and draping.",
+     "s": "MA1-4, slide 3",
+     "f": true
+    },
+    {
+     "topic": 4,
+     "q": "Bolstering falls under:",
+     "a": "Table mechanics",
+     "w": [
+      "Stroke elements",
+      "Foot stances",
+      "Repetitive motion injuries"
+     ],
+     "e": "Table height, client positioning, bolstering and draping.",
+     "s": "MA1-4, slide 3",
+     "f": false
+    },
+    {
+     "topic": 4,
+     "q": "Table height is part of:",
+     "a": "Table mechanics",
+     "w": [
+      "Excursion",
+      "Continuity",
+      "Intention"
+     ],
+     "e": "Table mechanics = equipment & client.",
+     "s": "MA1-4, slide 3",
+     "f": false
+    },
+    {
+     "topic": 4,
+     "q": "Which is NOT part of table mechanics?",
+     "a": "Rhythm",
+     "w": [
+      "Client positioning",
+      "Draping",
+      "Table height"
+     ],
+     "e": "Rhythm is a stroke element.",
+     "s": "MA1-4, slide 3",
+     "f": false
+    },
+    {
+     "topic": 4,
+     "q": "Draping is listed as part of:",
+     "a": "Table mechanics",
+     "w": [
+      "Principles of body mechanics",
+      "Foot stances",
+      "Physical fitness"
+     ],
+     "e": "Table mechanics: table height, client positioning, bolstering, draping.",
+     "s": "MA1-4, slide 3",
+     "f": false
+    },
+    {
+     "topic": 5,
+     "q": "Which is one of the principles of body mechanics?",
+     "a": "Groundedness & centeredness",
+     "w": [
+      "Intention",
+      "Excursion",
+      "Diaper draping"
+     ],
+     "e": "Principles: strength & stamina, breath, stability, balance & flexibility, groundedness & centeredness.",
+     "s": "MA1-4, slide 4",
+     "f": false
+    },
+    {
+     "topic": 5,
+     "q": "Per the slide, breath:",
+     "a": "Paces you, fuels you, centers you and connects you with the client",
+     "w": [
+      "Should be held during deep strokes",
+      "Only matters for the client",
+      "Is part of table mechanics"
+     ],
+     "e": "Breath: paces you, fuels, centers you, connects you w/client.",
+     "s": "MA1-4, slide 4",
+     "f": false
+    },
+    {
+     "topic": 5,
+     "q": "Groundedness & centeredness:",
+     "a": "Stop you from giving your energy away",
+     "w": [
+      "Increase the speed of your strokes",
+      "Raise the table height",
+      "Replace stretching"
+     ],
+     "e": "Groundedness & centeredness: stops from giving your energy away.",
+     "s": "MA1-4, slide 4",
+     "f": false
+    },
+    {
+     "topic": 5,
+     "q": "Balance & flexibility is the ability of muscle and nerve to:",
+     "a": "Take you from a stable static position to a dynamic one and back",
+     "w": [
+      "Lift a client off the table",
+      "Keep the sheet in contact with the client",
+      "Increase blood pressure"
+     ],
+     "e": "Slide definition of balance & flexibility.",
+     "s": "MA1-4, slide 4",
+     "f": false
+    },
+    {
+     "topic": 5,
+     "q": "Per the notes, lack of strength results in:",
+     "a": "Early fatigue and increased risk of injury",
+     "w": [
+      "Better palpation",
+      "Faster strokes",
+      "Deeper breathing"
+     ],
+     "e": "Lack of strength = early fatigue, more risk of injury, harder to assist physically challenged clients.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 5,
+     "q": "Per the notes, stamina (endurance) is improved with:",
+     "a": "Cardiovascular training about 3 times a week",
+     "w": [
+      "Push-ups only",
+      "Longer sessions",
+      "Holding your breath"
+     ],
+     "e": "Stamina: enough for all your clients in a day; improve with CV training 3x a week.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 5,
+     "q": "The notes compare stability to:",
+     "a": "A pogo stick vs. a tripod",
+     "w": [
+      "A hammer vs. a nail",
+      "A river vs. a lake",
+      "A bow vs. an arrow"
+     ],
+     "e": "Need a stable base to work from: compare a pogo stick and a tripod.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 5,
+     "q": "Per the notes, balance is the:",
+     "a": "Ability to work against gravity",
+     "w": [
+      "Order of the strokes",
+      "Distance traveled into the tissue",
+      "Length of the stroke"
+     ],
+     "e": "Balance: ability to work against gravity.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 6,
+     "q": "Which is one of the things you need to do your job?",
+     "a": "A massage table",
+     "w": [
+      "A blood pressure prescription",
+      "A stethoscope",
+      "A gait belt"
+     ],
+     "e": "What do you need to do your job: massage table, face cradle/bolsters/pillows, stool, oils/lotions/creams, linens, music & lighting, storage etc.",
+     "s": "MA1-14, slide 3",
+     "f": false
+    },
+    {
+     "topic": 6,
+     "q": "Which list is ALL tools of the trade?",
+     "a": "Face cradle, bolsters, linens, massage oil, stool",
+     "w": [
+      "Scalpel, gauze, splint, ice, cast",
+      "Gait belt, cane, walker, crutches, brace",
+      "Microscope, slides, gloves, mask, gown"
+     ],
+     "e": "Tools of the trade slide.",
+     "s": "MA1-14, slide 3",
+     "f": false
+    },
+    {
+     "topic": 6,
+     "q": "Linens should be twin sheets, blankets and towels in quantities:",
+     "a": "Enough to change between clients",
+     "w": [
+      "One set per day",
+      "Only when visibly dirty",
+      "One set per week"
+     ],
+     "e": "Linens: enough to change between clients.",
+     "s": "MA1-14, slide 3",
+     "f": false
+    },
+    {
+     "topic": 6,
+     "q": "Music and lighting are listed as tools for:",
+     "a": "Ambiance",
+     "w": [
+      "Draping",
+      "Body mechanics",
+      "Assessment"
+     ],
+     "e": "Music & lighting (ambiance).",
+     "s": "MA1-14, slide 3",
+     "f": false
+    },
+    {
+     "topic": 6,
+     "q": "The stool on the tools list is for:",
+     "a": "You to sit on",
+     "w": [
+      "The client to step up on",
+      "Holding oils",
+      "Elevating the client's feet"
+     ],
+     "e": "Stool: for you to sit on (sit when appropriate is also an element of proper body mechanics).",
+     "s": "MA1-14, slide 3",
+     "f": false
+    },
+    {
+     "topic": 6,
+     "q": "Besides buying linens, the tools slide asks you to plan:",
+     "a": "How you will wash your linens, towels and blankets",
+     "w": [
+      "Which client gets the newest sheets",
+      "How to avoid using towels",
+      "Where to buy disposable sheets"
+     ],
+     "e": "How are you going to wash your linens, towels, blankets.",
+     "s": "MA1-14, slide 3",
+     "f": false
+    },
+    {
+     "topic": 6,
+     "q": "Which item is on the 'what do you need to do your job' list?",
+     "a": "Massage oils, lotions and creams",
+     "w": [
+      "Muscle relaxant pills",
+      "Heating pads only",
+      "A treadmill"
+     ],
+     "e": "Oils, lotions & creams.",
+     "s": "MA1-14, slide 3",
+     "f": false
+    },
+    {
+     "topic": 7,
+     "q": "Draping is defined as:",
+     "a": "To cover the body with cloth",
+     "w": [
+      "To wrap a joint for support",
+      "To position the client with bolsters",
+      "To change the sheets between clients"
+     ],
+     "e": "Draping: 'To cover the body with cloth.'",
+     "s": "MA1-4, slide 10",
+     "f": false
+    },
+    {
+     "topic": 7,
+     "q": "'To cover the body with cloth' is the definition of:",
+     "a": "Draping",
+     "w": [
+      "Bolstering",
+      "Table mechanics",
+      "Continuity"
+     ],
+     "e": "Draping definition.",
+     "s": "MA1-4, slide 10",
+     "f": false
+    },
+    {
+     "topic": 7,
+     "q": "Which are the 2 types of draping?",
+     "a": "Sheet draping and towel draping",
+     "w": [
+      "Diaper draping and swaddle draping",
+      "Top draping and side draping",
+      "Wet draping and dry draping"
+     ],
+     "e": "2 types of draping: sheet and towel.",
+     "s": "MA1-4, slide 16",
+     "f": false
+    },
+    {
+     "topic": 7,
+     "q": "The NYIM Draping Policy defines draping as being:",
+     "a": "Covered with sheets",
+     "w": [
+      "Covered with towels only",
+      "Left uncovered to stay cool",
+      "Covered with blankets only"
+     ],
+     "e": "Policy item 1: draped (covered) with sheets at all times.",
+     "s": "Draping Policy handout",
+     "f": false
+    },
+    {
+     "topic": 7,
+     "q": "Draping covers the client's body with cloth so that:",
+     "a": "Only the area being massaged is exposed",
+     "w": [
+      "The whole body is exposed for assessment",
+      "The therapist can work through the sheet only",
+      "The client stays fully clothed"
+     ],
+     "e": "Expose only the area being massaged.",
+     "s": "MA1-4, slide 15",
+     "f": false
+    },
+    {
+     "topic": 8,
+     "q": "Draping gives:",
+     "a": "Therapist professionalism, client modesty and boundaries",
+     "w": [
+      "Deeper pressure and faster strokes",
+      "A diagnosis and treatment plan",
+      "Lubrication and warmth only"
+     ],
+     "e": "Draping gives: therapist professionalism, client's modesty, boundaries.",
+     "s": "MA1-4, slide 10",
+     "f": false
+    },
+    {
+     "topic": 8,
+     "q": "Why drape? (3 reasons on the slide)",
+     "a": "Maintains privacy, offers warmth, establishes a boundary",
+     "w": [
+      "Saves oil, keeps sheets clean, speeds the session",
+      "Hides posture, prevents gait problems, lowers BP",
+      "Required for chair massage only"
+     ],
+     "e": "Why DRAPE: privacy, warmth, boundary between client and therapist.",
+     "s": "MA1-4, slide 11",
+     "f": false
+    },
+    {
+     "topic": 8,
+     "q": "Draping establishes a boundary between:",
+     "a": "The client and the therapist",
+     "w": [
+      "The table and the floor",
+      "The front and back of the body",
+      "The clinic and the school"
+     ],
+     "e": "Establishes a boundary between the client & therapist.",
+     "s": "MA1-4, slide 11",
+     "f": false
+    },
+    {
+     "topic": 8,
+     "q": "For the therapist, draping provides:",
+     "a": "Professionalism",
+     "w": [
+      "Modesty",
+      "Warmth",
+      "Faster sessions"
+     ],
+     "e": "Therapist professionalism; client modesty.",
+     "s": "MA1-4, slide 10",
+     "f": false
+    },
+    {
+     "topic": 8,
+     "q": "For the client, draping provides:",
+     "a": "Modesty",
+     "w": [
+      "Professionalism",
+      "Stamina",
+      "Leverage"
+     ],
+     "e": "Clients modesty.",
+     "s": "MA1-4, slide 10",
+     "f": false
+    },
+    {
+     "topic": 8,
+     "q": "Which is NOT a reason to drape?",
+     "a": "To let the therapist work faster",
+     "w": [
+      "Maintains the client's privacy",
+      "Offers warmth",
+      "Establishes a boundary"
+     ],
+     "e": "Privacy, warmth, boundary.",
+     "s": "MA1-4, slide 11",
+     "f": false
+    },
+    {
+     "topic": 9,
+     "q": "The primary comfort consideration when draping is:",
+     "a": "Warmth",
+     "w": [
+      "Sheet color",
+      "Speed of the session",
+      "Music"
+     ],
+     "e": "Primary comfort consideration is warmth.",
+     "s": "MA1-4, slide 12",
+     "f": false
+    },
+    {
+     "topic": 9,
+     "q": "Why does warmth matter more as the session goes on?",
+     "a": "The relaxed client shifts to a parasympathetic state, and body temperature and BP may drop",
+     "w": [
+      "The client becomes sympathetic and starts sweating",
+      "The oil cools the table",
+      "Blood pressure rises sharply"
+     ],
+     "e": "As the client relaxes into parasympathetic, body temperature and BP may drop.",
+     "s": "MA1-4, slide 12",
+     "f": false
+    },
+    {
+     "topic": 9,
+     "q": "As a client relaxes during massage, they shift into a:",
+     "a": "Parasympathetic state",
+     "w": [
+      "Sympathetic state",
+      "Fight-or-flight state",
+      "Hypertensive state"
+     ],
+     "e": "Parasympathetic = rest and digest.",
+     "s": "MA1-4, slide 12",
+     "f": false
+    },
+    {
+     "topic": 9,
+     "q": "When should you check the client's comfort with warmth?",
+     "a": "Before and during the therapy",
+     "w": [
+      "Only after the session",
+      "Only if they complain",
+      "Never; it interrupts the massage"
+     ],
+     "e": "Check with the client before & during the therapy for comfort.",
+     "s": "MA1-4, slide 12",
+     "f": false
+    },
+    {
+     "topic": 9,
+     "q": "Warmth provides the client with:",
+     "a": "Comfort",
+     "w": [
+      "Modesty",
+      "A diagnosis",
+      "Deeper pressure"
+     ],
+     "e": "Warmth is the primary comfort consideration.",
+     "s": "MA1-4, slide 12",
+     "f": false
+    },
+    {
+     "topic": 9,
+     "q": "In a parasympathetic state, which may drop?",
+     "a": "Body temperature and blood pressure",
+     "w": [
+      "Heart rate only rises",
+      "Muscle tone rises",
+      "Breathing speeds up"
+     ],
+     "e": "Body temperature & blood pressure may drop.",
+     "s": "MA1-4, slide 12",
+     "f": false
+    },
+    {
+     "topic": 10,
+     "q": "Local laws regarding draping are:",
+     "a": "The minimum draping standard; you CANNOT use less",
+     "w": [
+      "The maximum allowed",
+      "Optional if the client agrees",
+      "Only for clinic shifts"
+     ],
+     "e": "Bold: you CANNOT use less than local law.",
+     "s": "MA1-4, slide 14",
+     "f": true
+    },
+    {
+     "topic": 10,
+     "q": "Which is a rule of draping?",
+     "a": "Don't lift, fluff or move sheets away from the client",
+     "w": [
+      "Lift the sheet high to check the client",
+      "Fluff the sheet to warm it",
+      "Remove the sheet for back work"
+     ],
+     "e": "Bold on the slide: don't lift, fluff, or move sheets away from the client.",
+     "s": "MA1-4, slide 15",
+     "f": true
+    },
+    {
+     "topic": 10,
+     "q": "If you accidentally expose a client:",
+     "a": "Look away, re-drape, stay composed",
+     "w": [
+      "Stop the massage and apologize at length",
+      "Pretend it didn't happen and keep going",
+      "Ask the client to fix the sheet"
+     ],
+     "e": "If you expose: look away, re-drape, STAY COMPOSED.",
+     "s": "MA1-4, slide 15",
+     "f": false
+    },
+    {
+     "topic": 10,
+     "q": "Which rule is about the sheet itself?",
+     "a": "Keep the sheet in contact with the client",
+     "w": [
+      "Keep the sheet tucked under the table",
+      "Hold the sheet above the client",
+      "Use a different sheet for each body part"
+     ],
+     "e": "Keep the sheet in contact with the client.",
+     "s": "MA1-4, slide 14",
+     "f": false
+    },
+    {
+     "topic": 10,
+     "q": "Whose comfort and requests do the draping rules say to honor?",
+     "a": "The client's requests and the therapist's comfort level",
+     "w": [
+      "Only the clinic supervisor's",
+      "Only the client's family",
+      "Neither; follow the routine"
+     ],
+     "e": "Honor client's request; respect therapist's comfort level.",
+     "s": "MA1-4, slide 14",
+     "f": false
+    },
+    {
+     "topic": 10,
+     "q": "Which part of the body is exposed during massage?",
+     "a": "Only the area being massaged",
+     "w": [
+      "The whole back and glutes",
+      "Anything the therapist chooses",
+      "Both legs at once"
+     ],
+     "e": "Expose only the area being massaged.",
+     "s": "MA1-4, slide 15",
+     "f": false
+    },
+    {
+     "topic": 10,
+     "q": "Which is NOT a rule of draping?",
+     "a": "Use less draping than local law if the client asks",
+     "w": [
+      "Follow local laws",
+      "Expose only the area being massaged",
+      "Keep the sheet in contact with the client"
+     ],
+     "e": "Local law is the minimum; you cannot use less.",
+     "s": "MA1-4, slide 14",
+     "f": true
+    },
+    {
+     "topic": 11,
+     "q": "The elements of strokes are:",
+     "a": "The blend of body mechanics, intention, touch, pressure, depth, direction, excursion, speed, rhythm, continuity, duration, sequence and routine",
+     "w": [
+      "Effleurage, petrissage, friction, tapotement and vibration",
+      "Table height, positioning, bolstering and draping",
+      "Strength, stamina, breath and stability"
+     ],
+     "e": "Giving a massage is more than rubbing skin; it is a blend of these elements.",
+     "s": "MA1-5, slide 2",
+     "f": false
+    },
+    {
+     "topic": 11,
+     "q": "Which is a stroke element?",
+     "a": "Excursion",
+     "w": [
+      "Effleurage",
+      "Bolstering",
+      "Diaper draping"
+     ],
+     "e": "Effleurage is a stroke in the sequence, not an element.",
+     "s": "MA1-5, slide 2",
+     "f": false
+    },
+    {
+     "topic": 11,
+     "q": "Per the slides, giving a massage is:",
+     "a": "More than just putting your hands on someone and rubbing their skin",
+     "w": [
+      "Mainly about pressure",
+      "Only about the routine",
+      "The same for every client"
+     ],
+     "e": "Opening line of Elements of Strokes.",
+     "s": "MA1-5, slide 2",
+     "f": false
+    },
+    {
+     "topic": 11,
+     "q": "Which list contains ONLY stroke elements?",
+     "a": "Intention, touch, depth, rhythm",
+     "w": [
+      "Effleurage, friction, vibration, tapotement",
+      "Privacy, warmth, boundaries, modesty",
+      "Strength, stamina, balance, stability"
+     ],
+     "e": "Stroke elements list.",
+     "s": "MA1-5, slide 2",
+     "f": false
+    },
+    {
+     "topic": 11,
+     "q": "Which is NOT one of the elements of strokes?",
+     "a": "Bolstering",
+     "w": [
+      "Speed",
+      "Continuity",
+      "Duration"
+     ],
+     "e": "Bolstering is table mechanics.",
+     "s": "MA1-5, slide 2",
+     "f": false
+    },
+    {
+     "topic": 11,
+     "q": "The notes say massage is:",
+     "a": "An art and a science, and application of the elements varies session to session",
+     "w": [
+      "Purely a science with fixed elements",
+      "Purely an art with no rules",
+      "The same routine every time"
+     ],
+     "e": "Elements of a Stroke: massage is an art and a science.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 11,
+     "q": "Which element is listed FIRST in the blend?",
+     "a": "Body mechanics",
+     "w": [
+      "Routine",
+      "Touch",
+      "Sequence"
+     ],
+     "e": "The list begins with body mechanics and ends with routine.",
+     "s": "MA1-5, slide 2",
+     "f": false
+    },
+    {
+     "topic": 12,
+     "q": "What is the number 1 reason people leave the massage therapy industry?",
+     "a": "Repetitive motion injuries",
+     "w": [
+      "Low pay",
+      "Difficult clients",
+      "Failing the licensing exam"
+     ],
+     "e": "Repetitive motion injuries: the number 1 reason people leave the industry.",
+     "s": "MA1-4, slide 7",
+     "f": false
+    },
+    {
+     "topic": 12,
+     "q": "Why do repetitive motion injuries happen?",
+     "a": "They are self-inflicted from POOR body mechanics",
+     "w": [
+      "Clients pass them to therapists",
+      "They come from using too much oil",
+      "They are caused by draping"
+     ],
+     "e": "Self-inflicted injuries related to POOR body mechanics.",
+     "s": "MA1-4, slide 7",
+     "f": false
+    },
+    {
+     "topic": 12,
+     "q": "Repetitive strain injuries are described as:",
+     "a": "Overuse injuries that are cumulative in nature",
+     "w": [
+      "Sudden one-time traumas",
+      "Contagious conditions",
+      "Allergic reactions"
+     ],
+     "e": "Notes: overuse injuries, cumulative in nature.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 12,
+     "q": "Which is a repetitive motion injury listed on the slide?",
+     "a": "Carpal tunnel syndrome",
+     "w": [
+      "Plantar wart",
+      "Sciatica from sitting",
+      "Scoliosis"
+     ],
+     "e": "Carpal tunnel, tennis elbow, thoracic outlet syndrome, rotator cuff strain, tendonitis.",
+     "s": "MA1-4, slide 7",
+     "f": false
+    },
+    {
+     "topic": 12,
+     "q": "Which is NOT listed as a repetitive motion injury?",
+     "a": "Ankle sprain",
+     "w": [
+      "Tennis elbow",
+      "Thoracic outlet syndrome",
+      "Rotator cuff strain"
+     ],
+     "e": "List: carpal tunnel, tennis elbow, TOS, rotator cuff strain, tendonitis.",
+     "s": "MA1-4, slide 7",
+     "f": false
+    },
+    {
+     "topic": 12,
+     "q": "The best way to stay in the field long-term is to:",
+     "a": "Use good body mechanics",
+     "w": [
+      "Work faster to see more clients",
+      "Use only deep pressure",
+      "Skip stretching to save time"
+     ],
+     "e": "Poor body mechanics cause the RSIs that drive people out.",
+     "s": "MA1-4, slide 7",
+     "f": false
+    },
+    {
+     "topic": 13,
+     "q": "Which areas MUST always stay draped?",
+     "a": "Genital region, gluteal cleft and breast area",
+     "w": [
+      "Feet, hands and face",
+      "Back, shoulders and neck",
+      "Abdomen and thighs only"
+     ],
+     "e": "Underlined: MUST stay draped.",
+     "s": "MA1-4, slide 13",
+     "f": true
+    },
+    {
+     "topic": 13,
+     "q": "In the NYIM clinic, the breast area stays draped for:",
+     "a": "BOTH men and women",
+     "w": [
+      "Women only",
+      "Men only",
+      "Only clients who ask"
+     ],
+     "e": "Bold: in clinic breast area of BOTH men & women WILL STAY DRAPED.",
+     "s": "MA1-4, slide 13",
+     "f": true
+    },
+    {
+     "topic": 13,
+     "q": "Which is one of the 3 areas that must always remain covered?",
+     "a": "Gluteal cleft",
+     "w": [
+      "Lower back",
+      "Upper thigh",
+      "Abdomen"
+     ],
+     "e": "Genital region, gluteal cleft, breast area.",
+     "s": "MA1-4, slide 13",
+     "f": true
+    },
+    {
+     "topic": 13,
+     "q": "When draping the abdomen, what is added over the breasts?",
+     "a": "A towel or pillowcase",
+     "w": [
+      "Nothing; the sheet is folded down",
+      "A bolster",
+      "The client's own clothing"
+     ],
+     "e": "Use a towel or pillowcase over the breasts when draping the abdomen.",
+     "s": "MA1-4, slide 16",
+     "f": false
+    },
+    {
+     "topic": 13,
+     "q": "A male client in the NYIM clinic asks to leave his chest uncovered. You:",
+     "a": "Keep the chest draped; clinic rule covers both men and women",
+     "w": [
+      "Uncover it since he asked",
+      "Ask the supervisor to uncover it",
+      "Drape only the abdomen"
+     ],
+     "e": "In clinic the breast area of both men and women stays draped.",
+     "s": "MA1-4, slide 13",
+     "f": true
+    },
+    {
+     "topic": 13,
+     "q": "Which area is NOT on the 'must stay draped' list?",
+     "a": "Upper back",
+     "w": [
+      "Genital region",
+      "Gluteal cleft",
+      "Breast area"
+     ],
+     "e": "Only genitals, gluteal cleft and breast area.",
+     "s": "MA1-4, slide 13",
+     "f": true
+    },
+    {
+     "topic": 14,
+     "q": "Intention means:",
+     "a": "The consciously sought goal or desired end of the massage",
+     "w": [
+      "The order of the strokes",
+      "The length of the stroke",
+      "The force applied to the body"
+     ],
+     "e": "Intention: consciously sought GOAL or desired end; what is your PURPOSE.",
+     "s": "MA1-5, slide 3",
+     "f": false
+    },
+    {
+     "topic": 14,
+     "q": "Intention underlies:",
+     "a": "All components of the massage session",
+     "w": [
+      "Only the first stroke",
+      "Only draping",
+      "Only the intake"
+     ],
+     "e": "Underlies all components of the massage session.",
+     "s": "MA1-5, slide 3",
+     "f": false
+    },
+    {
+     "topic": 14,
+     "q": "Which question captures intention?",
+     "a": "What is your purpose?",
+     "w": [
+      "How long is the stroke?",
+      "How fast are you moving?",
+      "Which stroke comes next?"
+     ],
+     "e": "What is your PURPOSE.",
+     "s": "MA1-5, slide 3",
+     "f": false
+    },
+    {
+     "topic": 14,
+     "q": "Per the notes, intention is based on:",
+     "a": "A plan of action that meets the wants and needs of the client",
+     "w": [
+      "The therapist's favorite routine",
+      "The time left in the session",
+      "The table height"
+     ],
+     "e": "Intention: based on a plan of action; should meet the wants/needs of the client.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 14,
+     "q": "Per the notes, all other stroke elements are dependent on:",
+     "a": "Intention",
+     "w": [
+      "Speed",
+      "Duration",
+      "Sequence"
+     ],
+     "e": "All other elements are dependent on intention.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 14,
+     "q": "'Consciously sought goal or desired end' describes:",
+     "a": "Intention",
+     "w": [
+      "Routine",
+      "Continuity",
+      "Touch"
+     ],
+     "e": "Intention definition.",
+     "s": "MA1-5, slide 3",
+     "f": false
+    },
+    {
+     "topic": 15,
+     "q": "Massage movements should move:",
+     "a": "Centripetally, toward the center/heart",
+     "w": [
+      "Centrifugally, away from the heart",
+      "Side to side only",
+      "In whatever direction feels best"
+     ],
+     "e": "Direction: centripetal, toward the center/heart.",
+     "s": "MA1-5, slide 5",
+     "f": false
+    },
+    {
+     "topic": 15,
+     "q": "Centripetal strokes follow the direction of:",
+     "a": "Venous and lymphatic circulation",
+     "w": [
+      "Arterial flow away from the heart",
+      "Nerve impulses to the fingers",
+      "Hair growth"
+     ],
+     "e": "In the direction of venous & lymphatic circulation.",
+     "s": "MA1-5, slide 5",
+     "f": false
+    },
+    {
+     "topic": 15,
+     "q": "On the arm, a centripetal stroke moves from:",
+     "a": "The hand toward the shoulder",
+     "w": [
+      "The shoulder toward the hand",
+      "Side to side across the forearm",
+      "The elbow outward in both directions"
+     ],
+     "e": "Toward the heart = distal to proximal on a limb.",
+     "s": "MA1-5, slide 5",
+     "f": false
+    },
+    {
+     "topic": 15,
+     "q": "'Centripetal' means:",
+     "a": "Toward the center",
+     "w": [
+      "Away from the center",
+      "In circles",
+      "Across the fibers"
+     ],
+     "e": "Centripetal = toward the center/heart.",
+     "s": "MA1-5, slide 5",
+     "f": false
+    },
+    {
+     "topic": 15,
+     "q": "Per the notes, effleurage on the extremities is applied:",
+     "a": "Centripetally (toward the heart)",
+     "w": [
+      "Centrifugally (away from the heart)",
+      "Only across the muscle",
+      "Only at the joints"
+     ],
+     "e": "Effleurage is applied on the extremities centripetally.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 15,
+     "q": "Why do strokes move toward the heart?",
+     "a": "To follow venous and lymphatic flow",
+     "w": [
+      "To push blood into the fingers",
+      "To keep the sheet in place",
+      "To make the stroke shorter"
+     ],
+     "e": "Direction of venous & lymphatic circulation.",
+     "s": "MA1-5, slide 5",
+     "f": false
+    },
+    {
+     "topic": 16,
+     "q": "Which stroke element is related to stance, foot placement and the length of the stroke?",
+     "a": "Excursion",
+     "w": [
+      "Rhythm",
+      "Intention",
+      "Duration"
+     ],
+     "e": "Excursion: length of the massage stroke; related to stance & foot placement.",
+     "s": "MA1-5, slide 5",
+     "f": false
+    },
+    {
+     "topic": 16,
+     "q": "Excursion is:",
+     "a": "The length of the massage stroke, the distance traveled",
+     "w": [
+      "The time spent on an area",
+      "The force applied",
+      "The order of the strokes"
+     ],
+     "e": "Length of the massage stroke / distance traveled.",
+     "s": "MA1-5, slide 5",
+     "f": false
+    },
+    {
+     "topic": 16,
+     "q": "Excursion is dependent on:",
+     "a": "Proper foot placement",
+     "w": [
+      "The type of lubricant",
+      "The client's blood pressure",
+      "The music"
+     ],
+     "e": "Notes: excursion is dependent on proper foot placement.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 16,
+     "q": "A long stroke from ankle to hip has a large:",
+     "a": "Excursion",
+     "w": [
+      "Depth",
+      "Duration",
+      "Intention"
+     ],
+     "e": "Excursion = distance covered.",
+     "s": "MA1-5, slide 5",
+     "f": false
+    },
+    {
+     "topic": 16,
+     "q": "Which stance gives you a long excursion?",
+     "a": "Bow / lunge stance",
+     "w": [
+      "Horse / warrior stance",
+      "Feet together",
+      "Sitting on the stool"
+     ],
+     "e": "Bow = long strokes; excursion is tied to stance.",
+     "s": "MA1-4, slide 5",
+     "f": false
+    },
+    {
+     "topic": 16,
+     "q": "'Distance covered with a massage stroke' defines:",
+     "a": "Excursion",
+     "w": [
+      "Depth",
+      "Pressure",
+      "Sequence"
+     ],
+     "e": "Depth is distance INTO the tissue; excursion is distance ALONG the body.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 17,
+     "q": "Continuity is:",
+     "a": "The uninterrupted flow of strokes and unbroken transitions between them",
+     "w": [
+      "The repetition or regularity of strokes",
+      "The order of strokes",
+      "The time spent on an area"
+     ],
+     "e": "Continuity: uninterrupted flow, unbroken transitions.",
+     "s": "MA1-5, slide 7",
+     "f": false
+    },
+    {
+     "topic": 17,
+     "q": "To keep continuity as you flow around the body, you:",
+     "a": "Keep contact with the client",
+     "w": [
+      "Lift your hands between each body part",
+      "Stop to add oil often",
+      "Change speed with every stroke"
+     ],
+     "e": "Flow around the body: KEEPING CONTACT.",
+     "s": "MA1-5, slide 7",
+     "f": false
+    },
+    {
+     "topic": 17,
+     "q": "Rhythm vs. continuity:",
+     "a": "Rhythm = regularity of strokes; continuity = unbroken transitions between strokes",
+     "w": [
+      "Rhythm = order of strokes; continuity = length of strokes",
+      "They mean the same thing",
+      "Rhythm = pressure; continuity = depth"
+     ],
+     "e": "Notes: rhythm is repetition/regularity; continuity is the unbroken transition from one stroke to another.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 17,
+     "q": "'Uninterrupted flow' describes:",
+     "a": "Continuity",
+     "w": [
+      "Excursion",
+      "Duration",
+      "Touch"
+     ],
+     "e": "Continuity definition.",
+     "s": "MA1-5, slide 7",
+     "f": false
+    },
+    {
+     "topic": 17,
+     "q": "Taking your hands off the client between strokes breaks:",
+     "a": "Continuity",
+     "w": [
+      "Direction",
+      "Depth",
+      "Intention"
+     ],
+     "e": "Continuity means keeping contact.",
+     "s": "MA1-5, slide 7",
+     "f": false
+    },
+    {
+     "topic": 17,
+     "q": "Overlapping your strokes over joints to connect one body part to the next supports:",
+     "a": "Continuity",
+     "w": [
+      "Excursion only",
+      "Duration only",
+      "Draping"
+     ],
+     "e": "Swedish guideline 5: connect body parts by overlapping strokes over joints.",
+     "s": "Swedish Guidelines handout",
+     "f": false
+    },
+    {
+     "topic": 18,
+     "q": "Sequence refers to:",
+     "a": "The order of the massage strokes",
+     "w": [
+      "The length of the stroke",
+      "The speed of the stroke",
+      "The combination of all elements"
+     ],
+     "e": "Sequence: order of the massage strokes.",
+     "s": "MA1-5, slide 8",
+     "f": false
+    },
+    {
+     "topic": 18,
+     "q": "The stroke sequence on the slide is:",
+     "a": "Effleurage, petrissage, friction, tapotement, vibration, ancillary movements",
+     "w": [
+      "Petrissage, effleurage, tapotement, friction, vibration",
+      "Friction, vibration, effleurage, petrissage",
+      "Tapotement, friction, petrissage, effleurage"
+     ],
+     "e": "Strokes in order: effleurage, petrissage, friction, tapotement, vibration, ancillary.",
+     "s": "MA1-5, slide 8",
+     "f": false
+    },
+    {
+     "topic": 18,
+     "q": "Which stroke usually goes first?",
+     "a": "Effleurage",
+     "w": [
+      "Petrissage",
+      "Tapotement",
+      "Friction"
+     ],
+     "e": "Notes: effleurage usually goes first, then petrissage.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 18,
+     "q": "Which stroke comes right after effleurage?",
+     "a": "Petrissage",
+     "w": [
+      "Vibration",
+      "Tapotement",
+      "Ancillary movements"
+     ],
+     "e": "Effleurage, then petrissage.",
+     "s": "MA1-5, slide 8",
+     "f": false
+    },
+    {
+     "topic": 18,
+     "q": "Which comes LAST in the stroke sequence?",
+     "a": "Ancillary movements",
+     "w": [
+      "Effleurage",
+      "Friction",
+      "Petrissage"
+     ],
+     "e": "Sequence ends with vibration, then ancillary movements.",
+     "s": "MA1-5, slide 8",
+     "f": false
+    },
+    {
+     "topic": 18,
+     "q": "'The arrangement of massage strokes' is:",
+     "a": "Sequence",
+     "w": [
+      "Routine",
+      "Rhythm",
+      "Continuity"
+     ],
+     "e": "Notes: sequence = arrangement of massage strokes.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 19,
+     "q": "Where does your pressure come from?",
+     "a": "Your own body weight, leaning in from the hara",
+     "w": [
+      "Your thumbs and wrists",
+      "Pushing with your shoulders",
+      "Squeezing with your fingers"
+     ],
+     "e": "Use your own body weight. Lean in: pressure from the hara.",
+     "s": "MA1-5, slide 4",
+     "f": false
+    },
+    {
+     "topic": 19,
+     "q": "To get depth, the slide says to:",
+     "a": "Lean in and use your own body weight",
+     "w": [
+      "Lock your elbows and push with your arms",
+      "Raise the table",
+      "Speed up the stroke"
+     ],
+     "e": "Use your own body weight; lean in.",
+     "s": "MA1-5, slide 4",
+     "f": false
+    },
+    {
+     "topic": 19,
+     "q": "The hara (dan-tien) is the body's:",
+     "a": "Center of gravity, near L4-L5 in front of the spine",
+     "w": [
+      "Highest point of the shoulder",
+      "Base of the skull",
+      "Arch of the foot"
+     ],
+     "e": "Notes: center of gravity called the dan-tien, at L4-L5 anterior to the spine; center of physical and spiritual balance.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 19,
+     "q": "'Work from hara' is listed as:",
+     "a": "An element of proper body mechanics",
+     "w": [
+      "A rule of draping",
+      "A type of stroke",
+      "A contraindication"
+     ],
+     "e": "Elements of proper body mechanics include work from hara.",
+     "s": "MA1-4, slide 8",
+     "f": false
+    },
+    {
+     "topic": 19,
+     "q": "Which is the WRONG way to create pressure?",
+     "a": "Muscling it with your hands and thumbs",
+     "w": [
+      "Leaning in with body weight",
+      "Moving from the hara",
+      "Shifting weight onto the lead foot"
+     ],
+     "e": "Pressure comes from body weight and hara, not hand strength.",
+     "s": "MA1-5, slide 4",
+     "f": false
+    },
+    {
+     "topic": 19,
+     "q": "Per the notes, who ultimately controls depth?",
+     "a": "The client, by guarding/tensing or relaxing and letting you in",
+     "w": [
+      "The therapist alone",
+      "The clinic supervisor",
+      "The table height"
+     ],
+     "e": "Ultimately the client controls depth.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 20,
+     "q": "What is it called when you put all the elements together?",
+     "a": "The routine",
+     "w": [
+      "The sequence",
+      "Continuity",
+      "Intention"
+     ],
+     "e": "Bold: Routine = combination of all these ELEMENTS!!!",
+     "s": "MA1-5, slide 8",
+     "f": true
+    },
+    {
+     "topic": 20,
+     "q": "Routine is:",
+     "a": "The combination of all the stroke elements",
+     "w": [
+      "The order of strokes only",
+      "The time spent on one area",
+      "The length of one stroke"
+     ],
+     "e": "Routine: combination of all these elements.",
+     "s": "MA1-5, slide 8",
+     "f": true
+    },
+    {
+     "topic": 20,
+     "q": "Per the notes, routines:",
+     "a": "Can change with every massage",
+     "w": [
+      "Must be identical every session",
+      "Never include effleurage",
+      "Only apply to chair massage"
+     ],
+     "e": "Routine: the union of all other elements; routines can change with every massage.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 20,
+     "q": "Sequence vs. routine:",
+     "a": "Sequence = order of strokes; routine = all elements combined",
+     "w": [
+      "They mean the same thing",
+      "Routine = order of strokes; sequence = all elements",
+      "Sequence = pressure; routine = speed"
+     ],
+     "e": "Don't mix these up on the quiz.",
+     "s": "MA1-5, slide 8",
+     "f": true
+    },
+    {
+     "topic": 20,
+     "q": "'The union of all the other elements' describes:",
+     "a": "Routine",
+     "w": [
+      "Rhythm",
+      "Excursion",
+      "Depth"
+     ],
+     "e": "Notes: the routine is the union of all the other elements.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 20,
+     "q": "Which stroke element is listed LAST?",
+     "a": "Routine",
+     "w": [
+      "Sequence",
+      "Duration",
+      "Intention"
+     ],
+     "e": "Routine is last because it combines everything.",
+     "s": "MA1-5, slide 2",
+     "f": false
+    },
+    {
+     "topic": 21,
+     "q": "Touch is described as:",
+     "a": "The medium of the massage; your opening and ending move",
+     "w": [
+      "The order of the strokes",
+      "The force applied to the body",
+      "The length of the stroke"
+     ],
+     "e": "Touch: the medium of the massage; to begin & end the session.",
+     "s": "MA1-5, slide 3",
+     "f": false
+    },
+    {
+     "topic": 21,
+     "q": "Pressure is:",
+     "a": "Force applied to the surface of the body",
+     "w": [
+      "Distance traveled into the tissue",
+      "Length of the stroke",
+      "Time spent on an area"
+     ],
+     "e": "Pressure definition.",
+     "s": "MA1-5, slide 4",
+     "f": false
+    },
+    {
+     "topic": 21,
+     "q": "Depth is:",
+     "a": "Distance traveled into the body's tissue",
+     "w": [
+      "Force applied to the skin",
+      "Length of the stroke",
+      "Number of strokes"
+     ],
+     "e": "Depth: distance traveled into the tissue; achieved by level of pressure.",
+     "s": "MA1-5, slide 4",
+     "f": false
+    },
+    {
+     "topic": 21,
+     "q": "The pressure pattern through a session is:",
+     "a": "Begin light, gradually increase, deeper specific work, gradually decrease",
+     "w": [
+      "Deep from start to finish",
+      "Begin deep, then light",
+      "Light the whole time"
+     ],
+     "e": "Pressure progression on the slide.",
+     "s": "MA1-5, slide 4",
+     "f": false
+    },
+    {
+     "topic": 21,
+     "q": "Depth varies from:",
+     "a": "Light, medium, deep",
+     "w": [
+      "Fast, slow, still",
+      "Short, long, circular",
+      "Supine, prone, side-lying"
+     ],
+     "e": "Light, medium, deep.",
+     "s": "MA1-5, slide 4",
+     "f": false
+    },
+    {
+     "topic": 21,
+     "q": "Per the notes, it's usually good to begin a session at the:",
+     "a": "Head, feet or back",
+     "w": [
+      "Abdomen",
+      "Gluteals",
+      "Inner thigh"
+     ],
+     "e": "Touch: usually good to begin at the head, feet or back; a physical introduction.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 22,
+     "q": "Speed is based on:",
+     "a": "The purpose of the massage",
+     "w": [
+      "The client's height",
+      "The table width",
+      "The type of oil"
+     ],
+     "e": "Bold on the slide: based on the purpose.",
+     "s": "MA1-5, slide 6",
+     "f": true
+    },
+    {
+     "topic": 22,
+     "q": "Rapid strokes are:",
+     "a": "Stimulating",
+     "w": [
+      "Relaxing",
+      "Sedating",
+      "Always contraindicated"
+     ],
+     "e": "Rapid = stimulating; slow = relaxing.",
+     "s": "MA1-5, slide 6",
+     "f": true
+    },
+    {
+     "topic": 22,
+     "q": "Slow strokes are:",
+     "a": "Relaxing",
+     "w": [
+      "Stimulating",
+      "Alarming",
+      "Only for athletes"
+     ],
+     "e": "Slow = relaxing.",
+     "s": "MA1-5, slide 6",
+     "f": true
+    },
+    {
+     "topic": 22,
+     "q": "Rhythm is:",
+     "a": "The repetition or regularity of massage movements",
+     "w": [
+      "The unbroken transition between strokes",
+      "The order of strokes",
+      "The distance into the tissue"
+     ],
+     "e": "Rhythm definition.",
+     "s": "MA1-5, slide 7",
+     "f": false
+    },
+    {
+     "topic": 22,
+     "q": "Rhythm is affected by:",
+     "a": "Excursion, speed, pressure and intention",
+     "w": [
+      "Table height, sheets, bolsters and music",
+      "Gluteal cleft, genitals and breasts",
+      "Only the client's mood"
+     ],
+     "e": "Affected by excursion, speed, pressure, intention/purpose.",
+     "s": "MA1-5, slide 7",
+     "f": false
+    },
+    {
+     "topic": 22,
+     "q": "Per the notes, strokes that are too fast:",
+     "a": "Can alarm and fatigue the client, and you can't palpate well",
+     "w": [
+      "Always relax the client",
+      "Improve palpation",
+      "Are required at NYIM"
+     ],
+     "e": "Too quick can alarm; fast strokes can fatigue; can't palpate if too fast or too slow.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 23,
+     "q": "Duration is:",
+     "a": "Length of time spent on an area or the whole massage",
+     "w": [
+      "The order of the strokes",
+      "The length of a stroke",
+      "The force of a stroke"
+     ],
+     "e": "Duration definition.",
+     "s": "MA1-5, slide 8",
+     "f": false
+    },
+    {
+     "topic": 23,
+     "q": "Per the Basic Timing handout, head, neck and shoulders get:",
+     "a": "10-15 minutes",
+     "w": [
+      "5 minutes",
+      "30 minutes",
+      "2 minutes"
+     ],
+     "e": "Supine: head, neck & shoulders 10-15 min.",
+     "s": "Basic Timing handout",
+     "f": false
+    },
+    {
+     "topic": 23,
+     "q": "Per the Basic Timing handout, the back gets:",
+     "a": "10-15 minutes",
+     "w": [
+      "5 minutes each side",
+      "20-25 minutes",
+      "3 minutes"
+     ],
+     "e": "Prone: back 10-15 min.",
+     "s": "Basic Timing handout",
+     "f": false
+    },
+    {
+     "topic": 23,
+     "q": "Arms and hands, legs and feet, and legs and glutes each get:",
+     "a": "5 minutes on each side",
+     "w": [
+      "10-15 minutes each side",
+      "1 minute each side",
+      "15 minutes total"
+     ],
+     "e": "5 minutes on each side.",
+     "s": "Basic Timing handout",
+     "f": false
+    },
+    {
+     "topic": 23,
+     "q": "In the basic timing order, the client starts:",
+     "a": "Supine, then turns prone",
+     "w": [
+      "Prone, then turns supine",
+      "Seated the whole time",
+      "Side-lying"
+     ],
+     "e": "Supine: head/neck/shoulders, arms, legs. Turn prone: legs & glutes, back.",
+     "s": "Basic Timing handout",
+     "f": false
+    },
+    {
+     "topic": 23,
+     "q": "What decides how much time a body part gets?",
+     "a": "The discomfort or condition of the muscle tissue; more time on one area means less elsewhere",
+     "w": [
+      "The therapist's favorite area",
+      "Always equal time everywhere",
+      "The order on the intake form"
+     ],
+     "e": "Handout note under the timing table.",
+     "s": "Basic Timing handout",
+     "f": false
+    },
+    {
+     "topic": 24,
+     "q": "General Swedish massage guideline: work from:",
+     "a": "General to specific, then back to general",
+     "w": [
+      "Specific to general only",
+      "The feet to the head always",
+      "Deep to light"
+     ],
+     "e": "Guideline 1.",
+     "s": "Swedish Guidelines handout",
+     "f": false
+    },
+    {
+     "topic": 24,
+     "q": "Swedish guideline on pressure: work from:",
+     "a": "Light stroking to gradually deeper work, then back to lighter",
+     "w": [
+      "Deep work first, then light",
+      "Light only",
+      "Deep only"
+     ],
+     "e": "Guideline 2.",
+     "s": "Swedish Guidelines handout",
+     "f": false
+    },
+    {
+     "topic": 24,
+     "q": "'Be thorough. Be complete.' means:",
+     "a": "Cover every square inch",
+     "w": [
+      "Repeat each stroke 10 times",
+      "Spend most time on the back",
+      "Use every stroke on every body part"
+     ],
+     "e": "Guideline 3.",
+     "s": "Swedish Guidelines handout",
+     "f": false
+    },
+    {
+     "topic": 24,
+     "q": "Swedish guidelines say to work with your own:",
+     "a": "Weight and breath",
+     "w": [
+      "Hand strength",
+      "Speed",
+      "Thumbs"
+     ],
+     "e": "Guideline 4: work with your own weight and breath.",
+     "s": "Swedish Guidelines handout",
+     "f": false
+    },
+    {
+     "topic": 24,
+     "q": "How deep should you work, per the guidelines?",
+     "a": "Deeply enough to contact and release tension",
+     "w": [
+      "As deep as possible",
+      "Only on the surface",
+      "Until the client says stop"
+     ],
+     "e": "Guideline 6.",
+     "s": "Swedish Guidelines handout",
+     "f": false
+    },
+    {
+     "topic": 24,
+     "q": "The last Swedish guideline is:",
+     "a": "Stay with yourself. Stay centered. Stay grounded.",
+     "w": [
+      "Finish with tapotement",
+      "Always end at the feet",
+      "Ask for feedback every minute"
+     ],
+     "e": "Guideline 7.",
+     "s": "Swedish Guidelines handout",
+     "f": false
+    },
+    {
+     "topic": 25,
+     "q": "Per the NYIM Draping Policy, students receiving massage are draped:",
+     "a": "With sheets at all times",
+     "w": [
+      "Only on the back",
+      "Only when the instructor is present",
+      "With towels only"
+     ],
+     "e": "Policy item 1.",
+     "s": "Draping Policy handout",
+     "f": false
+    },
+    {
+     "topic": 25,
+     "q": "Walking from the dressing room to the table, the student wraps a sheet:",
+     "a": "Horizontally around the trunk for minimum exposure",
+     "w": [
+      "Over the shoulders like a cape",
+      "Around the waist only",
+      "Not at all; robes are used"
+     ],
+     "e": "Policy item 3.",
+     "s": "Draping Policy handout",
+     "f": false
+    },
+    {
+     "topic": 25,
+     "q": "Once the client is on the table, draping responsibility shifts to:",
+     "a": "The student acting as the therapist",
+     "w": [
+      "The client",
+      "The clinic supervisor",
+      "The front desk"
+     ],
+     "e": "Policy item 4.",
+     "s": "Draping Policy handout",
+     "f": false
+    },
+    {
+     "topic": 25,
+     "q": "When the massage is over, the student therapist should:",
+     "a": "Help the client stay fully covered while getting off the table",
+     "w": [
+      "Leave the room immediately",
+      "Remove the sheet for the client",
+      "Ask the client to fold the sheets"
+     ],
+     "e": "Policy item 6.",
+     "s": "Draping Policy handout",
+     "f": false
+    },
+    {
+     "topic": 25,
+     "q": "The policy box stresses developing an attitude of:",
+     "a": "Non-judgment of physical appearance; treat every body the same",
+     "w": [
+      "Strict silence during the session",
+      "Speed and efficiency",
+      "Correcting clients' posture"
+     ],
+     "e": "Box at the bottom of the policy.",
+     "s": "Draping Policy handout",
+     "f": false
+    },
+    {
+     "topic": 25,
+     "q": "To prepare, students receiving massage disrobe:",
+     "a": "In a bathroom or dressing room",
+     "w": [
+      "On the massage table",
+      "In the classroom",
+      "Behind the therapist"
+     ],
+     "e": "Policy item 2.",
+     "s": "Draping Policy handout",
+     "f": false
+    },
+    {
+     "topic": 26,
+     "q": "Which draping method MUST be used at NYIM?",
+     "a": "Diaper draping",
+     "w": [
+      "Towel-only draping",
+      "Top-sheet-only draping",
+      "No draping"
+     ],
+     "e": "Underlined: DIAPER DRAPING must be used at NYIM.",
+     "s": "MA1-4, slide 16",
+     "f": true
+    },
+    {
+     "topic": 26,
+     "q": "Which sheets are best for draping?",
+     "a": "Twin size; 2 sheets required (fitted & top, or top & top)",
+     "w": [
+      "King size; 1 sheet",
+      "Any towel",
+      "Full size; 3 sheets"
+     ],
+     "e": "Twin size best; 2 sheets required; fold down top sheet.",
+     "s": "MA1-4, slide 16",
+     "f": false
+    },
+    {
+     "topic": 26,
+     "q": "When turning a client at NYIM, the client turns:",
+     "a": "Toward you",
+     "w": [
+      "Away from you",
+      "Off the table first",
+      "Without the sheet"
+     ],
+     "e": "Have client turn toward you (NYIM).",
+     "s": "MA1-4, slide 17",
+     "f": false
+    },
+    {
+     "topic": 26,
+     "q": "When turning, you anchor the sheet with your:",
+     "a": "Thighs, and lift the sheet on the opposite side at the shoulder and hip",
+     "w": [
+      "Hands, lifting the whole sheet",
+      "Elbows, pinning both sides",
+      "Feet, on the floor"
+     ],
+     "e": "Anchor sheet with your thighs, elevate on the opposite side.",
+     "s": "MA1-4, slide 17",
+     "f": false
+    },
+    {
+     "topic": 26,
+     "q": "First step when turning a client either way:",
+     "a": "Remove all positioning equipment",
+     "w": [
+      "Ask them to move into the face cradle",
+      "Place the ankle bolster",
+      "Remove the top sheet"
+     ],
+     "e": "Both directions start by removing positioning equipment.",
+     "s": "MA1-4, slide 17",
+     "f": false
+    },
+    {
+     "topic": 26,
+     "q": "Turning prone to supine, before the turn the client:",
+     "a": "Moves DOWN out of the face cradle",
+     "w": [
+      "Moves up into the face cradle",
+      "Sits up",
+      "Gets a bolster under the ankles"
+     ],
+     "e": "Prone to supine: move down out of the face cradle.",
+     "s": "MA1-4, slide 17",
+     "f": false
+    },
+    {
+     "topic": 26,
+     "q": "Assisting a client on/off the table, you:",
+     "a": "Lift with your legs, keep boundaries, maintain modesty and ensure safety",
+     "w": [
+      "Lift with your back to move quickly",
+      "Let the client manage alone",
+      "Remove the drape to see their footing"
+     ],
+     "e": "Assisting slide.",
+     "s": "MA1-4, slide 18",
+     "f": false
+    },
+    {
+     "topic": 27,
+     "q": "Which is a way to avoid RSIs?",
+     "a": "Use a variety of strokes",
+     "w": [
+      "Use the same stroke all session",
+      "Book clients back to back",
+      "Keep sustained pressure"
+     ],
+     "e": "Avoid RSIs: vary strokes, stretch, proper table height, space clients, avoid sustained pressure, stay fit, get massages.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 27,
+     "q": "Which does NOT help prevent RSIs?",
+     "a": "Sustained pressure",
+     "w": [
+      "Stretching between sessions",
+      "Proper table height",
+      "Spacing out clients"
+     ],
+     "e": "Avoid sustained pressure.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 27,
+     "q": "Which is an element of proper body mechanics?",
+     "a": "Brace your digits",
+     "w": [
+      "Lock your knees",
+      "Hold your breath",
+      "Lift with your back"
+     ],
+     "e": "Also: check table height, warm up, vary strokes, work from hara, breathe, stretch, sit when appropriate, lift with legs, honor your limits.",
+     "s": "MA1-4, slide 8",
+     "f": false
+    },
+    {
+     "topic": 27,
+     "q": "'Honor your limits' and 'find your rhythm' are:",
+     "a": "Elements of proper body mechanics",
+     "w": [
+      "Rules of draping",
+      "Stroke sequence steps",
+      "Swedish timing rules"
+     ],
+     "e": "Elements of proper body mechanics slide.",
+     "s": "MA1-4, slide 8",
+     "f": false
+    },
+    {
+     "topic": 27,
+     "q": "Physical fitness is:",
+     "a": "The ability to carry out daily tasks with enough energy left to enjoy leisure and meet emergencies",
+     "w": [
+      "Being able to lift the table alone",
+      "Having no body fat",
+      "Running a mile a day"
+     ],
+     "e": "Physical fitness definition.",
+     "s": "MA1-4, slide 6",
+     "f": false
+    },
+    {
+     "topic": 27,
+     "q": "Per the notes, receiving massages regularly helps the therapist:",
+     "a": "Avoid RSIs",
+     "w": [
+      "Skip warming up",
+      "Use less draping",
+      "Work faster"
+     ],
+     "e": "One of the ways to avoid RSIs.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 28,
+     "q": "Effleurage is a:",
+     "a": "Gliding stroke",
+     "w": [
+      "Kneading stroke",
+      "Percussive stroke",
+      "Shaking stroke"
+     ],
+     "e": "Effleurage: a gliding stroke, one or two hands.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 28,
+     "q": "Effleurage is used for:",
+     "a": "Introducing touch, applying lubricant, and assessing tissue",
+     "w": [
+      "Breaking up scar tissue",
+      "Waking the client with percussion",
+      "Range of motion testing"
+     ],
+     "e": "Introducing touch, applying lubricant, assessing and exploring tissues.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 28,
+     "q": "Light effleurage used to finish a body part or the session is called:",
+     "a": "Nerve strokes",
+     "w": [
+      "Ironing",
+      "Cupping",
+      "Hacking"
+     ],
+     "e": "Nerve strokes are a light effleurage.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 28,
+     "q": "Deep effleurage is also called:",
+     "a": "Ironing",
+     "w": [
+      "Nerve strokes",
+      "Wringing",
+      "Tapping"
+     ],
+     "e": "Deep effleurage = ironing.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 28,
+     "q": "With effleurage on the extremities, you work:",
+     "a": "Proximal, then distal",
+     "w": [
+      "Distal only",
+      "Across the joint only",
+      "Away from the heart"
+     ],
+     "e": "Work proximal then distal on the extremities; strokes go toward the heart.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 28,
+     "q": "During effleurage, pressure on the return (dragging hands back) is:",
+     "a": "Less than on the applied stroke",
+     "w": [
+      "More than the applied stroke",
+      "Equal to the applied stroke",
+      "Zero, with hands lifted off"
+     ],
+     "e": "Less pressure when dragging hands back.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 28,
+     "q": "Which is a benefit of effleurage?",
+     "a": "Increases blood and lymph flow",
+     "w": [
+      "Raises blood pressure",
+      "Causes insomnia",
+      "Increases congestion"
+     ],
+     "e": "Benefits: warms tissues, relaxing, soothing, flushes congestion, passive stretch, blood & lymph flow, relieves insomnia.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    }
+   ]
   }
  ]
 }
