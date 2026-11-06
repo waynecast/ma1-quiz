@@ -5383,9 +5383,9 @@
   {
    "id": "q3",
    "title": "MA1 Quiz #3",
-   "lectures": "Class 5–6 (week 3)",
-   "blurb": "Body mechanics, foot stances, table mechanics, tools of the trade, draping and the draping policy, stroke elements, Swedish guidelines and session timing, effleurage.",
-   "sgNote": "1–10 are the \"MA1-5\" study guide (Body Mechanics, Tools, Draping), 11–20 are the \"MA1-6\" study guide (Stroke Elements, Draping Review). Slides cited are decks MA1-4 and MA1-5.",
+   "lectures": "Classes 5–6 (week 3, quiz 11/9)",
+   "blurb": "Body mechanics, foot stances, table mechanics, tools of the trade, draping and the draping policy, stroke elements, Swedish guidelines and session timing, effleurage and petrissage, beneficial effects of massage.",
+   "sgNote": "1–10 are the \"MA1-5\" study guide (Body Mechanics, Tools, Draping), 11–20 are the \"MA1-6\" study guide (Stroke Elements, Draping Review). Slides cited are decks MA1-4 and MA1-5; 28–31 cover the MA1-6 Effleurage & Petrissage deck.",
    "studyGuideTopics": [
     1,
     2,
@@ -5436,7 +5436,11 @@
     "25": "NYIM draping policy",
     "26": "Sheet draping, turning and assisting on/off the table",
     "27": "Repetitive strain injuries: causes and prevention",
-    "28": "Effleurage"
+    "28": "Effleurage",
+    "29": "Effleurage variations",
+    "30": "Petrissage",
+    "31": "Petrissage variations",
+    "32": "Beneficial effects of massage"
    },
    "questions": [
     {
@@ -7725,6 +7729,474 @@
      ],
      "e": "Benefits: warms tissues, relaxing, soothing, flushes congestion, passive stretch, blood & lymph flow, relieves insomnia.",
      "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 28,
+     "q": "The most commonly used Swedish stroke is:",
+     "a": "Effleurage",
+     "w": [
+      "Petrissage",
+      "Tapotement",
+      "Friction"
+     ],
+     "e": "Bold: most commonly used Swedish stroke.",
+     "s": "MA1-6, slide 2",
+     "f": false
+    },
+    {
+     "topic": 28,
+     "q": "Effleurage means:",
+     "a": "To flow or glide",
+     "w": [
+      "To knead or mash",
+      "To tap",
+      "To rub across"
+     ],
+     "e": "Means to FLOW or GLIDE.",
+     "s": "MA1-6, slide 2",
+     "f": false
+    },
+    {
+     "topic": 28,
+     "q": "Effleurage is repeated, unbroken gliding movements that follow:",
+     "a": "The contour of the client's body",
+     "w": [
+      "The direction of hair growth",
+      "The bone only",
+      "A straight line across the muscle"
+     ],
+     "e": "Follow the CONTOUR of the client's body.",
+     "s": "MA1-6, slide 2",
+     "f": false
+    },
+    {
+     "topic": 28,
+     "q": "Effleurage pressure is applied:",
+     "a": "Centripetally",
+     "w": [
+      "Centrifugally",
+      "Only side to side",
+      "Away from the heart on the limbs"
+     ],
+     "e": "Bold and underlined: pressure is applied centripetally.",
+     "s": "MA1-6, slide 2",
+     "f": true
+    },
+    {
+     "topic": 28,
+     "q": "Effleurage can be applied with:",
+     "a": "Palms, fingertips, forearms or fists",
+     "w": [
+      "Elbows only",
+      "Thumbs only",
+      "A towel only"
+     ],
+     "e": "Applied with palms, fingertips, forearms, fists; 1 or 2 hands.",
+     "s": "MA1-6, slide 2",
+     "f": false
+    },
+    {
+     "topic": 28,
+     "q": "Which is a PURPOSE of effleurage?",
+     "a": "Transition stroke and fall-back stroke",
+     "w": [
+      "Lifting muscle away from bone",
+      "Loosening adhesions with no lubricant",
+      "Percussing to stimulate"
+     ],
+     "e": "Purpose: introduce touch, move blood & lymph, prepare for and flush after deeper work, spread lubricant, transition, fall back.",
+     "s": "MA1-6, slide 3",
+     "f": false
+    },
+    {
+     "topic": 28,
+     "q": "Effleurage calms or stimulates depending on:",
+     "a": "Speed",
+     "w": [
+      "Lubricant",
+      "Table height",
+      "Sheet color"
+     ],
+     "e": "Benefits: calms or stimulates depending on speed.",
+     "s": "MA1-6, slide 4",
+     "f": false
+    },
+    {
+     "topic": 29,
+     "q": "Linear effleurage on the limbs is applied:",
+     "a": "Centripetally (on arms and legs)",
+     "w": [
+      "Centrifugally",
+      "Across the joint",
+      "With no direction rule"
+     ],
+     "e": "Bold and underlined: applied centripetally on limbs.",
+     "s": "MA1-6, slide 5",
+     "f": true
+    },
+    {
+     "topic": 29,
+     "q": "Circular effleurage is also known as:",
+     "a": "Sun & Moon",
+     "w": [
+      "Ironing",
+      "Raking",
+      "C & V"
+     ],
+     "e": "Circular aka Sun & Moon: superficial, for ball & socket joints and abdomen.",
+     "s": "MA1-6, slide 5",
+     "f": false
+    },
+    {
+     "topic": 29,
+     "q": "Sun & Moon (circular) effleurage is used on:",
+     "a": "Ball & socket joints and the abdomen",
+     "w": [
+      "The spine only",
+      "The face only",
+      "Bony areas with no lubricant"
+     ],
+     "e": "Circular: ball & socket joints, abdomen.",
+     "s": "MA1-6, slide 5",
+     "f": false
+    },
+    {
+     "topic": 29,
+     "q": "Ironing is:",
+     "a": "Slow, deep effleurage using larger tools like knuckles and forearms",
+     "w": [
+      "Light feather stroking",
+      "Rolling the skin",
+      "Fast percussion"
+     ],
+     "e": "Ironing: slow, deep, larger tools.",
+     "s": "MA1-6, slide 5",
+     "f": false
+    },
+    {
+     "topic": 29,
+     "q": "Which effleurage variations are superficial?",
+     "a": "Raking, nerve/feather stroking, and circular",
+     "w": [
+      "Ironing and linear deep",
+      "Skin rolling and fulling",
+      "C & V and ocean waves"
+     ],
+     "e": "Raking, nerve/feather, circular = superficial.",
+     "s": "MA1-6, slide 5",
+     "f": false
+    },
+    {
+     "topic": 29,
+     "q": "Nerve / feather stroking is:",
+     "a": "A superficial effleurage, often used to finish a body part",
+     "w": [
+      "A deep stroke with the forearm",
+      "A kneading stroke",
+      "A friction stroke"
+     ],
+     "e": "Superficial; notes say used when finishing a body part or session.",
+     "s": "MA1-6, slide 5",
+     "f": false
+    },
+    {
+     "topic": 30,
+     "q": "Petrissage is:",
+     "a": "Rhythmic lifting of muscle away from the bone, squeezing and releasing",
+     "w": [
+      "A gliding stroke following the body's contour",
+      "Rapid percussion",
+      "Rubbing across the fibers"
+     ],
+     "e": "Petrissage definition.",
+     "s": "MA1-6, slide 6",
+     "f": false
+    },
+    {
+     "topic": 30,
+     "q": "Petrissage means:",
+     "a": "To knead or to mash",
+     "w": [
+      "To flow or glide",
+      "To tap",
+      "To shake"
+     ],
+     "e": "French petrir: to mash or knead.",
+     "s": "MA1-6, slide 6",
+     "f": false
+    },
+    {
+     "topic": 30,
+     "q": "The key petrissage rule in red on the slide:",
+     "a": "Lift, DON'T pinch the tissue",
+     "w": [
+      "Pinch to grab more tissue",
+      "Lift your hands off between strokes",
+      "Use as much oil as possible"
+     ],
+     "e": "Red text: Lift, DON'T pinch the tissue. Don't lose contact with the skin.",
+     "s": "MA1-6, slide 6",
+     "f": true
+    },
+    {
+     "topic": 30,
+     "q": "Petrissage is applied to the:",
+     "a": "Muscle belly (middle of the muscle)",
+     "w": [
+      "Tendon at the attachment",
+      "Joint capsule",
+      "Bony landmarks"
+     ],
+     "e": "Applied to the muscle belly.",
+     "s": "MA1-6, slide 6",
+     "f": false
+    },
+    {
+     "topic": 30,
+     "q": "Petrissage pressure must be applied:",
+     "a": "Rhythmically, usually in a circular motion",
+     "w": [
+      "Randomly",
+      "In one sustained hold",
+      "Only in straight lines"
+     ],
+     "e": "Bold: pressure must be applied RHYTHMICALLY.",
+     "s": "MA1-6, slide 6",
+     "f": true
+    },
+    {
+     "topic": 30,
+     "q": "Petrissage typically follows:",
+     "a": "Effleurage",
+     "w": [
+      "Tapotement",
+      "Vibration",
+      "Friction"
+     ],
+     "e": "Typically follows effleurage.",
+     "s": "MA1-6, slide 6",
+     "f": false
+    },
+    {
+     "topic": 30,
+     "q": "The main purpose of petrissage is to:",
+     "a": "Draw NEW blood and oxygen to the tissue and relieve knots and spasms",
+     "w": [
+      "Spread lubricant",
+      "Introduce touch",
+      "Stimulate with percussion"
+     ],
+     "e": "Bold purpose: draws new blood & oxygen, improves circulation, relieves knots and spasms.",
+     "s": "MA1-6, slide 7",
+     "f": true
+    },
+    {
+     "topic": 30,
+     "q": "Which is a benefit of petrissage?",
+     "a": "Reduces LOCAL swelling and removes waste products",
+     "w": [
+      "Raises blood pressure",
+      "Increases muscle soreness",
+      "Numbs the skin"
+     ],
+     "e": "Benefits: blood flow, removes waste, reduces local swelling, fatigue, soreness; softens superficial fascia.",
+     "s": "MA1-6, slide 8",
+     "f": false
+    },
+    {
+     "topic": 30,
+     "q": "Which stance is used for petrissage?",
+     "a": "Warrior (horse) stance",
+     "w": [
+      "Bow (lunge) stance",
+      "Feet together",
+      "Kneeling"
+     ],
+     "e": "Short-distance strokes such as petrissage use warrior stance.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 31,
+     "q": "In C & V petrissage, the hands:",
+     "a": "Start in a C, lift the muscle belly, compress, and release with a V without breaking contact",
+     "w": [
+      "Tap in a V shape",
+      "Glide in a C along the spine",
+      "Roll the skin between fingertips"
+     ],
+     "e": "C & V: rhythmic circle, 1 or 2 handed.",
+     "s": "MA1-6, slide 9",
+     "f": false
+    },
+    {
+     "topic": 31,
+     "q": "Ocean waves petrissage:",
+     "a": "Rolls tissue against the bone, then squeezes and lifts; good on thighs",
+     "w": [
+      "Lifts skin with no lubricant",
+      "Is a one-handed stroke on the face",
+      "Glides superficially"
+     ],
+     "e": "Ocean waves: fingers point medially, broadens tissue, 2 handed.",
+     "s": "MA1-6, slide 9",
+     "f": false
+    },
+    {
+     "topic": 31,
+     "q": "Fulling (broadening):",
+     "a": "Grips with both hands, lifts and spreads the tissue laterally from the center",
+     "w": [
+      "Rolls skin between thumb and fingers",
+      "Taps with the fingertips",
+      "Glides toward the heart"
+     ],
+     "e": "Fulling: used on limbs and back, 2 handed.",
+     "s": "MA1-6, slide 9",
+     "f": false
+    },
+    {
+     "topic": 31,
+     "q": "Skin rolling is done with:",
+     "a": "Little to NO lubricant and no downward force",
+     "w": [
+      "Lots of oil and deep pressure",
+      "The forearm",
+      "A fist"
+     ],
+     "e": "Grasp & lift skin between fingertips and thumbs; can be done on bony areas.",
+     "s": "MA1-6, slide 10",
+     "f": false
+    },
+    {
+     "topic": 31,
+     "q": "Skin rolling helps by:",
+     "a": "Loosening adhesions between skin and deeper myofascia and releasing endorphins",
+     "w": [
+      "Increasing swelling",
+      "Stretching tendons only",
+      "Raising blood pressure"
+     ],
+     "e": "Releases myofascial restrictions; endorphins produce analgesia.",
+     "s": "MA1-6, slide 10",
+     "f": false
+    },
+    {
+     "topic": 31,
+     "q": "Skin rolling is essential to Bindegewebsmassage (connective tissue massage), developed by:",
+     "a": "Elizabeth Dicke",
+     "w": [
+      "Per Henrik Ling",
+      "Johann Mezger",
+      "Ida Rolf"
+     ],
+     "e": "Bold on the slide.",
+     "s": "MA1-6, slide 10",
+     "f": true
+    },
+    {
+     "topic": 31,
+     "q": "Which petrissage variation can be done on bony areas?",
+     "a": "Skin rolling",
+     "w": [
+      "Ocean waves",
+      "Fulling",
+      "C & V"
+     ],
+     "e": "Skin rolling: no downward force, can be done on bony areas.",
+     "s": "MA1-6, slide 10",
+     "f": false
+    },
+    {
+     "topic": 32,
+     "q": "Per the Beneficial Effects handout, massage acts as a 'mechanical cleanser' by:",
+     "a": "Stimulating lymph circulation and hastening elimination of wastes",
+     "w": [
+      "Killing bacteria on the skin",
+      "Raising body temperature",
+      "Breaking bones down"
+     ],
+     "e": "Effect 3.",
+     "s": "Beneficial Effects of Massage handout",
+     "f": false
+    },
+    {
+     "topic": 32,
+     "q": "Massage affects blood vessels by:",
+     "a": "Dilating them, improving circulation and relieving congestion",
+     "w": [
+      "Constricting them",
+      "Blocking venous return",
+      "Hardening them"
+     ],
+     "e": "Effect 1.",
+     "s": "Beneficial Effects of Massage handout",
+     "f": false
+    },
+    {
+     "topic": 32,
+     "q": "Per the handout, massage increases the number of:",
+     "a": "Red blood cells, especially in cases of anemia",
+     "w": [
+      "White blood cells only",
+      "Platelets in hemophilia",
+      "Fat cells"
+     ],
+     "e": "Effect 2.",
+     "s": "Beneficial Effects of Massage handout",
+     "f": false
+    },
+    {
+     "topic": 32,
+     "q": "Massage's effect on the nervous system is:",
+     "a": "Sedative or stimulating, depending on the treatment",
+     "w": [
+      "Always stimulating",
+      "Always sedative",
+      "None"
+     ],
+     "e": "Effect 8.",
+     "s": "Beneficial Effects of Massage handout",
+     "f": false
+    },
+    {
+     "topic": 32,
+     "q": "For people forced to remain inactive, massage helps by:",
+     "a": "Returning venous blood to the heart, easing its strain",
+     "w": [
+      "Replacing all exercise",
+      "Raising heart rate",
+      "Increasing lactic acid"
+     ],
+     "e": "Effect 7.",
+     "s": "Beneficial Effects of Massage handout",
+     "f": false
+    },
+    {
+     "topic": 32,
+     "q": "Massage stretches connective tissue, which:",
+     "a": "Breaks down or prevents adhesions and reduces the danger of fibrosis",
+     "w": [
+      "Causes fibrosis",
+      "Weakens joints",
+      "Increases scar tissue"
+     ],
+     "e": "Effect 13.",
+     "s": "Beneficial Effects of Massage handout",
+     "f": false
+    },
+    {
+     "topic": 32,
+     "q": "Massage increases blood supply to muscles without adding:",
+     "a": "To their load of toxic lactic acid",
+     "w": [
+      "Oxygen",
+      "Nutrients",
+      "Warmth"
+     ],
+     "e": "Effect 5: helps prevent buildup of 'fatigue' products.",
+     "s": "Beneficial Effects of Massage handout",
      "f": false
     }
    ]

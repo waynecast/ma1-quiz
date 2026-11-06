@@ -4,7 +4,10 @@
 # MA1-4 (Body Mechanics, Draping, Assisting) and MA1-5 (Stroke Elements & Draping Review).
 # Per question: topic, q, a, w (3 wrong), e (explanation), s (source), f (flagged).
 # f=True when the point is underlined, or set apart in bold body text on the slide (not just a slide heading).
-# Sources: MA1-4 / MA1-5 / MA1-14 = slide decks; handouts by name:
+# Per the NYIM Program Calendar (term 209), MA1 Quiz #3 is on 11/9 after MA1-5 (Draping, Stroke Elements, 11/2) and
+# MA1-6 (Effleurage, Petrissage, 11/4), so topics 28-31 cover the MA1-6 deck and 32 the "Beneficial Effects" handout
+# listed for MA1-5.
+# Sources: MA1-4 / MA1-5 / MA1-6 / MA1-14 = slide decks; handouts by name:
 #   "Body Mechanics & Effleurage notes" = MA1 Body Mechanics, Stroke Elements & Effleurage Notes (class handout)
 #   "Draping Policy handout" = NYIM Draping Policy MA1-02
 #   "Swedish Guidelines handout" = General Guidelines for Swedish Massage MA1-02
@@ -42,6 +45,10 @@ TOPICS = {
     26: "Sheet draping, turning and assisting on/off the table",
     27: "Repetitive strain injuries: causes and prevention",
     28: "Effleurage",
+    29: "Effleurage variations",
+    30: "Petrissage",
+    31: "Petrissage variations",
+    32: "Beneficial effects of massage",
 }
 STUDY_GUIDE_TOPICS = list(range(1, 21))  # 1-10 = "MA1-5" study guide, 11-20 = "MA1-6" study guide
 
@@ -641,13 +648,131 @@ add(28, "Which is a benefit of effleurage?", "Increases blood and lymph flow",
     ["Raises blood pressure", "Causes insomnia", "Increases congestion"],
     "Benefits: warms tissues, relaxing, soothing, flushes congestion, passive stretch, blood & lymph flow, relieves insomnia.", "Body Mechanics & Effleurage notes")
 
+# ---------- 28 (cont.). Effleurage, MA1-6 deck ----------
+add(28, "The most commonly used Swedish stroke is:", "Effleurage",
+    ["Petrissage", "Tapotement", "Friction"],
+    "Bold: most commonly used Swedish stroke.", "MA1-6, slide 2")
+add(28, "Effleurage means:", "To flow or glide",
+    ["To knead or mash", "To tap", "To rub across"],
+    "Means to FLOW or GLIDE.", "MA1-6, slide 2")
+add(28, "Effleurage is repeated, unbroken gliding movements that follow:", "The contour of the client's body",
+    ["The direction of hair growth", "The bone only", "A straight line across the muscle"],
+    "Follow the CONTOUR of the client's body.", "MA1-6, slide 2")
+add(28, "Effleurage pressure is applied:", "Centripetally",
+    ["Centrifugally", "Only side to side", "Away from the heart on the limbs"],
+    "Bold and underlined: pressure is applied centripetally.", "MA1-6, slide 2", True)
+add(28, "Effleurage can be applied with:", "Palms, fingertips, forearms or fists",
+    ["Elbows only", "Thumbs only", "A towel only"],
+    "Applied with palms, fingertips, forearms, fists; 1 or 2 hands.", "MA1-6, slide 2")
+add(28, "Which is a PURPOSE of effleurage?", "Transition stroke and fall-back stroke",
+    ["Lifting muscle away from bone", "Loosening adhesions with no lubricant", "Percussing to stimulate"],
+    "Purpose: introduce touch, move blood & lymph, prepare for and flush after deeper work, spread lubricant, transition, fall back.", "MA1-6, slide 3")
+add(28, "Effleurage calms or stimulates depending on:", "Speed",
+    ["Lubricant", "Table height", "Sheet color"],
+    "Benefits: calms or stimulates depending on speed.", "MA1-6, slide 4")
+
+# ---------- 29. Effleurage variations ----------
+add(29, "Linear effleurage on the limbs is applied:", "Centripetally (on arms and legs)",
+    ["Centrifugally", "Across the joint", "With no direction rule"],
+    "Bold and underlined: applied centripetally on limbs.", "MA1-6, slide 5", True)
+add(29, "Circular effleurage is also known as:", "Sun & Moon",
+    ["Ironing", "Raking", "C & V"],
+    "Circular aka Sun & Moon: superficial, for ball & socket joints and abdomen.", "MA1-6, slide 5")
+add(29, "Sun & Moon (circular) effleurage is used on:", "Ball & socket joints and the abdomen",
+    ["The spine only", "The face only", "Bony areas with no lubricant"],
+    "Circular: ball & socket joints, abdomen.", "MA1-6, slide 5")
+add(29, "Ironing is:", "Slow, deep effleurage using larger tools like knuckles and forearms",
+    ["Light feather stroking", "Rolling the skin", "Fast percussion"],
+    "Ironing: slow, deep, larger tools.", "MA1-6, slide 5")
+add(29, "Which effleurage variations are superficial?", "Raking, nerve/feather stroking, and circular",
+    ["Ironing and linear deep", "Skin rolling and fulling", "C & V and ocean waves"],
+    "Raking, nerve/feather, circular = superficial.", "MA1-6, slide 5")
+add(29, "Nerve / feather stroking is:", "A superficial effleurage, often used to finish a body part",
+    ["A deep stroke with the forearm", "A kneading stroke", "A friction stroke"],
+    "Superficial; notes say used when finishing a body part or session.", "MA1-6, slide 5")
+
+# ---------- 30. Petrissage ----------
+add(30, "Petrissage is:", "Rhythmic lifting of muscle away from the bone, squeezing and releasing",
+    ["A gliding stroke following the body's contour", "Rapid percussion", "Rubbing across the fibers"],
+    "Petrissage definition.", "MA1-6, slide 6")
+add(30, "Petrissage means:", "To knead or to mash",
+    ["To flow or glide", "To tap", "To shake"],
+    "French petrir: to mash or knead.", "MA1-6, slide 6")
+add(30, "The key petrissage rule in red on the slide:", "Lift, DON'T pinch the tissue",
+    ["Pinch to grab more tissue", "Lift your hands off between strokes", "Use as much oil as possible"],
+    "Red text: Lift, DON'T pinch the tissue. Don't lose contact with the skin.", "MA1-6, slide 6", True)
+add(30, "Petrissage is applied to the:", "Muscle belly (middle of the muscle)",
+    ["Tendon at the attachment", "Joint capsule", "Bony landmarks"],
+    "Applied to the muscle belly.", "MA1-6, slide 6")
+add(30, "Petrissage pressure must be applied:", "Rhythmically, usually in a circular motion",
+    ["Randomly", "In one sustained hold", "Only in straight lines"],
+    "Bold: pressure must be applied RHYTHMICALLY.", "MA1-6, slide 6", True)
+add(30, "Petrissage typically follows:", "Effleurage",
+    ["Tapotement", "Vibration", "Friction"],
+    "Typically follows effleurage.", "MA1-6, slide 6")
+add(30, "The main purpose of petrissage is to:", "Draw NEW blood and oxygen to the tissue and relieve knots and spasms",
+    ["Spread lubricant", "Introduce touch", "Stimulate with percussion"],
+    "Bold purpose: draws new blood & oxygen, improves circulation, relieves knots and spasms.", "MA1-6, slide 7", True)
+add(30, "Which is a benefit of petrissage?", "Reduces LOCAL swelling and removes waste products",
+    ["Raises blood pressure", "Increases muscle soreness", "Numbs the skin"],
+    "Benefits: blood flow, removes waste, reduces local swelling, fatigue, soreness; softens superficial fascia.", "MA1-6, slide 8")
+add(30, "Which stance is used for petrissage?", "Warrior (horse) stance",
+    ["Bow (lunge) stance", "Feet together", "Kneeling"],
+    "Short-distance strokes such as petrissage use warrior stance.", "Body Mechanics & Effleurage notes")
+
+# ---------- 31. Petrissage variations ----------
+add(31, "In C & V petrissage, the hands:", "Start in a C, lift the muscle belly, compress, and release with a V without breaking contact",
+    ["Tap in a V shape", "Glide in a C along the spine", "Roll the skin between fingertips"],
+    "C & V: rhythmic circle, 1 or 2 handed.", "MA1-6, slide 9")
+add(31, "Ocean waves petrissage:", "Rolls tissue against the bone, then squeezes and lifts; good on thighs",
+    ["Lifts skin with no lubricant", "Is a one-handed stroke on the face", "Glides superficially"],
+    "Ocean waves: fingers point medially, broadens tissue, 2 handed.", "MA1-6, slide 9")
+add(31, "Fulling (broadening):", "Grips with both hands, lifts and spreads the tissue laterally from the center",
+    ["Rolls skin between thumb and fingers", "Taps with the fingertips", "Glides toward the heart"],
+    "Fulling: used on limbs and back, 2 handed.", "MA1-6, slide 9")
+add(31, "Skin rolling is done with:", "Little to NO lubricant and no downward force",
+    ["Lots of oil and deep pressure", "The forearm", "A fist"],
+    "Grasp & lift skin between fingertips and thumbs; can be done on bony areas.", "MA1-6, slide 10")
+add(31, "Skin rolling helps by:", "Loosening adhesions between skin and deeper myofascia and releasing endorphins",
+    ["Increasing swelling", "Stretching tendons only", "Raising blood pressure"],
+    "Releases myofascial restrictions; endorphins produce analgesia.", "MA1-6, slide 10")
+add(31, "Skin rolling is essential to Bindegewebsmassage (connective tissue massage), developed by:", "Elizabeth Dicke",
+    ["Per Henrik Ling", "Johann Mezger", "Ida Rolf"],
+    "Bold on the slide.", "MA1-6, slide 10", True)
+add(31, "Which petrissage variation can be done on bony areas?", "Skin rolling",
+    ["Ocean waves", "Fulling", "C & V"],
+    "Skin rolling: no downward force, can be done on bony areas.", "MA1-6, slide 10")
+
+# ---------- 32. Beneficial effects of massage ----------
+add(32, "Per the Beneficial Effects handout, massage acts as a 'mechanical cleanser' by:", "Stimulating lymph circulation and hastening elimination of wastes",
+    ["Killing bacteria on the skin", "Raising body temperature", "Breaking bones down"],
+    "Effect 3.", "Beneficial Effects of Massage handout")
+add(32, "Massage affects blood vessels by:", "Dilating them, improving circulation and relieving congestion",
+    ["Constricting them", "Blocking venous return", "Hardening them"],
+    "Effect 1.", "Beneficial Effects of Massage handout")
+add(32, "Per the handout, massage increases the number of:", "Red blood cells, especially in cases of anemia",
+    ["White blood cells only", "Platelets in hemophilia", "Fat cells"],
+    "Effect 2.", "Beneficial Effects of Massage handout")
+add(32, "Massage's effect on the nervous system is:", "Sedative or stimulating, depending on the treatment",
+    ["Always stimulating", "Always sedative", "None"],
+    "Effect 8.", "Beneficial Effects of Massage handout")
+add(32, "For people forced to remain inactive, massage helps by:", "Returning venous blood to the heart, easing its strain",
+    ["Replacing all exercise", "Raising heart rate", "Increasing lactic acid"],
+    "Effect 7.", "Beneficial Effects of Massage handout")
+add(32, "Massage stretches connective tissue, which:", "Breaks down or prevents adhesions and reduces the danger of fibrosis",
+    ["Causes fibrosis", "Weakens joints", "Increases scar tissue"],
+    "Effect 13.", "Beneficial Effects of Massage handout")
+add(32, "Massage increases blood supply to muscles without adding:", "To their load of toxic lactic acid",
+    ["Oxygen", "Nutrients", "Warmth"],
+    "Effect 5: helps prevent buildup of 'fatigue' products.", "Beneficial Effects of Massage handout")
+
 c = {}
 for q in Q:
     c[q["topic"]] = c.get(q["topic"], 0) + 1
 for t in TOPICS:
     assert c.get(t, 0) >= 4, (t, c.get(t, 0))
 
-QUIZ = {"id": "q3", "title": "MA1 Quiz #3", "lectures": "Class 5–6 (week 3)",
-        "blurb": "Body mechanics, foot stances, table mechanics, tools of the trade, draping and the draping policy, stroke elements, Swedish guidelines and session timing, effleurage.",
-        "sgNote": "1–10 are the \"MA1-5\" study guide (Body Mechanics, Tools, Draping), 11–20 are the \"MA1-6\" study guide (Stroke Elements, Draping Review). Slides cited are decks MA1-4 and MA1-5.",
+QUIZ = {"id": "q3", "title": "MA1 Quiz #3", "lectures": "Classes 5–6 (week 3, quiz 11/9)",
+        "blurb": "Body mechanics, foot stances, table mechanics, tools of the trade, draping and the draping policy, stroke elements, Swedish guidelines and session timing, effleurage and petrissage, beneficial effects of massage.",
+        "sgNote": "1–10 are the \"MA1-5\" study guide (Body Mechanics, Tools, Draping), 11–20 are the \"MA1-6\" study guide (Stroke Elements, Draping Review). Slides cited are decks MA1-4 and MA1-5; 28–31 cover the MA1-6 Effleurage & Petrissage deck.",
         "studyGuideTopics": STUDY_GUIDE_TOPICS, "topics": TOPICS, "questions": Q}
