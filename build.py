@@ -2,9 +2,9 @@
 # To add a quiz: create banks/quizN.py (copy quiz2.py's layout) and add it to QUIZZES below.
 import json
 from collections import Counter
-from banks import quiz1, quiz2, quiz3
+from banks import quiz1, quiz2, quiz3, quiz4
 
-QUIZZES = [quiz1.QUIZ, quiz2.QUIZ, quiz3.QUIZ]
+QUIZZES = [quiz1.QUIZ, quiz2.QUIZ, quiz3.QUIZ, quiz4.QUIZ]
 
 out = {"title": "MA1 Quiz Practice", "quizzes": []}
 for qz in QUIZZES:

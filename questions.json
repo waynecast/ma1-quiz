@@ -8200,6 +8200,2673 @@
      "f": false
     }
    ]
+  },
+  {
+   "id": "q4",
+   "title": "MA1 Quiz #4",
+   "lectures": "Classes 6–8 (week 4, quiz 11/16)",
+   "blurb": "Effleurage and petrissage (definitions, variations, purpose, benefits, direction, stances), friction (superficial and deep types, Cyriax), tapotement (7 types, when to avoid, benefits), vibration, compression, muscle cramps, trigger points and tender points.",
+   "sgNote": "1–11 are the \"MA1-7\" study guide (Effleurage, Petrissage), 12–23 are the \"MA1-8\" study guide (Friction, Tapotement). The guides are numbered one ahead of the decks, so slides cited are decks MA1-6 and MA1-7. Per the program calendar, 24–31 cover the MA1-8 Vibration & Ancillary Strokes deck (11/11), also on this quiz.",
+   "studyGuideTopics": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+   ],
+   "topics": {
+    "1": "Define effleurage",
+    "2": "Effleurage variations",
+    "3": "Purpose of effleurage",
+    "4": "Direction of effleurage on the limbs, and why",
+    "5": "Benefits of effleurage",
+    "6": "Stance for effleurage",
+    "7": "Define petrissage",
+    "8": "What petrissage follows",
+    "9": "Petrissage variations",
+    "10": "Benefits of petrissage",
+    "11": "Stance for petrissage",
+    "12": "Describe friction",
+    "13": "What friction follows",
+    "14": "What follows friction, and why",
+    "15": "Superficial vs. deep friction",
+    "16": "Benefits of friction",
+    "17": "3 types of superficial friction",
+    "18": "3 types of deep friction",
+    "19": "Define tapotement",
+    "20": "When/where to avoid tapotement",
+    "21": "The 7 types of percussion",
+    "22": "Benefits of tapotement",
+    "23": "Who is credited for cross-fiber friction",
+    "24": "Vibration: definition and effects",
+    "25": "Benefits of vibration",
+    "26": "4 variations of vibration",
+    "27": "Compression",
+    "28": "Treating muscle cramps and spasms",
+    "29": "Trigger points: definition and classifications",
+    "30": "Trigger points: the Big Six causes and treatment",
+    "31": "Tender points, local twitch response and jump sign"
+   },
+   "questions": [
+    {
+     "topic": 1,
+     "q": "Effleurage is the:",
+     "a": "Most commonly used Swedish stroke",
+     "w": [
+      "Least used Swedish stroke",
+      "Only stroke done without lubricant",
+      "Most physically demanding stroke"
+     ],
+     "e": "Bold on the slide: mostly commonly used Swedish stroke.",
+     "s": "MA1-6, slide 2",
+     "f": true
+    },
+    {
+     "topic": 1,
+     "q": "Effleurage means:",
+     "a": "To flow or glide",
+     "w": [
+      "To knead",
+      "To rub",
+      "To strike"
+     ],
+     "e": "Bold on the slide: means to FLOW or GLIDE. Knead = petrissage, rub = friction, strike = tapotement.",
+     "s": "MA1-6, slide 2",
+     "f": true
+    },
+    {
+     "topic": 1,
+     "q": "Effleurage is the application of repeated, unbroken gliding movements that follow the:",
+     "a": "Contour of the client's body",
+     "w": [
+      "Direction of the muscle fibers only",
+      "Path of the nerves",
+      "Length of the spine only"
+     ],
+     "e": "CONTOUR is bold on the slide.",
+     "s": "MA1-6, slide 2",
+     "f": true
+    },
+    {
+     "topic": 1,
+     "q": "Effleurage pressure is applied:",
+     "a": "Centripetally",
+     "w": [
+      "Centrifugally",
+      "Randomly",
+      "Only away from the heart"
+     ],
+     "e": "Underlined and bold on the slide: pressure is applied centripetally (toward the center/heart).",
+     "s": "MA1-6, slide 2",
+     "f": true
+    },
+    {
+     "topic": 1,
+     "q": "Which is NOT listed as a way to apply effleurage?",
+     "a": "Elbows",
+     "w": [
+      "Palms of the hands",
+      "Forearms",
+      "Fists"
+     ],
+     "e": "Effleurage: palms, fingertips, forearms, fists. Elbows appear on the friction slide (and aren't allowed in school).",
+     "s": "MA1-6, slide 2",
+     "f": false
+    },
+    {
+     "topic": 1,
+     "q": "During effleurage you push the tissue:",
+     "a": "Down and away from the therapist",
+     "w": [
+      "Up and toward the therapist",
+      "Side to side only",
+      "Straight down and hold"
+     ],
+     "e": "You will push the tissue down and away from the therapist.",
+     "s": "MA1-6, slide 2",
+     "f": false
+    },
+    {
+     "topic": 1,
+     "q": "Effleurage pressure may be:",
+     "a": "Superficial or deep",
+     "w": [
+      "Superficial only",
+      "Deep only",
+      "None; it is always over the drape"
+     ],
+     "e": "Pressure may be superficial or deep; done with 1 or 2 hands.",
+     "s": "MA1-6, slide 2",
+     "f": false
+    },
+    {
+     "topic": 2,
+     "q": "Which effleurage variation is applied centripetally on the limbs and can be superficial or deep?",
+     "a": "Linear",
+     "w": [
+      "Raking",
+      "Nerve/feather stroking",
+      "Circular"
+     ],
+     "e": "Linear: push tissue down and away, centripetal on arms & legs, superficial or deep.",
+     "s": "MA1-6, slide 5",
+     "f": true
+    },
+    {
+     "topic": 2,
+     "q": "Circular effleurage is also called:",
+     "a": "Sun & Moon",
+     "w": [
+      "Ocean waves",
+      "C & V",
+      "Ironing"
+     ],
+     "e": "Circular aka Sun & Moon; superficial; ball-and-socket joints and abdomen.",
+     "s": "MA1-6, slide 5",
+     "f": false
+    },
+    {
+     "topic": 2,
+     "q": "Circular (Sun & Moon) effleurage is used on:",
+     "a": "Ball-and-socket joints and the abdomen",
+     "w": [
+      "Bony areas only, with no lubricant",
+      "The face only",
+      "The soles of the feet"
+     ],
+     "e": "Circular: superficial; ball & socket joints, abdomen.",
+     "s": "MA1-6, slide 5",
+     "f": false
+    },
+    {
+     "topic": 2,
+     "q": "Ironing effleurage is:",
+     "a": "Slow and deep, using larger tools like knuckles or forearms",
+     "w": [
+      "Light and fast with the fingertips",
+      "A percussive stroke",
+      "Done only over the drape"
+     ],
+     "e": "Ironing: slow, deep; knuckles, forearms, etc.",
+     "s": "MA1-6, slide 5",
+     "f": false
+    },
+    {
+     "topic": 2,
+     "q": "Which effleurage variation is the slow, deep one?",
+     "a": "Ironing",
+     "w": [
+      "Raking",
+      "Nerve/feather stroking",
+      "Circular"
+     ],
+     "e": "Raking, feather stroking and circular are all superficial; ironing is slow and deep.",
+     "s": "MA1-6, slide 5",
+     "f": false
+    },
+    {
+     "topic": 2,
+     "q": "Nerve/feather stroking is:",
+     "a": "Superficial",
+     "w": [
+      "Deep",
+      "Percussive",
+      "Done without contact"
+     ],
+     "e": "Nerve/feather stroking: superficial.",
+     "s": "MA1-6, slide 5",
+     "f": false
+    },
+    {
+     "topic": 2,
+     "q": "Which list contains ONLY effleurage variations?",
+     "a": "Linear, raking, feather stroking, circular, ironing",
+     "w": [
+      "C & V, ocean waves, fulling, skin rolling",
+      "Chucking, cross-fiber, circular",
+      "Hacking, cupping, pounding, clapping"
+     ],
+     "e": "The other lists are petrissage, deep friction and tapotement variations.",
+     "s": "MA1-6, slide 5",
+     "f": false
+    },
+    {
+     "topic": 3,
+     "q": "Which is a purpose of effleurage?",
+     "a": "To introduce touch",
+     "w": [
+      "To break down scar tissue",
+      "To loosen mucus with suction",
+      "To create minute muscle contractions"
+     ],
+     "e": "Purpose: introduce touch, move blood & lymph, prepare for/flush after deeper work, spread lubricant, transition, fall-back stroke.",
+     "s": "MA1-6, slide 3",
+     "f": false
+    },
+    {
+     "topic": 3,
+     "q": "Effleurage is used both before and after deeper work to:",
+     "a": "Prepare tissue first, then flush it afterward",
+     "w": [
+      "Numb the tissue",
+      "Pinch the tissue",
+      "Stretch the joint capsule"
+     ],
+     "e": "Prepare for deeper work; flush tissue after deeper work.",
+     "s": "MA1-6, slide 3",
+     "f": false
+    },
+    {
+     "topic": 3,
+     "q": "Effleurage is described as a 'fall-back' stroke and a:",
+     "a": "Transition stroke",
+     "w": [
+      "Corrective stroke",
+      "Percussion stroke",
+      "Ancillary stroke"
+     ],
+     "e": "Transition stroke; fall-back stroke.",
+     "s": "MA1-6, slide 3",
+     "f": false
+    },
+    {
+     "topic": 3,
+     "q": "Which stroke is used to apply and spread the lubricant?",
+     "a": "Effleurage",
+     "w": [
+      "Friction",
+      "Tapotement",
+      "Skin rolling"
+     ],
+     "e": "Apply lubricant / spread is a purpose of effleurage. Friction and skin rolling use little or no lubricant.",
+     "s": "MA1-6, slide 3",
+     "f": false
+    },
+    {
+     "topic": 3,
+     "q": "Effleurage moves which fluids?",
+     "a": "Blood and lymph",
+     "w": [
+      "Synovial fluid only",
+      "Cerebrospinal fluid",
+      "Bile"
+     ],
+     "e": "Purpose: move blood & lymph.",
+     "s": "MA1-6, slide 3",
+     "f": false
+    },
+    {
+     "topic": 3,
+     "q": "Which is NOT a purpose of effleurage?",
+     "a": "Breaking down adhesions with cross-fiber work",
+     "w": [
+      "Introducing touch",
+      "Flushing tissue after deeper work",
+      "Transitioning between strokes"
+     ],
+     "e": "Breaking adhesions is a friction benefit.",
+     "s": "MA1-6, slide 3; MA1-7, slide 4",
+     "f": false
+    },
+    {
+     "topic": 4,
+     "q": "On the limbs, effleurage is performed:",
+     "a": "Centripetally, toward the heart (distal to proximal)",
+     "w": [
+      "Centrifugally, away from the heart",
+      "Only side to side",
+      "In any direction; it doesn't matter"
+     ],
+     "e": "Linear effleurage is applied centripetally on the arms & legs.",
+     "s": "MA1-6, slide 5",
+     "f": true
+    },
+    {
+     "topic": 4,
+     "q": "Why is effleurage applied toward the heart on the limbs?",
+     "a": "It follows the direction of venous and lymphatic circulation",
+     "w": [
+      "It follows the direction of arterial flow",
+      "It stretches the nerves",
+      "It is easier on the therapist's wrists"
+     ],
+     "e": "Direction slide: centripetal = toward the center/heart, in the direction of venous & lymphatic circulation.",
+     "s": "MA1-5, slide 5",
+     "f": false
+    },
+    {
+     "topic": 4,
+     "q": "'Centripetal' means:",
+     "a": "Toward the center/heart",
+     "w": [
+      "Away from the center",
+      "Across the muscle fibers",
+      "Along the spine"
+     ],
+     "e": "Centripetal = toward the center/heart.",
+     "s": "MA1-5, slide 5",
+     "f": false
+    },
+    {
+     "topic": 4,
+     "q": "On the arm, centripetal effleurage moves from:",
+     "a": "Hand toward the shoulder",
+     "w": [
+      "Shoulder toward the hand",
+      "Elbow toward the wrist",
+      "Across the forearm only"
+     ],
+     "e": "Toward the heart = distal to proximal.",
+     "s": "MA1-5, slide 5; MA1-6, slide 5",
+     "f": false
+    },
+    {
+     "topic": 4,
+     "q": "On the leg, centripetal effleurage moves from:",
+     "a": "Foot toward the hip",
+     "w": [
+      "Hip toward the foot",
+      "Knee toward the ankle",
+      "Side to side on the thigh"
+     ],
+     "e": "Toward the heart = distal to proximal.",
+     "s": "MA1-5, slide 5; MA1-6, slide 5",
+     "f": false
+    },
+    {
+     "topic": 4,
+     "q": "Applying effleurage toward the heart helps:",
+     "a": "Venous return and lymph flow",
+     "w": [
+      "Arterial pressure rise",
+      "Nerve conduction stop",
+      "Bone growth"
+     ],
+     "e": "It works with venous & lymphatic circulation; a purpose of effleurage is moving blood & lymph.",
+     "s": "MA1-5, slide 5; MA1-6, slide 3",
+     "f": false
+    },
+    {
+     "topic": 5,
+     "q": "Effleurage can calm or stimulate depending on:",
+     "a": "Speed",
+     "w": [
+      "The lubricant used",
+      "The time of day",
+      "Whether the client is prone"
+     ],
+     "e": "Calms or stimulates depending on speed (slow = relaxing, rapid = stimulating).",
+     "s": "MA1-6, slide 4; MA1-5, slide 6",
+     "f": false
+    },
+    {
+     "topic": 5,
+     "q": "Which is a benefit of effleurage?",
+     "a": "Relieves insomnia",
+     "w": [
+      "Loosens chest mucus",
+      "Breaks down scar tissue",
+      "Stimulates synovial fluid production"
+     ],
+     "e": "Benefits: warms, relaxes, calms or stimulates, prepares, soothes & flushes, lengthens muscle, soothes achy muscles, relieves insomnia.",
+     "s": "MA1-6, slide 4",
+     "f": false
+    },
+    {
+     "topic": 5,
+     "q": "Which pair are both effleurage benefits?",
+     "a": "Warms tissue and lengthens muscle",
+     "w": [
+      "Tones atrophied muscle and aids lung decongestion",
+      "Dilates capillaries and breaks down adhesions",
+      "Creates minute contractions and moves gas"
+     ],
+     "e": "The other pairs are tapotement, friction and vibration benefits.",
+     "s": "MA1-6, slide 4",
+     "f": false
+    },
+    {
+     "topic": 5,
+     "q": "Fast effleurage is:",
+     "a": "Stimulating",
+     "w": [
+      "Always sedating",
+      "Contraindicated",
+      "The same as friction"
+     ],
+     "e": "Speed: rapid = stimulating; slow = relaxing.",
+     "s": "MA1-5, slide 6",
+     "f": false
+    },
+    {
+     "topic": 5,
+     "q": "Effleurage soothes and:",
+     "a": "Flushes",
+     "w": [
+      "Pinches",
+      "Strikes",
+      "Compresses ischemically"
+     ],
+     "e": "Soothes & flushes.",
+     "s": "MA1-6, slide 4",
+     "f": false
+    },
+    {
+     "topic": 5,
+     "q": "Which is NOT an effleurage benefit?",
+     "a": "Tones atrophied muscles",
+     "w": [
+      "Relaxes the client",
+      "Soothes tired, achy muscles",
+      "Prepares tissue for deeper work"
+     ],
+     "e": "Toning atrophied muscle is a tapotement benefit.",
+     "s": "MA1-6, slide 4; MA1-7, slide 11",
+     "f": false
+    },
+    {
+     "topic": 6,
+     "q": "Which stance do you use for effleurage?",
+     "a": "Bow / archer / lunge stance",
+     "w": [
+      "Horse / warrior stance",
+      "Feet together",
+      "Kneeling"
+     ],
+     "e": "Bow-Archer-Lunge = long strokes, down and away from the therapist, which is how effleurage is applied.",
+     "s": "MA1-4, slide 5",
+     "f": false
+    },
+    {
+     "topic": 6,
+     "q": "The bow stance is used for:",
+     "a": "Long strokes, down and away from the therapist",
+     "w": [
+      "Short, multidirectional strokes",
+      "Percussion only",
+      "Turning the client"
+     ],
+     "e": "Bow-Archer-Lunge stance: long strokes, down and away.",
+     "s": "MA1-4, slide 5",
+     "f": false
+    },
+    {
+     "topic": 6,
+     "q": "Why does effleurage use the archer (lunge) stance?",
+     "a": "It is a long gliding stroke, and the lunge lets you shift weight from back foot to front",
+     "w": [
+      "It keeps both feet parallel for short strokes",
+      "It lets you sit down",
+      "It keeps your hands off the skin"
+     ],
+     "e": "Long strokes = bow/archer; weight transfers from trail foot to lead foot on the stroke.",
+     "s": "MA1-4, slide 5",
+     "f": false
+    },
+    {
+     "topic": 6,
+     "q": "In the bow stance used for effleurage, the lead foot:",
+     "a": "Points in the direction of the stroke",
+     "w": [
+      "Points back toward the therapist",
+      "Is parallel to the table",
+      "Stays behind the trail foot"
+     ],
+     "e": "Lead foot points in the direction of the stroke.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 7,
+     "q": "Petrissage comes from the French 'pétrir', meaning:",
+     "a": "To mash or to knead",
+     "w": [
+      "To flow or glide",
+      "To rub",
+      "To pluck"
+     ],
+     "e": "Speaker notes: petrir means to mash or to knead; like milking the tissue.",
+     "s": "MA1-6, slide 6",
+     "f": false
+    },
+    {
+     "topic": 7,
+     "q": "Petrissage is:",
+     "a": "Rhythmic lifting of muscle tissue away from the bone, squeezing and releasing",
+     "w": [
+      "Gliding along the contour of the body",
+      "Rubbing one surface over another",
+      "Staccato striking with loose wrists"
+     ],
+     "e": "Definition on the Petrissage slide.",
+     "s": "MA1-6, slide 6",
+     "f": false
+    },
+    {
+     "topic": 7,
+     "q": "Petrissage is applied to the:",
+     "a": "Muscle belly",
+     "w": [
+      "Tendon only",
+      "Bony landmarks",
+      "Joint capsule"
+     ],
+     "e": "Applied to the muscle belly (middle of the muscle).",
+     "s": "MA1-6, slide 6",
+     "f": false
+    },
+    {
+     "topic": 7,
+     "q": "Petrissage pressure must be applied:",
+     "a": "Rhythmically, usually in a circular motion",
+     "w": [
+      "Randomly",
+      "In one sustained hold",
+      "Only in straight lines"
+     ],
+     "e": "RHYTHMICALLY is bold on the slide.",
+     "s": "MA1-6, slide 6",
+     "f": true
+    },
+    {
+     "topic": 7,
+     "q": "During petrissage you should:",
+     "a": "Lift, don't pinch the tissue",
+     "w": [
+      "Pinch the tissue firmly",
+      "Break contact between squeezes",
+      "Use your elbows"
+     ],
+     "e": "DON'T is in red on the slide: lift, don't pinch; don't lose contact with the skin.",
+     "s": "MA1-6, slide 6",
+     "f": true
+    },
+    {
+     "topic": 7,
+     "q": "Petrissage is often compared to:",
+     "a": "Milking the tissue",
+     "w": [
+      "Ironing a shirt",
+      "Bowing a violin",
+      "Pushing a swing"
+     ],
+     "e": "Speaker notes: it is like milking the tissue. Bowing = cross-fiber friction; swing = rocking.",
+     "s": "MA1-6, slide 6",
+     "f": false
+    },
+    {
+     "topic": 7,
+     "q": "Petrissage can be done with:",
+     "a": "1 or 2 hands",
+     "w": [
+      "2 hands only",
+      "Elbows only",
+      "A mechanical device only"
+     ],
+     "e": "Can be done 1 or 2 handed.",
+     "s": "MA1-6, slide 6",
+     "f": false
+    },
+    {
+     "topic": 8,
+     "q": "In Swedish massage, petrissage typically follows:",
+     "a": "Effleurage",
+     "w": [
+      "Friction",
+      "Tapotement",
+      "Vibration"
+     ],
+     "e": "Typically follows effleurage.",
+     "s": "MA1-6, slide 6",
+     "f": false
+    },
+    {
+     "topic": 8,
+     "q": "The Swedish stroke sequence is:",
+     "a": "Effleurage, petrissage, friction, tapotement, vibration, ancillary",
+     "w": [
+      "Petrissage, effleurage, tapotement, friction, vibration",
+      "Friction, effleurage, petrissage, vibration",
+      "Tapotement, vibration, friction, effleurage"
+     ],
+     "e": "Sequence slide.",
+     "s": "MA1-5, slide 8",
+     "f": false
+    },
+    {
+     "topic": 8,
+     "q": "Which stroke comes right before petrissage in the sequence?",
+     "a": "Effleurage",
+     "w": [
+      "Friction",
+      "Compression",
+      "Cupping"
+     ],
+     "e": "Effleurage warms and prepares tissue for petrissage.",
+     "s": "MA1-6, slide 6; MA1-5, slide 8",
+     "f": false
+    },
+    {
+     "topic": 8,
+     "q": "Which stroke comes right after petrissage in the sequence?",
+     "a": "Friction",
+     "w": [
+      "Effleurage",
+      "Vibration",
+      "Tapotement"
+     ],
+     "e": "Friction follows petrissage.",
+     "s": "MA1-7, slide 2; MA1-5, slide 8",
+     "f": false
+    },
+    {
+     "topic": 9,
+     "q": "In C & V petrissage, the hands:",
+     "a": "Start in a C, lift the belly from the bone, compress, and release in a V without breaking contact",
+     "w": [
+      "Tap in a V shape",
+      "Glide in a C along the spine",
+      "Roll the skin between the fingertips"
+     ],
+     "e": "C & V: rhythmic circle pattern, 1 or 2 handed.",
+     "s": "MA1-6, slide 9",
+     "f": false
+    },
+    {
+     "topic": 9,
+     "q": "Ocean waves petrissage:",
+     "a": "Rolls/pushes the muscle against the bone, then squeezes and lifts; good on thighs",
+     "w": [
+      "Lifts skin with no lubricant",
+      "Is one-handed on the face",
+      "Glides superficially toward the heart"
+     ],
+     "e": "Ocean waves: fingers point medially, broadens the tissue, 2 handed.",
+     "s": "MA1-6, slide 9",
+     "f": false
+    },
+    {
+     "topic": 9,
+     "q": "In ocean waves petrissage, the fingers point:",
+     "a": "Medially",
+     "w": [
+      "Laterally",
+      "Toward the floor",
+      "Toward the head"
+     ],
+     "e": "Fingers pointed medially.",
+     "s": "MA1-6, slide 9",
+     "f": false
+    },
+    {
+     "topic": 9,
+     "q": "Fulling (broadening):",
+     "a": "Grips with both hands, lifts and spreads the tissue laterally from the center",
+     "w": [
+      "Rolls skin between thumb and fingers",
+      "Taps with the fingertips",
+      "Is done with one hand on bony areas"
+     ],
+     "e": "Fulling: used on limbs and back; 2 handed.",
+     "s": "MA1-6, slide 9",
+     "f": false
+    },
+    {
+     "topic": 9,
+     "q": "Skin rolling is done with:",
+     "a": "Little to NO lubricant and no downward force",
+     "w": [
+      "Lots of oil and deep pressure",
+      "The forearm",
+      "A loose fist"
+     ],
+     "e": "Grasp & lift skin between fingertips and thumbs, compress & roll.",
+     "s": "MA1-6, slide 10",
+     "f": false
+    },
+    {
+     "topic": 9,
+     "q": "Which petrissage variation can be done on bony areas?",
+     "a": "Skin rolling",
+     "w": [
+      "Ocean waves",
+      "Fulling",
+      "C & V"
+     ],
+     "e": "Skin rolling: no downward force, can be done on bony areas.",
+     "s": "MA1-6, slide 10",
+     "f": false
+    },
+    {
+     "topic": 9,
+     "q": "Skin rolling stimulates endorphins, producing:",
+     "a": "Analgesia (the absence of pain)",
+     "w": [
+      "Anesthesia of the whole body",
+      "Hyperemia only",
+      "Peristalsis"
+     ],
+     "e": "Will stimulate the release of endorphins & produce analgesia.",
+     "s": "MA1-6, slide 10",
+     "f": false
+    },
+    {
+     "topic": 9,
+     "q": "Skin rolling is essential to Bindegewebsmassage (connective tissue massage), developed by:",
+     "a": "Elizabeth Dicke",
+     "w": [
+      "James Cyriax",
+      "Per Henrik Ling",
+      "Johann Mezger"
+     ],
+     "e": "BINDEGEWEBSMASSAGE is bold on the slide. Cyriax = cross-fiber friction.",
+     "s": "MA1-6, slide 10",
+     "f": true
+    },
+    {
+     "topic": 10,
+     "q": "Petrissage draws what into the tissue?",
+     "a": "New blood and oxygen",
+     "w": [
+      "Lactic acid",
+      "Lymph out of the tissue only",
+      "Lubricant"
+     ],
+     "e": "Bold on the Purpose slide: draws NEW blood & oxygen to the tissue, improving circulation.",
+     "s": "MA1-6, slide 7",
+     "f": true
+    },
+    {
+     "topic": 10,
+     "q": "Petrissage reduces swelling that is:",
+     "a": "Local",
+     "w": [
+      "Systemic",
+      "Caused by a blood clot",
+      "In the lungs"
+     ],
+     "e": "Reduces LOCAL swelling.",
+     "s": "MA1-6, slide 8",
+     "f": false
+    },
+    {
+     "topic": 10,
+     "q": "Which is a benefit of petrissage?",
+     "a": "Softens superficial fascia",
+     "w": [
+      "Aids lung decongestion",
+      "Moves gas in the GI tract",
+      "Desensitizes a hypersensitive area"
+     ],
+     "e": "Petrissage benefits include softening superficial fascia; the others are tapotement/vibration benefits.",
+     "s": "MA1-6, slide 8",
+     "f": false
+    },
+    {
+     "topic": 10,
+     "q": "Petrissage reduces soreness and stiffness by:",
+     "a": "Increasing fresh blood to muscles and soft tissue",
+     "w": [
+      "Numbing the nerves",
+      "Blocking circulation",
+      "Breaking bones down"
+     ],
+     "e": "By increasing fresh blood to the muscles and soft tissues.",
+     "s": "MA1-6, slide 8",
+     "f": false
+    },
+    {
+     "topic": 10,
+     "q": "Petrissage relieves:",
+     "a": "'Knots' and muscle spasms, improving muscular function",
+     "w": [
+      "Fractures",
+      "Contagious skin conditions",
+      "Low blood sugar"
+     ],
+     "e": "Bold on the Purpose slide.",
+     "s": "MA1-6, slide 7",
+     "f": true
+    },
+    {
+     "topic": 10,
+     "q": "Which pair are both petrissage benefits?",
+     "a": "Removes waste products and stimulates the nervous system",
+     "w": [
+      "Dilates capillaries and promotes scar formation",
+      "Tones atrophied muscle and loosens mucus",
+      "Moves gas and stimulates synovial fluid"
+     ],
+     "e": "Petrissage: ↑ blood flow, removes waste, reduces local swelling and fatigue, relaxes/lengthens, stimulates the nervous system, softens fascia.",
+     "s": "MA1-6, slide 8",
+     "f": false
+    },
+    {
+     "topic": 10,
+     "q": "Petrissage works through which techniques?",
+     "a": "Stretching, kneading and squeezing",
+     "w": [
+      "Gliding, raking and ironing",
+      "Striking, cupping and hacking",
+      "Shaking, rocking and jostling"
+     ],
+     "e": "Bold on the Purpose slide.",
+     "s": "MA1-6, slide 7",
+     "f": true
+    },
+    {
+     "topic": 11,
+     "q": "Which stance is typically used for petrissage?",
+     "a": "Horse / warrior stance",
+     "w": [
+      "Bow / archer stance",
+      "Feet together",
+      "Single-leg stance"
+     ],
+     "e": "Horse-Warrior = short, multidirectional strokes, which is how kneading works.",
+     "s": "MA1-4, slide 5",
+     "f": false
+    },
+    {
+     "topic": 11,
+     "q": "The horse (warrior) stance is used for:",
+     "a": "Short, multidirectional strokes",
+     "w": [
+      "Long strokes down the length of the leg",
+      "Lifting the client",
+      "Turning the client"
+     ],
+     "e": "Horse-Warrior: short strokes, multidirectional strokes.",
+     "s": "MA1-4, slide 5",
+     "f": false
+    },
+    {
+     "topic": 11,
+     "q": "In the warrior (horse) stance:",
+     "a": "Feet are wider than the hips and toes point forward",
+     "w": [
+      "One foot is far behind the other",
+      "Feet are together",
+      "You kneel on the table"
+     ],
+     "e": "Warrior: feet wider than hips, toes forward; used for short strokes like petrissage and friction.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 11,
+     "q": "Which two strokes are best done in the warrior stance?",
+     "a": "Petrissage and friction",
+     "w": [
+      "Effleurage and ironing",
+      "Linear effleurage and raking",
+      "Feather stroking and rocking"
+     ],
+     "e": "Short-distance strokes such as petrissage and friction use warrior stance.",
+     "s": "Body Mechanics & Effleurage notes",
+     "f": false
+    },
+    {
+     "topic": 12,
+     "q": "Friction means:",
+     "a": "To rub",
+     "w": [
+      "To knead",
+      "To glide",
+      "To shake"
+     ],
+     "e": "Friction means to RUB: moving one surface over another.",
+     "s": "MA1-7, slide 2",
+     "f": false
+    },
+    {
+     "topic": 12,
+     "q": "Friction is done with:",
+     "a": "Little or NO lubricant",
+     "w": [
+      "Lots of oil",
+      "Lotion only",
+      "Hot stones"
+     ],
+     "e": "Bold on the slide: done with little or NO lubricant.",
+     "s": "MA1-7, slide 2",
+     "f": true
+    },
+    {
+     "topic": 12,
+     "q": "Which friction tool can you NOT use while in school?",
+     "a": "Elbows",
+     "w": [
+      "Palms",
+      "Thumbs",
+      "Fingers"
+     ],
+     "e": "Bold on the slide: elbows (that you can not use while in school!!!).",
+     "s": "MA1-7, slide 2",
+     "f": true
+    },
+    {
+     "topic": 12,
+     "q": "Friction is especially beneficial in areas that have:",
+     "a": "Little blood supply, such as around joints, ligaments and tendons",
+     "w": [
+      "The most blood supply, like the muscle belly",
+      "Major nerves",
+      "Lymph nodes"
+     ],
+     "e": "Beneficial in areas with little or no blood supply: around joints, ligaments, tendons.",
+     "s": "MA1-7, slide 2",
+     "f": false
+    },
+    {
+     "topic": 12,
+     "q": "Friction pressure is:",
+     "a": "NOT gentle or light",
+     "w": [
+      "Always feather-light",
+      "Applied over the drape only",
+      "Rhythmic pumping"
+     ],
+     "e": "Is NOT a gentle or light pressure.",
+     "s": "MA1-7, slide 2",
+     "f": false
+    },
+    {
+     "topic": 12,
+     "q": "The purpose of friction is to:",
+     "a": "Increase circulation, create heat and loosen stuck tissue",
+     "w": [
+      "Introduce touch and spread lubricant",
+      "Loosen mucus with suction",
+      "End the massage"
+     ],
+     "e": "Purpose: increase circulation, create heat; superficial & deep friction help loosen stuck tissue.",
+     "s": "MA1-7, slide 3",
+     "f": false
+    },
+    {
+     "topic": 12,
+     "q": "Friction is best described as:",
+     "a": "Moving one surface over another",
+     "w": [
+      "Lifting tissue off the bone",
+      "Striking with loose wrists",
+      "Rhythmic pumping into the bone"
+     ],
+     "e": "Move one surface over another.",
+     "s": "MA1-7, slide 2",
+     "f": false
+    },
+    {
+     "topic": 13,
+     "q": "Friction typically follows:",
+     "a": "Petrissage",
+     "w": [
+      "Effleurage",
+      "Tapotement",
+      "Vibration"
+     ],
+     "e": "Follows petrissage.",
+     "s": "MA1-7, slide 2",
+     "f": false
+    },
+    {
+     "topic": 13,
+     "q": "In the Swedish sequence, which stroke comes immediately before friction?",
+     "a": "Petrissage",
+     "w": [
+      "Tapotement",
+      "Vibration",
+      "Compression"
+     ],
+     "e": "Sequence: effleurage → petrissage → friction → tapotement → vibration → ancillary.",
+     "s": "MA1-5, slide 8",
+     "f": false
+    },
+    {
+     "topic": 13,
+     "q": "Why does friction come after petrissage?",
+     "a": "Petrissage has already warmed and loosened the tissue for more specific work",
+     "w": [
+      "Friction needs lots of oil from petrissage",
+      "Friction ends the massage",
+      "Petrissage numbs the area"
+     ],
+     "e": "Sequence goes from general to specific; friction follows petrissage.",
+     "s": "MA1-7, slide 2; MA1-5, slide 8",
+     "f": false
+    },
+    {
+     "topic": 13,
+     "q": "Which order is correct?",
+     "a": "Effleurage → petrissage → friction",
+     "w": [
+      "Friction → petrissage → effleurage",
+      "Petrissage → friction → effleurage → petrissage",
+      "Tapotement → friction → petrissage"
+     ],
+     "e": "Sequence slide.",
+     "s": "MA1-5, slide 8",
+     "f": false
+    },
+    {
+     "topic": 14,
+     "q": "After friction, follow with:",
+     "a": "Effleurage",
+     "w": [
+      "Tapotement",
+      "Skin rolling",
+      "Ischemic compression"
+     ],
+     "e": "Bold on the slide: when done with friction, follow with effleurage.",
+     "s": "MA1-7, slide 2",
+     "f": true
+    },
+    {
+     "topic": 14,
+     "q": "Why follow friction with effleurage?",
+     "a": "To flush and soothe the area",
+     "w": [
+      "To add heat",
+      "To break up adhesions",
+      "To stimulate the nerves"
+     ],
+     "e": "Bold on the slide: to flush & soothe area.",
+     "s": "MA1-7, slide 2",
+     "f": true
+    },
+    {
+     "topic": 14,
+     "q": "Effleurage after friction flushes the tissue. Which effleurage purpose does this match?",
+     "a": "Flush tissue after deeper work",
+     "w": [
+      "Introduce touch",
+      "Apply lubricant",
+      "Prepare for deeper work"
+     ],
+     "e": "Effleurage purpose: flush tissue after deeper work.",
+     "s": "MA1-6, slide 3; MA1-7, slide 2",
+     "f": false
+    },
+    {
+     "topic": 14,
+     "q": "A therapist finishes cross-fiber friction on a tendon. What should come next?",
+     "a": "Effleurage over the area",
+     "w": [
+      "More friction with elbows",
+      "Pounding",
+      "Nothing; move to the next area"
+     ],
+     "e": "Follow friction with effleurage to flush & soothe.",
+     "s": "MA1-7, slide 2",
+     "f": true
+    },
+    {
+     "topic": 15,
+     "q": "In superficial friction, the hands:",
+     "a": "Slide back and forth over the client's skin to generate heat",
+     "w": [
+      "Do NOT slide over the skin",
+      "Strike the skin",
+      "Lift the skin off the bone"
+     ],
+     "e": "Bold on the slide: back and forth over the SKIN.",
+     "s": "MA1-7, slide 5",
+     "f": true
+    },
+    {
+     "topic": 15,
+     "q": "In deep friction, the therapist's hands:",
+     "a": "Do NOT slide over the skin",
+     "w": [
+      "Slide quickly over the skin",
+      "Tap the skin",
+      "Use lots of oil"
+     ],
+     "e": "DO NOT is bold: skin and superficial fascia move across deeper layers.",
+     "s": "MA1-7, slide 7",
+     "f": true
+    },
+    {
+     "topic": 15,
+     "q": "Deep friction moves:",
+     "a": "The skin and superficial fascia across the deeper layers of tissue",
+     "w": [
+      "The hands across the skin's surface",
+      "Only the bone",
+      "Lymph toward the heart"
+     ],
+     "e": "Definition of deep friction.",
+     "s": "MA1-7, slide 7",
+     "f": false
+    },
+    {
+     "topic": 15,
+     "q": "Which friction is general and more vague?",
+     "a": "Superficial friction",
+     "w": [
+      "Deep friction",
+      "Cross-fiber friction",
+      "Chucking"
+     ],
+     "e": "Superficial: general, more vague. Deep: more precise.",
+     "s": "MA1-7, slide 5",
+     "f": false
+    },
+    {
+     "topic": 15,
+     "q": "Superficial friction on the limbs works:",
+     "a": "Distal to proximal (wrist → elbow, ankle → knee)",
+     "w": [
+      "Proximal to distal",
+      "Across the joint only",
+      "In random circles"
+     ],
+     "e": "Work distal to proximal.",
+     "s": "MA1-7, slide 5",
+     "f": false
+    },
+    {
+     "topic": 15,
+     "q": "Deep friction softens hyperplasia, which means:",
+     "a": "Thickening of tissue",
+     "w": [
+      "Loss of tissue",
+      "Bleeding under the skin",
+      "Nerve damage"
+     ],
+     "e": "Softens hyperplasia (thickening of tissue).",
+     "s": "MA1-7, slide 7",
+     "f": false
+    },
+    {
+     "topic": 15,
+     "q": "Deep friction rearranges muscle and collagen fibers into a:",
+     "a": "More biofunctional pattern",
+     "w": [
+      "Random pattern",
+      "Tighter scar",
+      "Shorter muscle"
+     ],
+     "e": "Breaks down scar tissue & adhesions; rearranges fibers in a more biofunctional pattern.",
+     "s": "MA1-7, slide 7",
+     "f": false
+    },
+    {
+     "topic": 15,
+     "q": "What do superficial and deep friction have in common?",
+     "a": "Both use little or no lubricant",
+     "w": [
+      "Both slide over the skin",
+      "Both are percussive",
+      "Both are only done over the drape"
+     ],
+     "e": "Little or NO lubricant appears on both slides.",
+     "s": "MA1-7, slides 5 and 7",
+     "f": false
+    },
+    {
+     "topic": 16,
+     "q": "Which is a benefit of friction?",
+     "a": "Breaks down adhesions",
+     "w": [
+      "Aids lung decongestion",
+      "Stimulates peristalsis",
+      "Relieves insomnia"
+     ],
+     "e": "Friction benefits: heat, dilates capillaries, ↑ circulation, breaks adhesions, proper scar formation, reduces trigger/tender points.",
+     "s": "MA1-7, slide 4",
+     "f": false
+    },
+    {
+     "topic": 16,
+     "q": "Friction dilates the:",
+     "a": "Capillaries",
+     "w": [
+      "Pupils",
+      "Bronchi",
+      "Lymph nodes"
+     ],
+     "e": "Dilates capillaries.",
+     "s": "MA1-7, slide 4",
+     "f": false
+    },
+    {
+     "topic": 16,
+     "q": "Friction promotes:",
+     "a": "Proper scar formation",
+     "w": [
+      "Thicker scars",
+      "Muscle atrophy",
+      "Fluid retention"
+     ],
+     "e": "Promotes proper scar formation.",
+     "s": "MA1-7, slide 4",
+     "f": false
+    },
+    {
+     "topic": 16,
+     "q": "Friction reduces:",
+     "a": "Trigger and tender point formation and activity",
+     "w": [
+      "Circulation",
+      "Heat in the tissue",
+      "Range of motion"
+     ],
+     "e": "Reduces trigger & tender point formation & activity.",
+     "s": "MA1-7, slide 4",
+     "f": false
+    },
+    {
+     "topic": 16,
+     "q": "Which is NOT a friction benefit?",
+     "a": "Tones atrophied muscles",
+     "w": [
+      "Generates heat",
+      "Increases circulation",
+      "Breaks down adhesions"
+     ],
+     "e": "Toning atrophied muscles is a tapotement benefit.",
+     "s": "MA1-7, slides 4 and 11",
+     "f": false
+    },
+    {
+     "topic": 16,
+     "q": "Friction generates:",
+     "a": "Heat",
+     "w": [
+      "Cold",
+      "Suction",
+      "Numbness"
+     ],
+     "e": "Generates heat; purpose: creates heat.",
+     "s": "MA1-7, slides 3–4",
+     "f": false
+    },
+    {
+     "topic": 17,
+     "q": "The 3 types of superficial friction are:",
+     "a": "Superficial warming (SWF), rolling, wringing",
+     "w": [
+      "Chucking, cross-fiber, circular",
+      "Tapping, hacking, cupping",
+      "Fine, coarse, rocking"
+     ],
+     "e": "Superficial variations slide. Chucking/XFF/circular are deep friction.",
+     "s": "MA1-7, slide 6",
+     "f": false
+    },
+    {
+     "topic": 17,
+     "q": "Superficial warming friction (SWF) is:",
+     "a": "General, longitudinal, light pressure that heats the surface",
+     "w": [
+      "Perpendicular to the fibers on an injury",
+      "Two hands moving in opposite directions",
+      "Rolling tissue around the bone"
+     ],
+     "e": "SWF: general, longitudinal, 1 or 2 hands, light pressure, lots of heat only to the surface.",
+     "s": "MA1-7, slide 6",
+     "f": false
+    },
+    {
+     "topic": 17,
+     "q": "In rolling friction, the palms:",
+     "a": "Roll the tissue around the bone, mostly on the forearms",
+     "w": [
+      "Strike with a cupped hand",
+      "Lift skin between fingertips",
+      "Move in opposite directions vigorously"
+     ],
+     "e": "Rolling: 2 handed, arms & legs (mostly forearms), palmar surface, consistent pressure.",
+     "s": "MA1-7, slide 6",
+     "f": false
+    },
+    {
+     "topic": 17,
+     "q": "Which superficial friction has the hands moving in opposite directions, like a brush burn?",
+     "a": "Wringing",
+     "w": [
+      "Rolling",
+      "Superficial warming",
+      "Chucking"
+     ],
+     "e": "Wringing: 2 handed, very vigorous, pushing & pulling in opposite directions.",
+     "s": "MA1-7, slide 6",
+     "f": false
+    },
+    {
+     "topic": 17,
+     "q": "Wringing on the fingers and toes is done with:",
+     "a": "The index finger and thumb",
+     "w": [
+      "The forearm",
+      "A loose fist",
+      "The heel of the hand"
+     ],
+     "e": "Wringing: arms & legs; fingers & toes with index finger and thumb.",
+     "s": "MA1-7, slide 6",
+     "f": false
+    },
+    {
+     "topic": 17,
+     "q": "Which superficial friction uses light pressure?",
+     "a": "Superficial warming friction (SWF)",
+     "w": [
+      "Wringing",
+      "Cross-fiber friction",
+      "Chucking"
+     ],
+     "e": "SWF: light pressure. Wringing is very vigorous.",
+     "s": "MA1-7, slide 6",
+     "f": false
+    },
+    {
+     "topic": 18,
+     "q": "The 3 types of deep friction are:",
+     "a": "Chucking, cross-fiber friction, circular",
+     "w": [
+      "SWF, rolling, wringing",
+      "Tapping, pincement, clapping",
+      "Compression, rocking, jostling"
+     ],
+     "e": "Deep friction variations slide.",
+     "s": "MA1-7, slide 8",
+     "f": false
+    },
+    {
+     "topic": 18,
+     "q": "Chucking is also called linear, parallel or longitudinal friction because it goes:",
+     "a": "In the direction of the muscle fibers",
+     "w": [
+      "Perpendicular to the fibers",
+      "In tiny circles",
+      "Across the skin only"
+     ],
+     "e": "Chucking: in the direction of muscle fibers; fingertips or thumbs.",
+     "s": "MA1-7, slide 8",
+     "f": false
+    },
+    {
+     "topic": 18,
+     "q": "Chucking is very effective on or between:",
+     "a": "Bony areas such as the metatarsals and metacarpals",
+     "w": [
+      "The abdomen",
+      "Large muscles like the glutes",
+      "Lymph nodes"
+     ],
+     "e": "Very effective on or between bony areas: metatarsals/metacarpals.",
+     "s": "MA1-7, slide 8",
+     "f": false
+    },
+    {
+     "topic": 18,
+     "q": "Cross-fiber friction (XFF) is applied:",
+     "a": "Perpendicular to the muscle fibers",
+     "w": [
+      "Parallel to the muscle fibers",
+      "In large circles",
+      "With a cupped hand"
+     ],
+     "e": "XFF: work perpendicular to muscle fiber, like a bow across a stringed instrument.",
+     "s": "MA1-7, slide 8",
+     "f": true
+    },
+    {
+     "topic": 18,
+     "q": "Cross-fiber friction is also called:",
+     "a": "Deep transverse friction",
+     "w": [
+      "Superficial warming friction",
+      "Longitudinal friction",
+      "Palmar friction"
+     ],
+     "e": "XFF aka deep transverse friction.",
+     "s": "MA1-7, slide 8",
+     "f": true
+    },
+    {
+     "topic": 18,
+     "q": "Cross-fiber friction is a rehabilitative/corrective stroke that is more effective on:",
+     "a": "Newer scar tissue",
+     "w": [
+      "Old, mature scars only",
+      "Healthy muscle bellies",
+      "Bones"
+     ],
+     "e": "XFF: used on injured or contracted tissue; more effective on newer scar tissue; communicate with the client.",
+     "s": "MA1-7, slide 8",
+     "f": false
+    },
+    {
+     "topic": 18,
+     "q": "Circular deep friction is often described as:",
+     "a": "'Filling in a Scantron': tiny circles around joints and bony areas",
+     "w": [
+      "'Karate chops' on the back",
+      "'Like a bow across strings'",
+      "'Like pushing a swing'"
+     ],
+     "e": "Circular: thumbs or fingertips, tiny circles; heel of the hand on the muscle belly.",
+     "s": "MA1-7, slide 8",
+     "f": false
+    },
+    {
+     "topic": 18,
+     "q": "Cross-fiber friction should be:",
+     "a": "Done on just the spot, with lighter pressure on injuries as tolerated",
+     "w": [
+      "Done all over the muscle with heavy pressure",
+      "Done over the drape only",
+      "Painless, so no need to check in"
+     ],
+     "e": "Rub just the spot, not all over; moderate-heavy in general, lighter on injured tissue; can be sore, communicate.",
+     "s": "MA1-7, slide 8",
+     "f": false
+    },
+    {
+     "topic": 19,
+     "q": "Tapotement is also known as:",
+     "a": "Percussion",
+     "w": [
+      "Compression",
+      "Vibration",
+      "Friction"
+     ],
+     "e": "Bold on the slide: aka Percussion.",
+     "s": "MA1-7, slide 9",
+     "f": true
+    },
+    {
+     "topic": 19,
+     "q": "Tapotement is:",
+     "a": "Repetitive staccato striking movements of the hands with loose wrists and fingers",
+     "w": [
+      "Rhythmic lifting of tissue off the bone",
+      "Unbroken gliding along the contour",
+      "Rapid shaking without breaking contact"
+     ],
+     "e": "Definition; 'with loose wrists and fingers' is bold.",
+     "s": "MA1-7, slide 9",
+     "f": true
+    },
+    {
+     "topic": 19,
+     "q": "The purpose of tapotement is:",
+     "a": "Stimulating underlying tissue",
+     "w": [
+      "Spreading lubricant",
+      "Breaking down scar tissue",
+      "Holding pressure on a trigger point"
+     ],
+     "e": "Bold: for the PURPOSE of stimulating underlying tissue.",
+     "s": "MA1-7, slide 9",
+     "f": true
+    },
+    {
+     "topic": 19,
+     "q": "How should tapotement build?",
+     "a": "Start soft and slow, build to forceful and quick, then soften and slow to finish",
+     "w": [
+      "Start at full power and stay there",
+      "Start fast and stop abruptly",
+      "Stay the same throughout"
+     ],
+     "e": "You don't have to get to full power.",
+     "s": "MA1-7, slide 10",
+     "f": false
+    },
+    {
+     "topic": 19,
+     "q": "Tapotement is often used to:",
+     "a": "Finish an area or end the massage",
+     "w": [
+      "Introduce touch",
+      "Spread lubricant",
+      "Begin the session"
+     ],
+     "e": "Often used to finish an area or end the massage.",
+     "s": "MA1-7, slide 10",
+     "f": false
+    },
+    {
+     "topic": 19,
+     "q": "Tapotement can be applied:",
+     "a": "Directly to the skin or over the drape, with no lubricant",
+     "w": [
+      "Only with heavy oil",
+      "Only on bare skin",
+      "Only on the face"
+     ],
+     "e": "Applied directly to the skin or over the drape; NO lubricant is necessary.",
+     "s": "MA1-7, slide 10",
+     "f": false
+    },
+    {
+     "topic": 20,
+     "q": "Tapotement should be avoided:",
+     "a": "Over endangerment sites",
+     "w": [
+      "Over large muscles",
+      "On the back",
+      "Over the drape"
+     ],
+     "e": "Bold: Avoid over endangerment sites.",
+     "s": "MA1-7, slide 10",
+     "f": true
+    },
+    {
+     "topic": 20,
+     "q": "Tapotement should be avoided:",
+     "a": "Immediately after exercise",
+     "w": [
+      "Before the massage ends",
+      "On the soles of the feet",
+      "After effleurage"
+     ],
+     "e": "Bold: Avoid immediately after exercise.",
+     "s": "MA1-7, slide 10",
+     "f": true
+    },
+    {
+     "topic": 20,
+     "q": "For a client with a history of abuse trauma, tapotement:",
+     "a": "May be avoided; maybe don't 'hit' them",
+     "w": [
+      "Should always be done at full force",
+      "Is required to finish the session",
+      "Should only be pounding"
+     ],
+     "e": "People who have abuse trauma, maybe don't 'hit' them.",
+     "s": "MA1-7, slide 10",
+     "f": false
+    },
+    {
+     "topic": 20,
+     "q": "Which tapotement is 'definitely NOT' for someone who has experienced trauma?",
+     "a": "Pounding",
+     "w": [
+      "Raindrops",
+      "Tapping",
+      "Pincement"
+     ],
+     "e": "Bold on the slide under pounding.",
+     "s": "MA1-7, slide 14",
+     "f": true
+    },
+    {
+     "topic": 20,
+     "q": "Clapping (slapping) can be negative because:",
+     "a": "The client may have experienced trauma; know your client",
+     "w": [
+      "It requires oil",
+      "It numbs the area",
+      "It is too light to feel"
+     ],
+     "e": "Bold: can be NEGATIVE, KNOW your client; may have experienced trauma.",
+     "s": "MA1-7, slide 14",
+     "f": true
+    },
+    {
+     "topic": 20,
+     "q": "Which is NOT listed as a reason to avoid tapotement?",
+     "a": "The client is lying prone",
+     "w": [
+      "Over endangerment sites",
+      "Immediately after exercise",
+      "Abuse trauma history"
+     ],
+     "e": "Prone is fine; cupping for drainage is done prone.",
+     "s": "MA1-7, slides 10 and 13",
+     "f": false
+    },
+    {
+     "topic": 21,
+     "q": "Which list is the 7 types of tapotement?",
+     "a": "Tapping, pincement, hacking, cupping, pounding, diffused, clapping",
+     "w": [
+      "Tapping, raking, hacking, cupping, rocking, jostling, clapping",
+      "Chucking, wringing, rolling, hacking, cupping, pounding, clapping",
+      "Fine, coarse, rocking, mechanical, hacking, cupping, clapping"
+     ],
+     "e": "Variations of tapotement slides.",
+     "s": "MA1-7, slides 12–14",
+     "f": false
+    },
+    {
+     "topic": 21,
+     "q": "Tapping is also called:",
+     "a": "Punctuation",
+     "w": [
+      "Plucking",
+      "Beating",
+      "Slapping"
+     ],
+     "e": "Bold: Tapping aka Punctuation. Plucking = pincement; beating = pounding; slapping = clapping.",
+     "s": "MA1-7, slide 12",
+     "f": true
+    },
+    {
+     "topic": 21,
+     "q": "Pincement is also called:",
+     "a": "Plucking",
+     "w": [
+      "Punctuation",
+      "Beating",
+      "Slapping"
+     ],
+     "e": "Bold: Pincement aka Plucking; a mini petrissage.",
+     "s": "MA1-7, slide 12",
+     "f": true
+    },
+    {
+     "topic": 21,
+     "q": "Pulsing, a type of tapping, is done:",
+     "a": "With one hand to the rhythm of a heartbeat (lub-dub)",
+     "w": [
+      "With two fists on the glutes",
+      "With a cupped hand on the chest",
+      "With the ulnar border on the back"
+     ],
+     "e": "Tapping: regular tapping, pulsing (heartbeat), raindrops (random fingertips, nice on face & scalp).",
+     "s": "MA1-7, slide 12",
+     "f": false
+    },
+    {
+     "topic": 21,
+     "q": "Which tapping technique is very nice on the face and scalp?",
+     "a": "Raindrops",
+     "w": [
+      "Hacking",
+      "Pounding",
+      "Cupping"
+     ],
+     "e": "Raindrops: fingertips falling randomly.",
+     "s": "MA1-7, slide 12",
+     "f": false
+    },
+    {
+     "topic": 21,
+     "q": "Hacking is done with:",
+     "a": "The ulnar border of the hand, like karate chops",
+     "w": [
+      "A cupped palm",
+      "The fingertips only",
+      "The palmar surface"
+     ],
+     "e": "Hacking: mainly on the back; usually 2 handed; fingers slightly apart, come together on impact.",
+     "s": "MA1-7, slide 13",
+     "f": false
+    },
+    {
+     "topic": 21,
+     "q": "Hacking ALONG the muscle fibers is ___, and ACROSS the fibers is ___.",
+     "a": "Relaxing; stimulating",
+     "w": [
+      "Stimulating; relaxing",
+      "Relaxing; relaxing",
+      "Painful; numbing"
+     ],
+     "e": "Bold on the slide.",
+     "s": "MA1-7, slide 13",
+     "f": true
+    },
+    {
+     "topic": 21,
+     "q": "Cupping is used over the thoracic region to:",
+     "a": "Loosen congestion, mucus and phlegm in the chest",
+     "w": [
+      "Stimulate peristalsis",
+      "Tone atrophied glutes",
+      "Release trigger points"
+     ],
+     "e": "Cupping: suction, hollow sound, very vigorous, may induce coughing; helps clear a lingering cold.",
+     "s": "MA1-7, slide 13",
+     "f": false
+    },
+    {
+     "topic": 21,
+     "q": "Cupping is combined with postural drainage, in which the client is:",
+     "a": "Prone with the head lower than the chest and a pillow under the hips",
+     "w": [
+      "Supine with the head raised",
+      "Seated upright",
+      "Side-lying with knees bent"
+     ],
+     "e": "Gravity-assisted drainage.",
+     "s": "MA1-7, slide 13",
+     "f": false
+    },
+    {
+     "topic": 21,
+     "q": "Pounding (beating) is done with the ulnar side of an open/relaxed fist on:",
+     "a": "Large muscles like the glutes, quads and hamstrings",
+     "w": [
+      "The face and scalp",
+      "The abdomen",
+      "Bony areas"
+     ],
+     "e": "OPEN/RELAXED and LARGE are bold.",
+     "s": "MA1-7, slide 14",
+     "f": true
+    },
+    {
+     "topic": 21,
+     "q": "Diffused tapotement is mostly used on the abdomen to:",
+     "a": "Stimulate peristalsis",
+     "w": [
+      "Loosen mucus",
+      "Tone the quads",
+      "Calm the scalp"
+     ],
+     "e": "Diffused: one hand rests loosely as a buffer, the other taps its dorsal surface.",
+     "s": "MA1-7, slide 14",
+     "f": false
+    },
+    {
+     "topic": 21,
+     "q": "Clapping (slapping) is done with the palmar surface and is good on:",
+     "a": "The bottom of the feet",
+     "w": [
+      "The face",
+      "Endangerment sites",
+      "The abdomen"
+     ],
+     "e": "Gentle slapping, firm patting, 'like a cat bats'.",
+     "s": "MA1-7, slide 14",
+     "f": false
+    },
+    {
+     "topic": 22,
+     "q": "Tapotement affects nerve endings by:",
+     "a": "Stimulating them first, then sedating them if continued",
+     "w": [
+      "Only stimulating them",
+      "Only sedating them",
+      "Having no effect"
+     ],
+     "e": "Becomes more sedative if continued with consistent pressure and rhythm.",
+     "s": "MA1-7, slide 11",
+     "f": false
+    },
+    {
+     "topic": 22,
+     "q": "Which is a benefit of tapotement?",
+     "a": "Aids decongestion of the lungs",
+     "w": [
+      "Breaks down scar tissue",
+      "Relieves insomnia",
+      "Softens superficial fascia"
+     ],
+     "e": "Tapotement benefits: stimulates then sedates, lung decongestion, tones atrophied muscles, ↑ local blood flow, relieves pain, desensitizes.",
+     "s": "MA1-7, slide 11",
+     "f": false
+    },
+    {
+     "topic": 22,
+     "q": "Tapotement tones:",
+     "a": "Atrophied muscles",
+     "w": [
+      "Scar tissue",
+      "Tendons only",
+      "Bones"
+     ],
+     "e": "Tones atrophied muscles.",
+     "s": "MA1-7, slide 11",
+     "f": false
+    },
+    {
+     "topic": 22,
+     "q": "Tapotement increases blood flow that is:",
+     "a": "Local",
+     "w": [
+      "Systemic",
+      "Arterial only",
+      "In the brain"
+     ],
+     "e": "LOCAL is bold.",
+     "s": "MA1-7, slide 11",
+     "f": true
+    },
+    {
+     "topic": 22,
+     "q": "After a few minutes, tapotement can:",
+     "a": "Desensitize a hypersensitive area",
+     "w": [
+      "Make an area more sensitive",
+      "Cause scar tissue",
+      "Raise blood pressure permanently"
+     ],
+     "e": "Desensitizes a hypersensitive area after a few minutes of stimulation.",
+     "s": "MA1-7, slide 11",
+     "f": false
+    },
+    {
+     "topic": 22,
+     "q": "To make tapotement sedating rather than stimulating, keep it:",
+     "a": "Consistent in pressure and rhythm, and continue it",
+     "w": [
+      "Random and short",
+      "As forceful as possible",
+      "Under 5 seconds"
+     ],
+     "e": "Stimulates initially, then more sedative if continued with consistent pressure and rhythm.",
+     "s": "MA1-7, slide 11",
+     "f": false
+    },
+    {
+     "topic": 23,
+     "q": "Who is credited with cross-fiber friction (XFF)?",
+     "a": "James Cyriax",
+     "w": [
+      "Elizabeth Dicke",
+      "Per Henrik Ling",
+      "Johann Mezger"
+     ],
+     "e": "Highlighted in green and underlined on the slide (spelled 'Cryiax'). Dicke = Bindegewebsmassage.",
+     "s": "MA1-7, slide 8",
+     "f": true
+    },
+    {
+     "topic": 23,
+     "q": "James Cyriax developed which technique?",
+     "a": "Cross-fiber (deep transverse) friction",
+     "w": [
+      "Skin rolling",
+      "Swedish effleurage",
+      "Bindegewebsmassage"
+     ],
+     "e": "XFF aka deep transverse friction, discovered by James Cyriax.",
+     "s": "MA1-7, slide 8",
+     "f": true
+    },
+    {
+     "topic": 23,
+     "q": "Cyriax's technique works:",
+     "a": "Perpendicular to the muscle fibers, like a bow across strings",
+     "w": [
+      "Parallel to the fibers",
+      "Only on the skin's surface",
+      "With suction"
+     ],
+     "e": "Cross-fiber = perpendicular.",
+     "s": "MA1-7, slide 8",
+     "f": true
+    },
+    {
+     "topic": 23,
+     "q": "Match: Elizabeth Dicke is to Bindegewebsmassage as James Cyriax is to:",
+     "a": "Cross-fiber friction",
+     "w": [
+      "Skin rolling",
+      "Tapotement",
+      "Ischemic compression"
+     ],
+     "e": "Dicke: connective tissue massage (skin rolling). Cyriax: XFF.",
+     "s": "MA1-6, slide 10; MA1-7, slide 8",
+     "f": true
+    },
+    {
+     "topic": 24,
+     "q": "Vibration is:",
+     "a": "Rapid shaking, quivering, trembling or rocking movements",
+     "w": [
+      "Staccato striking with loose wrists",
+      "Rhythmic pumping into the bone",
+      "Gliding along the contour"
+     ],
+     "e": "Applied with the fingertips, full hand or an appliance.",
+     "s": "MA1-8, slide 2",
+     "f": false
+    },
+    {
+     "topic": 24,
+     "q": "During vibration you must:",
+     "a": "Not break contact with the skin",
+     "w": [
+      "Lift your hands between each movement",
+      "Use lots of oil",
+      "Strike the skin"
+     ],
+     "e": "Bold: DO NOT BREAK CONTACT WITH THE SKIN!",
+     "s": "MA1-8, slide 2",
+     "f": true
+    },
+    {
+     "topic": 24,
+     "q": "Which is the most physically demanding stroke?",
+     "a": "Vibration",
+     "w": [
+      "Effleurage",
+      "Petrissage",
+      "Compression"
+     ],
+     "e": "Bold on the slide: vibration is the most physically demanding stroke.",
+     "s": "MA1-8, slide 2",
+     "f": true
+    },
+    {
+     "topic": 24,
+     "q": "The effects of vibration depend on:",
+     "a": "Intensity, speed and duration",
+     "w": [
+      "Lubricant, music and lighting",
+      "Table height only",
+      "The client's age only"
+     ],
+     "e": "The effects depend on intensity, speed, duration.",
+     "s": "MA1-8, slide 2",
+     "f": false
+    },
+    {
+     "topic": 24,
+     "q": "The 3 physiological stages of vibration are:",
+     "a": "Stimulation, relaxation, numbing (if applied longer)",
+     "w": [
+      "Ischemia, hyperemia, blanching",
+      "Warming, cooling, warming",
+      "Pain, spasm, pain"
+     ],
+     "e": "Physiological effects: 3 stages.",
+     "s": "MA1-8, slide 2",
+     "f": false
+    },
+    {
+     "topic": 24,
+     "q": "If vibration is applied for a long time, it can cause:",
+     "a": "Numbing",
+     "w": [
+      "Bruising",
+      "Scar tissue",
+      "Muscle atrophy"
+     ],
+     "e": "Third stage: numbing (if applied longer).",
+     "s": "MA1-8, slide 2",
+     "f": false
+    },
+    {
+     "topic": 25,
+     "q": "Which is a benefit of vibration?",
+     "a": "Moves gas in the gastrointestinal tract",
+     "w": [
+      "Breaks down scar tissue",
+      "Promotes proper scar formation",
+      "Softens superficial fascia"
+     ],
+     "e": "Vibration benefits slide.",
+     "s": "MA1-8, slide 3",
+     "f": false
+    },
+    {
+     "topic": 25,
+     "q": "Vibration creates:",
+     "a": "Minute muscle contractions",
+     "w": [
+      "Large muscle spasms",
+      "Ischemia that lasts",
+      "Adhesions"
+     ],
+     "e": "Creates minute muscle contractions.",
+     "s": "MA1-8, slide 3",
+     "f": false
+    },
+    {
+     "topic": 25,
+     "q": "Vibration (mostly jostling) stimulates the production of:",
+     "a": "Synovial fluid",
+     "w": [
+      "Bile",
+      "Red blood cells",
+      "Mucus"
+     ],
+     "e": "Stimulates synovial fluid production: jostling mostly.",
+     "s": "MA1-8, slide 3",
+     "f": false
+    },
+    {
+     "topic": 25,
+     "q": "Vibration relieves which kind of congestion?",
+     "a": "Chest and sinus congestion",
+     "w": [
+      "Lymph node congestion",
+      "Liver congestion",
+      "Kidney congestion"
+     ],
+     "e": "Relieves chest & sinus congestion.",
+     "s": "MA1-8, slide 3",
+     "f": false
+    },
+    {
+     "topic": 25,
+     "q": "Regarding trigger and tender points, vibration:",
+     "a": "Reduces their activity; not a cure, but helps",
+     "w": [
+      "Cures them permanently",
+      "Creates them",
+      "Has no effect"
+     ],
+     "e": "Reduces trigger & tender point activity: not cure, but helps.",
+     "s": "MA1-8, slide 3",
+     "f": false
+    },
+    {
+     "topic": 25,
+     "q": "Which benefit do vibration and diffused tapotement share?",
+     "a": "Stimulating peristalsis",
+     "w": [
+      "Breaking adhesions",
+      "Toning atrophied muscle",
+      "Loosening mucus with suction"
+     ],
+     "e": "Vibration stimulates peristalsis; diffused tapotement is used on the abdomen to stimulate peristalsis.",
+     "s": "MA1-8, slide 3; MA1-7, slide 14",
+     "f": false
+    },
+    {
+     "topic": 25,
+     "q": "Vibration accesses:",
+     "a": "Deeper structures",
+     "w": [
+      "Only the skin",
+      "Only the drape",
+      "Bone marrow"
+     ],
+     "e": "Accesses deeper structures.",
+     "s": "MA1-8, slide 3",
+     "f": false
+    },
+    {
+     "topic": 26,
+     "q": "The 4 variations of vibration are:",
+     "a": "Fine, coarse (jostling), rocking, mechanical devices",
+     "w": [
+      "Tapping, hacking, cupping, clapping",
+      "Chucking, cross-fiber, circular, wringing",
+      "Active, latent, primary, satellite"
+     ],
+     "e": "Bold on the slide: 4 variations of vibration.",
+     "s": "MA1-8, slide 4",
+     "f": true
+    },
+    {
+     "topic": 26,
+     "q": "Fine vibration is done with:",
+     "a": "Fingertips, with stiff fingers and wrist; small movements",
+     "w": [
+      "The whole limb grasped and shaken",
+      "A loose fist",
+      "A cupped palm"
+     ],
+     "e": "Fine: small movements, any direction, alternating fingertips like pistons; on the abdomen to increase peristalsis.",
+     "s": "MA1-8, slide 4",
+     "f": true
+    },
+    {
+     "topic": 26,
+     "q": "Coarse vibration is also called:",
+     "a": "Jostling",
+     "w": [
+      "Rocking",
+      "Raindrops",
+      "Pincement"
+     ],
+     "e": "Coarse/Jostling: bigger movements; grasp and shake the muscle belly or the whole limb.",
+     "s": "MA1-8, slide 4",
+     "f": true
+    },
+    {
+     "topic": 26,
+     "q": "When jostling a whole limb, you:",
+     "a": "Grab the limb, apply slight traction and shake it",
+     "w": [
+      "Strike it with the ulnar border",
+      "Press it into the bone and hold",
+      "Glide toward the heart only"
+     ],
+     "e": "Used at the shoulder & hip to loosen the muscles around the joint.",
+     "s": "MA1-8, slide 4",
+     "f": true
+    },
+    {
+     "topic": 26,
+     "q": "Before jostling a limb, make sure:",
+     "a": "There are no joint problems",
+     "w": [
+      "The client is hungry",
+      "You've used plenty of oil",
+      "The client is standing"
+     ],
+     "e": "MAKE SURE THERE ARE NO JOINT PROBLEMS.",
+     "s": "MA1-8, slide 4",
+     "f": false
+    },
+    {
+     "topic": 26,
+     "q": "Rocking vibration:",
+     "a": "Is more relaxing and uses a pitch-and-catch motion, like pushing someone on a swing",
+     "w": [
+      "Is the most stimulating vibration",
+      "Uses stiff fingertips like pistons",
+      "Requires a mechanical device"
+     ],
+     "e": "Rocking: eyes closed, it feels like the table is swaying.",
+     "s": "MA1-8, slide 4",
+     "f": true
+    },
+    {
+     "topic": 26,
+     "q": "Use caution with mechanical vibration devices because:",
+     "a": "You take the vibrations back up your own arm",
+     "w": [
+      "They require oil",
+      "They cannot be used on muscle",
+      "They are only for the face"
+     ],
+     "e": "Mechanical devices: CAUTION when using.",
+     "s": "MA1-8, slide 4",
+     "f": true
+    },
+    {
+     "topic": 27,
+     "q": "Compression is:",
+     "a": "Rhythmic pumping performed perpendicular to the muscle belly",
+     "w": [
+      "Gliding parallel to the fibers",
+      "Striking with a cupped hand",
+      "Lifting skin between fingers"
+     ],
+     "e": "Bold: RHYTHMIC PUMPING.",
+     "s": "MA1-8, slide 5",
+     "f": true
+    },
+    {
+     "topic": 27,
+     "q": "Compression is applied:",
+     "a": "On the skin or over the drape or clothing, with no lubricant",
+     "w": [
+      "Only with heavy oil",
+      "Only on bare skin",
+      "Only with a mechanical device"
+     ],
+     "e": "NO lubricant required; great for pre-event sports massage.",
+     "s": "MA1-8, slide 5",
+     "f": false
+    },
+    {
+     "topic": 27,
+     "q": "Compression is great for:",
+     "a": "Pre-event sports massage",
+     "w": [
+      "Post-surgical scar tissue only",
+      "Facial massage",
+      "Lung decongestion"
+     ],
+     "e": "Great for pre-event sport massage.",
+     "s": "MA1-8, slide 5",
+     "f": false
+    },
+    {
+     "topic": 27,
+     "q": "When you press and hold during compression, the tissue blanches because of:",
+     "a": "Ischemia: reduced blood flow; cool to the touch",
+     "w": [
+      "Hyperemia: increased blood flow",
+      "Inflammation",
+      "Bruising"
+     ],
+     "e": "Blanching = ischemia (lack of blood flow).",
+     "s": "MA1-8, slide 5",
+     "f": false
+    },
+    {
+     "topic": 27,
+     "q": "On release of compression, hyperemia means:",
+     "a": "Increased blood flow; warm to the touch",
+     "w": [
+      "Decreased blood flow; cool to the touch",
+      "A trigger point has formed",
+      "A bruise is forming"
+     ],
+     "e": "Hyperemia created on release. If it stays warm/pink a long time, it might need more work.",
+     "s": "MA1-8, slide 5",
+     "f": false
+    },
+    {
+     "topic": 27,
+     "q": "Ischemic compression is held for:",
+     "a": "8–12 seconds",
+     "w": [
+      "1–2 seconds",
+      "30–60 seconds",
+      "5 minutes"
+     ],
+     "e": "Ischemic compression: hold 8–12 seconds.",
+     "s": "MA1-8, slides 5 and 12",
+     "f": false
+    },
+    {
+     "topic": 27,
+     "q": "Which is a benefit of compression?",
+     "a": "Interrupts the pain–spasm–pain cycle",
+     "w": [
+      "Breaks down scar tissue",
+      "Loosens mucus",
+      "Moves gas in the GI tract"
+     ],
+     "e": "Compression benefits: capillary flush, ↑ cellular nutrition, spreads/broadens fibers, vasodilation, interrupts pain–spasm–pain.",
+     "s": "MA1-8, slide 6",
+     "f": false
+    },
+    {
+     "topic": 27,
+     "q": "Compression creates a:",
+     "a": "Capillary flush",
+     "w": [
+      "Lymph blockage",
+      "Muscle tear",
+      "Scar"
+     ],
+     "e": "Compression benefits slide.",
+     "s": "MA1-8, slide 6",
+     "f": false
+    },
+    {
+     "topic": 28,
+     "q": "To treat a muscle cramp or spasm you must use:",
+     "a": "Even, sustained compression",
+     "w": [
+      "Rapid tapotement",
+      "Cross-fiber friction",
+      "Skin rolling"
+     ],
+     "e": "Bold on the slide: even, sustained compression.",
+     "s": "MA1-8, slide 7",
+     "f": true
+    },
+    {
+     "topic": 28,
+     "q": "Which is on the list for treating a muscle cramp or spasm?",
+     "a": "Golgi tendon release",
+     "w": [
+      "Pounding",
+      "Ice and dehydration",
+      "Cupping"
+     ],
+     "e": "Treatment: even sustained compression, stretch, effleurage, Golgi tendon release, heat, hydration.",
+     "s": "MA1-8, slide 7",
+     "f": false
+    },
+    {
+     "topic": 28,
+     "q": "Which list is ALL treatments for a muscle cramp?",
+     "a": "Stretch, effleurage, heat, hydration",
+     "w": [
+      "Hacking, cupping, pounding, clapping",
+      "Chucking, wringing, rolling",
+      "Ice, rest, tapotement"
+     ],
+     "e": "Cramp treatment list.",
+     "s": "MA1-8, slide 7",
+     "f": false
+    },
+    {
+     "topic": 28,
+     "q": "Which is NOT on the cramp/spasm treatment list?",
+     "a": "Tapotement",
+     "w": [
+      "Heat",
+      "Stretch",
+      "Hydration"
+     ],
+     "e": "Tapotement is stimulating; the list is compression, stretch, effleurage, Golgi tendon release, heat, hydration.",
+     "s": "MA1-8, slide 7",
+     "f": false
+    },
+    {
+     "topic": 29,
+     "q": "A trigger point is a:",
+     "a": "Hyperirritable focus in a taut band of skeletal muscle or fascia that refers pain when compressed",
+     "w": [
+      "Local tender spot that never refers pain",
+      "Bony landmark",
+      "Bruise from deep pressure"
+     ],
+     "e": "HYPERIRRITABLE is bold.",
+     "s": "MA1-8, slide 8",
+     "f": true
+    },
+    {
+     "topic": 29,
+     "q": "Trigger points are:",
+     "a": "Always tender when compressed",
+     "w": [
+      "Never tender",
+      "Only found in bone",
+      "Only found in tendons"
+     ],
+     "e": "Bold: always tender when compressed; can be any tissue ('landmines').",
+     "s": "MA1-8, slide 8",
+     "f": true
+    },
+    {
+     "topic": 29,
+     "q": "Trigger points can cause autonomic phenomena such as:",
+     "a": "Sweating, tearing, goosebumps and skin temperature changes",
+     "w": [
+      "Fractures and dislocations",
+      "Fever and rash",
+      "Hair loss"
+     ],
+     "e": "Examples listed in the definition.",
+     "s": "MA1-8, slide 8",
+     "f": false
+    },
+    {
+     "topic": 29,
+     "q": "Active trigger points are:",
+     "a": "Symptomatic: they hurt with or without pressure and refer pain",
+     "w": [
+      "Asymptomatic and hidden",
+      "Painful only with pressure",
+      "Always harmless"
+     ],
+     "e": "Active: symptomatic, very sensitive, refer pain, cause weakness, stop muscles lengthening.",
+     "s": "MA1-8, slide 9",
+     "f": true
+    },
+    {
+     "topic": 29,
+     "q": "Latent trigger points are:",
+     "a": "Asymptomatic, more common, painful only with pressure, and do NOT refer pain",
+     "w": [
+      "Symptomatic and constantly painful",
+      "Rare and always referring pain",
+      "Found only in the referral zone"
+     ],
+     "e": "Latent: the ones that are hiding.",
+     "s": "MA1-8, slide 9",
+     "f": true
+    },
+    {
+     "topic": 29,
+     "q": "Which type of trigger point is more common?",
+     "a": "Latent",
+     "w": [
+      "Active",
+      "Primary",
+      "Satellite"
+     ],
+     "e": "Latent: more common.",
+     "s": "MA1-8, slide 9",
+     "f": true
+    },
+    {
+     "topic": 29,
+     "q": "A primary trigger point is:",
+     "a": "The original or main trigger point, activated by acute or chronic overload",
+     "w": [
+      "One found in the referral zone",
+      "One caused by overcompensation in a synergist",
+      "Always isolated"
+     ],
+     "e": "Primary: rarely an isolated TP.",
+     "s": "MA1-8, slide 10",
+     "f": true
+    },
+    {
+     "topic": 29,
+     "q": "A satellite trigger point is found:",
+     "a": "In the referral pattern/zone of another trigger point",
+     "w": [
+      "In the synergist muscle from overcompensation",
+      "Only in the original muscle",
+      "In bone"
+     ],
+     "e": "Associated TPs: secondary (synergist, overcompensation) and satellite (in the referral zone).",
+     "s": "MA1-8, slide 10",
+     "f": true
+    },
+    {
+     "topic": 29,
+     "q": "A secondary trigger point is activated by:",
+     "a": "Overcompensation, and can be found in a synergist",
+     "w": [
+      "Being in the referral zone",
+      "Cold only",
+      "Direct trauma to the bone"
+     ],
+     "e": "Secondary: synergist = a muscle that supports or aids the first muscle's action.",
+     "s": "MA1-8, slide 10",
+     "f": true
+    },
+    {
+     "topic": 29,
+     "q": "The 2 types of associated trigger points are:",
+     "a": "Secondary and satellite",
+     "w": [
+      "Active and latent",
+      "Primary and secondary",
+      "Fine and coarse"
+     ],
+     "e": "Associated = result of the main trigger point.",
+     "s": "MA1-8, slide 10",
+     "f": true
+    },
+    {
+     "topic": 30,
+     "q": "The 'Big Six' causes of trigger points spell:",
+     "a": "CRIOTS: Cold, Referral, Ischemia, Overload, Trauma, Stress",
+     "w": [
+      "RICE: Rest, Ice, Compression, Elevation",
+      "SOAP: Subjective, Objective, Assessment, Plan",
+      "SUDS: Subjective Units of Distress Scale"
+     ],
+     "e": "In red on the slide: The Big Six.",
+     "s": "MA1-8, slide 11",
+     "f": true
+    },
+    {
+     "topic": 30,
+     "q": "Which is one of the Big Six causes of trigger points?",
+     "a": "Ischemia",
+     "w": [
+      "Hydration",
+      "Heat",
+      "Effleurage"
+     ],
+     "e": "C-Cold, R-Referral, I-Ischemia, O-Overload, T-Trauma, S-Stress.",
+     "s": "MA1-8, slide 11",
+     "f": true
+    },
+    {
+     "topic": 30,
+     "q": "Which is NOT one of the Big Six?",
+     "a": "Hydration",
+     "w": [
+      "Cold",
+      "Overload",
+      "Stress"
+     ],
+     "e": "Hydration is a cramp treatment, not a cause.",
+     "s": "MA1-8, slides 7 and 11",
+     "f": true
+    },
+    {
+     "topic": 30,
+     "q": "Trigger point treatment should be:",
+     "a": "Polymodal: use different strokes",
+     "w": [
+      "Only one stroke repeated",
+      "Tapotement only",
+      "Avoided entirely"
+     ],
+     "e": "Bold: should be polymodal.",
+     "s": "MA1-8, slide 12",
+     "f": true
+    },
+    {
+     "topic": 30,
+     "q": "Which is part of trigger point treatment?",
+     "a": "Ischemic compression held 8–12 seconds",
+     "w": [
+      "Pounding for 5 minutes",
+      "Avoiding any stretching",
+      "Using lots of oil"
+     ],
+     "e": "Treatment: polymodal, lengthen the muscle, ischemic compression 8–12 s, adjust lifestyle/habits.",
+     "s": "MA1-8, slide 12",
+     "f": true
+    },
+    {
+     "topic": 30,
+     "q": "To eliminate a trigger point's symptoms, the client has to:",
+     "a": "Eliminate the cause",
+     "w": [
+      "Avoid all massage",
+      "Take a hot bath only",
+      "Exercise immediately after"
+     ],
+     "e": "In red: you can treat trigger points, but they have to eliminate the cause to eliminate the symptoms.",
+     "s": "MA1-8, slide 12",
+     "f": true
+    },
+    {
+     "topic": 30,
+     "q": "When a trigger point releases, it might:",
+     "a": "Start to vibrate like a really fast pulse",
+     "w": [
+      "Turn cold and blanch",
+      "Bruise immediately",
+      "Spread to the whole limb"
+     ],
+     "e": "In red on the slide.",
+     "s": "MA1-8, slide 12",
+     "f": true
+    },
+    {
+     "topic": 30,
+     "q": "Besides hands-on work, trigger point treatment includes:",
+     "a": "Adjusting lifestyle/habits and lengthening the muscle",
+     "w": [
+      "Avoiding water",
+      "Only rest",
+      "Only medication"
+     ],
+     "e": "Bold on the slide.",
+     "s": "MA1-8, slide 12",
+     "f": true
+    },
+    {
+     "topic": 31,
+     "q": "A tender point is:",
+     "a": "Local: in one spot, does not move anywhere else",
+     "w": [
+      "Always refers pain elsewhere",
+      "Found only in the referral zone",
+      "A bony landmark"
+     ],
+     "e": "Bold: is local, in one spot. A knot in a muscle is a tender point.",
+     "s": "MA1-8, slide 13",
+     "f": true
+    },
+    {
+     "topic": 31,
+     "q": "The key difference between a trigger point and a tender point is:",
+     "a": "A trigger point refers pain; a tender point stays local",
+     "w": [
+      "A tender point refers pain; a trigger point stays local",
+      "They are identical",
+      "Tender points are only in bone"
+     ],
+     "e": "TPs give rise to referred pain; tender points are local.",
+     "s": "MA1-8, slides 8 and 13",
+     "f": false
+    },
+    {
+     "topic": 31,
+     "q": "Use less pressure on tender points for clients on:",
+     "a": "High-dose blood thinners, since they bruise more easily",
+     "w": [
+      "Antihistamines",
+      "Vitamins",
+      "No medication"
+     ],
+     "e": "Cautions on tender points.",
+     "s": "MA1-8, slide 13",
+     "f": false
+    },
+    {
+     "topic": 31,
+     "q": "Tender point work should NOT be used:",
+     "a": "In the acute stage of an injury",
+     "w": [
+      "After the intake",
+      "On a knot in the muscle",
+      "With relative pressure"
+     ],
+     "e": "Do not use in an acute stage of an injury.",
+     "s": "MA1-8, slide 13",
+     "f": false
+    },
+    {
+     "topic": 31,
+     "q": "A local twitch response (LTR) is:",
+     "a": "A reflexive twitch of the affected or adjacent muscle; a good sign the body is settling in",
+     "w": [
+      "The client wincing or jumping in pain",
+      "Bruising after pressure",
+      "A sign to stop massage permanently"
+     ],
+     "e": "Bold heading; firing results from a summation of sensory nerve information.",
+     "s": "MA1-8, slide 14",
+     "f": true
+    },
+    {
+     "topic": 31,
+     "q": "A jump sign is:",
+     "a": "A spontaneous reaction of pain or discomfort: the client winces, jumps or speaks up on pressure",
+     "w": [
+      "A reflexive muscle twitch that is a good sign",
+      "Increased blood flow on release",
+      "Blanching of the tissue"
+     ],
+     "e": "Jump sign vs. local twitch response.",
+     "s": "MA1-8, slide 14",
+     "f": true
+    },
+    {
+     "topic": 31,
+     "q": "Which is described as 'a good sign'?",
+     "a": "Local twitch response",
+     "w": [
+      "Jump sign",
+      "Blanching that stays",
+      "Active trigger point"
+     ],
+     "e": "LTR: when this happens you know the body is settling in. It is a good sign.",
+     "s": "MA1-8, slide 14",
+     "f": true
+    }
+   ]
   }
  ]
 }
